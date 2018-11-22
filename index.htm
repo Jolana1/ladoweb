@@ -1,5 +1,18 @@
 <!DOCTYPE html>
 <html lang="sk">
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("#hide").click(function(){
+        $("img").hide();
+    });
+    $("#show").click(function(){
+        $("img").show();
+    });
+});
+</script>
+</head>
 <title>ladoweb©</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -22,6 +35,14 @@
 /* Remove margins from "page content" on small screens */
 @media only screen and (max-width: 600px) {#main {margin-left:0}
 </style>
+<body>
+
+<img src="./Image/f48bde9a2181a7400582e09f840cd1dd.jpg" alt="intro" class="image" width="564" height="250">
+
+<button id="hide">Skry</button>
+<button id="show">Ukáž</button>
+
+</body>
 
 <body class="w3-white">
 
