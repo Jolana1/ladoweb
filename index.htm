@@ -12,15 +12,38 @@
 
 
 <style>
-	body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
-.w3-row-padding img {margin-bottom: 12px}
-/* Set the width of the sidebar to 120px */
-.w3-sidebar {width: 100px;background: #f1f1f1;}
-/* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
-#main {margin-left: 122px}
+	body,
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6 {
+		font-family: "Montserrat", sans-serif
+	}
 
-/* Remove margins from "page content" on small screens */
-@media only screen and (max-width: 600px) {#main {margin-left:0}}
+	.w3-row-padding img {
+		margin-bottom: 12px
+	}
+
+	/* Set the width of the sidebar to 120px */
+	.w3-sidebar {
+		width: 100px;
+		background: #f1f1f1;
+	}
+
+	/* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+	#main {
+		margin-left: 122px
+	}
+
+	/* Remove margins from "page content" on small screens */
+	@media only screen and (max-width: 600px) {
+		#main {
+			margin-left: 0
+		}
+	}
+
 </style>
 
 <body class="w3-white">
@@ -75,21 +98,23 @@
 			<header class="w3-container w3-padding-4 w3-center w3-text-light-blue w3-hover-white" id="Domov">
 				<h4 class="w3-jumbo"><span class="w3-hide-small">I'm V.Ksenič</h4></span>
 				<h5>Web Developer 24hr day and Photographer.</h5></span>
-<body>
+
+				<body>
 					<img src="Image/INK.jpg" alt="nature" width="100%" height="662px">
 					<button id="hide">Skryť Fotky</button>
 					<button id="show">Ukázať Fotky</button>
 					<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 					<script>
-						$(document).ready(function(){
-    $("#hide").click(function(){
-        $("img").hide();
-    });
-    $("#show").click(function(){
-        $("img").show();
-    });
-});
-</script>
+						$(document).ready(function() {
+							$("#hide").click(function() {
+								$("img").hide();
+							});
+							$("#show").click(function() {
+								$("img").show();
+							});
+						});
+
+					</script>
 				</body>
 			</header>
 
@@ -223,8 +248,8 @@
 											<img src="./Image/x17-015.jpg" style="width:100%">
 											<img src="./Image/x17-int-002.jpg" style="width:100%"><img src="./Image/IMG_3080.JPG" alt="me" style="width:100%" height="285px">
 										</div>
-									<!-- End photo grid -->
-									<!-- End Portfolio Section -->
+										<!-- End photo grid -->
+										<!-- End Portfolio Section -->
 									</div>
 								</div>
 
@@ -240,7 +265,7 @@
 									</div>
 
 
-									<!--form action="/action_page.php" target="_blank">
+									<form action="/action_page.php" target="_blank">
 										<p><input class="w3-input w3-padding-16" type="text" placeholder="Tvoje meno" required name="Tvoje meno"></p>
 										<p><input class="w3-input w3-padding-16" type="text" placeholder="Email" required name="Email"></p>
 										<p><input class="w3-input w3-padding-16" type="text" placeholder="Subjekt" required name="Subjekt"></p>
@@ -251,7 +276,7 @@
 												<a href="mailto:ksenicv@icloud.com"> Odošli mi email</a>
 											</button>
 										</p>
-									</form-->
+									</form>
 									<!-- End Contact Section -->
 								</div>
 
@@ -274,11 +299,11 @@
 							</div>
 						</i></i></p>
 			</div>
-		</header>
 	</div>
 </body>
 
 </html>
+
 
 
 
