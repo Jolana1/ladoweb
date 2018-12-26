@@ -28,13 +28,13 @@
 
 	/* Set the width of the sidebar to 120px */
 	.w3-sidebar {
-		width: 85px;
+		width: 80px;
 		background: #f1f1f1;
 	}
 
 	/* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
 	#main {
-		margin-left: 85px;
+		margin-left: 80px;
 
 	}
 
@@ -44,7 +44,6 @@
 			margin-left: 0
 		}
 	}
-
 </style>
 
 <body class="w3-white">
@@ -53,25 +52,29 @@
 	<nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
 		<!-- Avatar image in top left corner -->
 		<img src="./Image/IMG_3155.jpg" alt="ja" style="width:100%" style="height:125px">
-		<a href="#Domov" class="w3-bar-item w3-button w3-padding-large w3-text-light-blue w3-hover-white">
+		<a href="#Domov" class="w3-bar-item w3-button w3-padding-large w3-text-blue w3-hover-white">
 			<i class="fa fa-home w3-xxlarge"></i>
 			<p>Domov</p>
 		</a>
-		<a href="#O mne" class="w3-bar-item w3-button w3-padding-large  w3-text-light-blue w3-hover-white">
+		<a href="#O mne" class="w3-bar-item w3-button w3-padding-large  w3-text-blue w3-hover-white">
 			<i class="fa fa-user w3-xxlarge"></i>
 			<p>O mne</p>
 		</a>
-		<a href="#Zručnosti" class="w3-bar-item w3-button w3-padding-large  w3-text-green w3-hover-white">
+		<a href="#Zručnosti" class="w3-bar-item w3-button w3-padding-large  w3-text-blue w3-hover-white">
 			<i class="fa fa-paper-plane w3-xxlarge"></i>
-			<p>Zručnosti</p>
+			<p> Zručnosti </p>
 		</a>
-		<a href="#Cenník" class="w3-bar-item w3-button w3-padding-large  w3-text-green w3-hover-white">
-			<i class="fa fa-money w3-xxlarge"></i>
-			<p>Cenník</p>
+		<a href="#Form" class="w3-bar-item w3-button w3-padding-large  w3-text-blue w3-hover-white">
+			<i class="fa fa-download w3-xxlarge"></i>
+			<p>Formulár</p>
 		</a>
 		<a href="#Fotky" class="w3-bar-item w3-button w3-padding-large  w3-text-blue w3-hover-white">
 			<i class="fa fa-eye w3-xxlarge"></i>
 			<p>Fotky</p>
+		</a>
+		<a href="#Mapa" class="w3-bar-item w3-button w3-padding-large  w3-text-blue w3-hover-white">
+			<i class="fa fa-map-marker w3-xxlarge"></i>
+			<p>Mapa</p>
 		</a>
 		<a href="#Kontakt" class="w3-bar-item w3-button w3-padding-large  w3-text-blue w3-hover-white">
 			<i class="fa fa-envelope w3-xxlarge"></i>
@@ -85,22 +88,26 @@
 			<a href="#Domov" class="w3-bar-item w3-button " style="width:25% !important">Domov</a>
 			<a href="#O mne" class="w3-bar-item w3-button" style="width:25% !important">O mne</a>
 			<a href="#Zručnosti" class="w3-bar-item w3-button" style="width:25% !important">Zručnosti</a>
-			<a href="#Cenník" class="w3-bar-item w3-button" style="width:25% !important">Cenník</a>
+			<a href="#Form" class="w3-bar-item w3-button" style="width:25% !important">Formulár</a>
 			<a href="#Fotky" class="w3-bar-item w3-button" style="width:25% !important">Fotky</a>
+			<a href="#Mapa" class="w3-bar-item w3-button" style="width:25% !important">Mapa</a>
 			<a href="#Kontakt" class="w3-bar-item w3-button" style="width:25% !important">Kontakt</a>
 		</div>
 	</div>
 
 
 	<!-- Page Content -->
-	<div class="w3-padding-small" id="main">
+	<div class="w3-padding-large" id="main">
 		<!-- Header/Home -->
 		<header>
 			<header class="w3-container w3-padding-24 w3-center w3-text-light-blue w3-hover-white" id="Domov">
-				<h1><span class="w3-jumbo w3-hide-xxxlarge"><h1><b>I'm V.Ksenič</b></h1>
-				<h6><b>I'm Web Developer 24hr day and Photographer.</b></h6></span>
-				<img class="w3-img-responsive" style="width:100%" width="2000px" height="467px" img src="./Image/INK.jpg" alt="ink">
-				</h1></header>
+				<h1><span class="w3-jumbo">
+						<h1><b>I'm V.Ksenič</b></h1>
+						<h6><b>I'm Web Developer 24hr day and Photographer.</b></h6>
+					</span>
+					<img class="w3-img-responsive" style="width:100%" width="" height="267" img src="./Image/INK.jpg" alt="ink">
+				</h1>
+
 
 			<body>
 
@@ -116,20 +123,19 @@
 							$("img").show();
 						});
 					});
-
 				</script>
 			</body>
 		</header>
 
 		<!-- About Section -->
-		<div class="w3-content w3-justify w3-text-grey w3-padding-60 " id="O mne">
-			<h2 class="w3-padding- w3-text-light-blue w3-hover-white "><i>O mne / About me </i></h2>
-			<hr style="width:280px" class="w3-padding-24">
+		<div class="w3-margin w3-justify w3-text-grey w3-padding-60 " id="O mne">
+			<h2 class="w3- w3-text-light-blue w3-hover-white "><i>O mne / About me </i></h2>
+			<hr style="width:280px" class="w3-padding-4">
 			<p><b>Ahojte ľudia! Howdy!</b><br>
 
 				<i><br>Ahojte všetci, volám sa Vladimír Ksenič, bývam v Košiciach, mám rád hudbu, web design, fotografovanie a pod.Stále sa zdokonaľujem v práci programovania webových stránok ako ich vytvárať, zdokonaľovať v programovacích jazykoch html5, css, javascript, bootstrap a pod. Toto je moja prezenčná webstránka. Dúfam,že sa Vám páči,vaše otázky mi napíšte:)<br>Learning how to create websites by structuring and styling pages with HTML and CSS
-				learning the fundamentals of Javascript and React expanding CSS and HTML knowledge by learning Less and Bootstrap syntax
-				training soft skills and Office 365<i>
+					learning the fundamentals of Javascript and React expanding CSS and HTML knowledge by learning Less and Bootstrap syntax
+					training soft skills and Office 365.<i>
 
 						<!-- About Section -->
 						<div class="w3-content w3-justify w3-text-grey w3-padding-60" id="Zručnosti">
@@ -173,8 +179,8 @@
 
 							<!-- Grid for pricing tables -->
 							<!-- About Section -->
-							<div class="w3-content w3-justify w3-text-grey w3-padding-60" id="Cenník">
-								<h2 class="w3-padding-16 w3-text-light-blue w3-hover-white">Môj Cenník</h2>
+							<div class="w3-content w3-justify w3-text-grey w3-padding-60" id="Form">
+								<h2 class="w3-padding-16 w3-text-light-blue w3-hover-white">čoskoro bude form</h2>
 								<hr style="width:165px" class="w3-padding-60">
 								<div class="w3-row-padding" style="margin:0 -16px">
 									<div class="w3-half w3-margin-bottom">
@@ -219,12 +225,13 @@
 
 								<!-- Testimonials -->
 								<h2 class="w3-padding-4  w3-text-light-blue w3-hover-white">Referencie</h2>
-								<img src="./Image/b7c27aee54e7a3d3510730a51e6de73e.jpg" alt="Ch. Fox" class="w3-left w3-circle w3-margin-right" style="width:80px">
-								<p><span class="w3-large w3-hover-white w3-margin-right ">Chris Fox.</span> ASP Corporation.</p>
-								<p>”Tento pán sa stará o našu spoločnosť už celé roky. Dbá o bezpečnosť našich stránok a navyše aj aby naše stránky fungovali ako hodinky.Ďakujeme pekne“</p>
+								<hr style="width:165px" class="w3-opacity">
+								<img src="./Image/b7c27aee54e7a3d3510730a51e6de73e.jpg" alt="Ch. Fox" class=" w3-circle w3-margin-left" style="width:80px">
+								<p><span class="w3-content w3-hover-white w3-margin-right ">Chris Fox.</span>ASP Corporation.</p>
+								<p>”Tento pán sa stará o našu spoločnosť už celé roky. Dbá o bezpečnosť našich stránok a navyše aby naše stránky bezchybne fungovali.Ďakujeme pekne“</p>
 								<br>
 								<img src="./Image/profile-pic.jpg" alt="J. Suong" class="w3-left w3-circle w3-margin-right" style="width:80px">
-								<p><span class="w3-large w3-hover-white w3-margin-right">Jane Suong.</span> Podnikateľka.</p>
+								<p><span class="w3-content w3-hover-white w3-margin-right">Jane Suong.</span>Podnikateľka.</p>
 								<p>”Našu firmu a jej výrobky sme potrebovali lepšie prezentovať na webe.Pán V.K. nám spravil perfetnú stránku.Teraz iba v dobrom,skoro nestíhame zásobovať trh našími výrobkami.Dakujeme ešte raz.“
 								</p>
 								<!-- End About Section -->
@@ -251,26 +258,34 @@
 										<img src="./Image/78ce04b2b0a46fe8cce6fe82edcca044.jpg" style="width:100%">
 										<img src="./Image/x17-detail-050.jpg" style="width:100%">
 										<img src="./Image/x17-015.jpg" style="width:100%">
-										<img src="./Image/x17-int-002.jpg" style="width:100%"><img src="./Image/IMG_3080.JPG" alt="me" style="width:100%" height="285px">
+										<img src="./Image/x17-int-002.jpg" style="width:100%"><img src="./Image/IMG_3080.JPG" alt="me" style="width:100%" height="258">
 									</div>
 									<!-- End photo grid -->
 									<!-- End Portfolio Section -->
 								</div>
 							</div>
-
-							<!-- Contact Section -->
-							<div class="w3-padding-3 w3-content w3-text-blue-grey" id="Kontakt">
-								<h2 class=" w3-text-light-blue w3-hover-white">Napíš mi</h2>
-								<hr style="width:150px" class="w3-opacity">
-
-								<div class="w3-section">
-									<p><i class="fa fa-map-marker fa-fw w3-text-grey w3-xlarge w3-margin-left w3-hover-white"></i> Košice, Slovakia</p>
-									<p><i class="fa fa-phone fa-fw w3-text-grey w3-xlarge w3-margin-left w3-hover-white"></i> Telefón: +42155 6711 924</p>
-									<a href="mailto:ksenicv@icloud.com"><i class="fa fa-envelope fa-fw w3-text-grey w3-xlarge w3-margin-left w3-hover-white"></i>Email: ksenicv@icloud.com</a>
-								</div>
+						</div>
+						<!-- Google maps Section -->
+						<div class="w3-padding-4 w3-section w3-justify w3-content" id="Mapa">
+							<h2 class="w3-text-light-blue">Mapa </h2>
+							<hr style="width:100px" class="w3-opacity">
+							<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2631.6219359013385!2d21.282532850402756!3d48.731815279173595!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473ede29d93fb3bf%3A0xaa964d920a9e7e66!2sPostupimsk%C3%A1+755%2F29%2C+040+22+Ko%C5%A1ice!5e0!3m2!1sen!2ssk!4v1545327953895" width="100%" height="340" frameborder="0" style="border:0" allowfullscreen></iframe></div>
 
 
-								<!--form action="/action_page.php" target="_blank">
+	<!-- Contact Section -->
+	<div class="w3-padding-4 w3-section w3-content w3-justify w3-text-blue-grey" id="Kontakt">
+		<h2 class=" w3-text-light-blue w3-hover-white">Napíš mi</h2>
+		<hr style="width:150px" class="w3-opacity">
+
+
+			<p><i class="fa fa-map-marker fa-fw w3-text-red w3-xlarge w3-margin-left w3-hover-white"></i> Košice, Slovakia</p>
+			<p><i class="fa fa-phone fa-fw w3-text-orange w3-xlarge w3-margin-left w3-hover-white"></i> Telefón: +42155 6711 924</p>
+			<a href="mailto:ksenicv@icloud.com"><i class="fa fa-envelope fa-fw w3-text-green w3-xlarge w3-margin-left w3-hover-white"></i>Email: ksenicv@icloud.com</a></div>
+
+
+
+
+		<!--form action="/action_page.php" target="_blank">
 										<p><input class="w3-input w3-padding-16" type="text" placeholder="Tvoje meno" required name="Tvoje meno"></p>
 										<p><input class="w3-input w3-padding-16" type="text" placeholder="Email" required name="Email"></p>
 										<p><input class="w3-input w3-padding-16" type="text" placeholder="Subjekt" required name="Subjekt"></p>
@@ -283,31 +298,28 @@
 										</p>
 									</form>
 									<!-- End Contact Section -->
-							</div>
 
-							<!-- Footer -->
-							<footer class="w3-content   w3-text-light-blue w3-xlarge">
-								<a href="https://www.facebook.com/vladimir.ksenic" target="_blank">
-									<i class="fa fa-facebook-official w3-hover-text-blue"></i>
-									<a href="https://www.youtube.com/channel/UCX3EKD2gPCW81IiBCWDeh-Q?view_as=subscriber" target="_blank">
-										<i class="fa fa-youtube  w3-hover-text-red"></i>
-										<a href="https://www.apple.com/sk/" target="_blank">
-											<i class="fa fa-apple w3-hover-text-grey"></i>
-											<a href="https://sk.pinterest.com/ksenicv/" target="_blank">
-												<i class="fa fa-pinterest-p w3-hover-text-red"></i>
-												<i class="fa fa-mail w3-hover-opacity"></i>
-												<a href="https://www.linkedin.com/in/vladim%C3%ADr-kseni%C4%8D-a084a2161/" target="_blank">
-													<i class="fa fa-linkedin w3-hover-text-blue"></i>
-													<p class="w3-medium w3-content w3-justify w3-padding-60 w3-text-grey w3-hover-blue">Powered by V.Ksenič 2018©&nbsp;<a href="https://github.com/settings/profile?rel=" target="_blank" class="w3-hover-white"><i class="fa fa-github w3-hover-opacity"></i>&nbsp;.&nbsp;.&nbsp;.&nbsp;.&nbsp;.&nbsp;MyGithub Click here<a href="https://jolana1.github.io/WebServis" target="_blank" class="w3-hover-white">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;...................&nbsp;WebServis©Nakopneme Váš web k lepším výsledkom,skúste to s nami!</a></a></p>
-												</a></a></a></a></a></footer>
-							<!-- End footer -->
-						</div>
-					</i></i></p>
-		</div>
-	</div>
-</body>
 
-</html>
+	<!-- Footer -->
+	<footer class="w3-center  w3-text-light-blue">
+		<a href="https://www.facebook.com/vladimir.ksenic" target="_blank">
+			<i class="fa fa-facebook-official w3-hover-text-blue"></i>
+			<a href="https://www.youtube.com/channel/UCX3EKD2gPCW81IiBCWDeh-Q?view_as=subscriber" target="_blank">
+				<i class="fa fa-youtube  w3-hover-text-red"></i>
+				<!--a href="https://www.apple.com/sk/" target="_blank">
+					<i class="fa fa-apple w3-hover-text-grey"></i-->
+				<a href="https://www.instagram.com/vladimirksenic/" target="_blank">
+					<i class="fa fa-instagram w3-hover-text-green"></i>
+					<a href="https://sk.pinterest.com/ksenicv/" target="_blank">
+						<i class="fa fa-pinterest w3-hover-text-red"></i>
+
+						<a href="https://www.linkedin.com/in/vladim%C3%ADr-kseni%C4%8D-a084a2161/" target="_blank">
+							<i class="fa fa-linkedin w3-hover-text-blue"></i>
+							<p class="w3-center w3-justify w3-padding-60 w3-text-grey w3-hover-blue">Powered by V.Ksenič 2018©&nbsp;<a href="https://github.com/settings/profile?rel=" target="_blank" class="w3-hover-white"><i class="fa fa-github w3-hover-opacity"></i>&nbsp;.&nbsp;.&nbsp;.&nbsp;.&nbsp;.&nbsp;MyGithub Click here<a href="https://jolana1.github.io/WebServis" target="_blank" class="w3-hover-white w3-center">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;...................&nbsp;WebServis©Nakopneme Váš web k lepším výsledkom,skúste to s nami!</a></a></p></a>
+	<!-- End footer -->
+					</a></a></a></a></footer></i></i></p></div>
+		</header></div></body></html>
+
 
 
 
