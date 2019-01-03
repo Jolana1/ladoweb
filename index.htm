@@ -7,11 +7,12 @@
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<!--link rel="stylesheet" href="./Css/w31.css"-->
 <link rel="stylesheet" href="./Css/W3css.css">
+<!--link rel="stylesheet" href="./Css/w31.css"-->
 
 
 <style>
+	p,
 	body,
 	h1,
 	h2,
@@ -25,30 +26,32 @@
 	.w3-row-padding img {
 		margin-bottom: 12px
 	}
-
+   .w3-row-padding iframe {
+		margin-bottom: 12px
+	}
 	/* Set the width of the sidebar to 120px */
 	.w3-sidebar {
-		width: 82px;
+		width: 87px;
 		background: #f1f1f1;
 	}
 
 	/* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
 	#main {
-		margin-left: 82px;
+		margin-left: 80px;
 
 	}
 
 	/* Remove margins from "page content" on small screens */
 	@media only screen and (max-width: 600px) {
 		#main {
-			margin-left: 0
+			margin-left: 80
 		}
 	}
 </style>
 
 <body class="w3-white">
 
-	<!-- Icon Bar (Sidebar - hidden on small screens) -->
+	<!-- Icon Bar (Sidebar - hidden on small screens) --favcolor-#00bcd4-->
 	<nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
 		<!-- Avatar image in top left corner -->
 		<img src="./Image/IMG_3155.jpg" alt="ja" style="width:100%" style="height:125px">
@@ -101,30 +104,30 @@
 		<!-- Header/Home -->
 		<header>
 			<header class="w3-container w3-padding-14 w3-margin w3-center w3-text-light-blue w3-hover-white" id="Domov">
-				<h1><span class="w3-jumbo w3-row w3-wide">
+				<h1,h6><span class="w3-row w3-jumbo">
 						<h1><b>I'm V.Ksenič</b></h1>
 						<h6><b>I'm Web Developer 24hr day and Photographer.</b></h6>
-					</span>
 					<img class="w3-img-responsive" style="width:100%" width="" height="267" img src="./Image/INK.jpg" alt="ink">
-				</h1>
+					</span>
+
 
 
 			<body>
 
-				<button id="hide">Skryť Fotky</button>
-				<button id="show">Ukázať Fotky</button>
+				<button id="hide">Skryť ukážky</button>
+				<button id="show">Ukázať</button>
 				<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 				<script>
 					$(document).ready(function() {
 						$("#hide").click(function() {
-							$("img").hide();
+							$("img,iframe").hide();
 						});
 						$("#show").click(function() {
-							$("img").show();
+							$("img,iframe").show();
 						});
 					});
 				</script>
-			</body>
+					</body></h1,h6>
 		</header>
 
 		<!-- About Section -->
@@ -139,8 +142,8 @@
 
 						<!-- About Section -->
 						<div class="w3-content w3-justify w3-text-grey w3-padding-60" id="Zručnosti">
-							<h2 class="w3-padding-16 w3-text-light-blue w3-hover-white">Zručnosti</h2>
-							<hr style="width:145px" class="w3-padding-60">
+							<h2 class="w3-padding-16 w3-text-light-blue w3-hover-white">Zručnosti / Skills</h2>
+							<hr style="width:275px" class="w3-padding-4">
 							<p class="w3-wide">Fotografovanie a dizajn webu</p>
 						<div class="w3-white">
 							<div class="w3-light-blue" style="height:28px;width:98%"></div>
