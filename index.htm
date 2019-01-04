@@ -12,7 +12,7 @@
 
 
 <style>
-	p,
+
 	body,
 	h1,
 	h2,
@@ -31,7 +31,7 @@
 	}
 	/* Set the width of the sidebar to 120px */
 	.w3-sidebar {
-		width: 87px;
+		width: 80px;
 		background: #f1f1f1;
 	}
 
@@ -44,7 +44,7 @@
 	/* Remove margins from "page content" on small screens */
 	@media only screen and (max-width: 600px) {
 		#main {
-			margin-left: 80
+			margin-left: 0
 		}
 	}
 </style>
@@ -103,7 +103,7 @@
 	<div class="w3-padding-large" id="main">
 		<!-- Header/Home -->
 		<header>
-			<header class="w3-container w3-padding-14 w3-margin w3-center w3-text-light-blue w3-hover-white" id="Domov">
+			<header class="w3-container w3-padding-16 w3-margin w3-center w3-text-light-blue w3-hover-white" id="Domov">
 				<h1,h6><span class="w3-row w3-jumbo">
 						<h1><b>I'm V.Ksenič</b></h1>
 						<h6><b>I'm Web Developer 24hr day and Photographer.</b></h6>
@@ -192,9 +192,22 @@
 							<!-- Grid for pricing tables -->
 							<!-- About Section -->
 							<div class="w3-content w3-justify w3-text-grey w3-padding-60" id="Form">
-								<h2 class="w3-padding-16 w3-text-light-blue w3-hover-white">čoskoro bude formulár!!!!</h2>
+								<h2 class="w3-padding-16 w3-text-light-blue w3-hover-white">Formulár</h2>
 								<hr style="width:195px" class="w3-padding-60">
-								<div class="w3-row-padding" style="margin:0 -16px">
+											<b class="w3-hover-text-light-blue">Vyplňte formulár alebo napíšte mi otázku na kontaktný email</b>
+
+							<form action="/action_page.php" target="_blank">
+				<p><input class="w3-input w3-padding-16" type="text" placeholder="Vaše meno" required name="Vaše meno"></p>
+				<p><input class="w3-input w3-padding-16" type="text" placeholder="Email" required name="Email"></p>
+				<p><input class="w3-input w3-padding-16" type="text" placeholder="Subjekt" required name="Subject"></p>
+				<p><input class="w3-input w3-padding-16" type="text" placeholder="Odkaz" required name="Message"></p>
+				<p>
+					<button class="w3-button w3-hover-blue w3-padding-large w3-section w3-text-grey" type="submit"><a href="mailto:ksenicv@gmail.com" target="_blank"><i class="fa fa-paper-plane">Odošli Odkaz</i></a>
+
+					</button>
+				</p>
+</form></div>
+								<!--div class="w3-row-padding" style="margin:0 -16px">
 									<div class="w3-half w3-margin-bottom">
 										<ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
 											<li class="w3-dark-grey w3-xlarge w3-padding-24">Základ</li>
@@ -233,14 +246,14 @@
 										</ul>
 									</div>
 									<!-- End Grid/Pricing tables -->
-								</div>
+					</div>
 
 								<!-- Testimonials -->
 								<h2 class="w3-padding-4  w3-text-light-blue w3-hover-white">Referencie</h2>
 								<hr style="width:165px" class="w3-opacity">
 								<img src="./Image/john_doe.jpg" alt="J. Doe" class="w3-left w3-circle w3-margin-right" style="width:80px">
 								<p><span class="w3-content w3-hover-white w3-margin-right ">John Doe.</span>ASP Corporation.</p>
-								<p>”Tento pán sa stará o našu spoločnosť už celé roky. Dbá o bezpečnosť našich stránok a navyše aby naše stránky bezchybne fungovali.Ďakujeme pekne“</p>
+								<p>”Tento pán sa stará o našu spoločnosť už celé roky. Dbá o bezpečnosť našich stránok a navyše aby naše stránky bezchybne fungovali.Ďakujeme pekne :)“</p>
 								<br>
 								<img src="./Image/profile-pic.jpg" alt="J. Suong" class="w3-left w3-circle w3-margin-right" style="width:80px">
 								<p><span class="w3-content w3-hover-white w3-margin-right">Jane Suong.</span>Podnikateľka.</p>
@@ -248,11 +261,11 @@
 								</p>
 								<!-- End About Section -->
 
-							</div>
+
 
 							<!-- Portfolio Section -->
 							<div class="w3-padding-0 w3-content" id="Fotky">
-								<h2 class="w3-text-light-blue w3-hover-white">Moje fotky, citáty a niečo na počúvanie </h2>
+								<h2 class="w3-text-light-blue w3-hover-white">Fotky, citáty a hudba na relax </h2>
 								<hr style="width:1900px" class="w3-opacity">
 
 								<!-- Grid for photos -->
@@ -260,7 +273,7 @@
 									<div class="w3-half">
 										<img src="./Image/nature-3151869_1920.jpg" style="width:100%">
 										<img src="./Image/photo-1461722936851-13a79b294a5d.jpeg" style="width:100%">
-										<iframe src="https://youtube.com/embed/64vxOmVLMwM?autoplay=0" style="border:none;" width="100%" height="365" frameborder="0" align="" scrolling="no" name="Winter Relaxation 2018">
+										<iframe src="https://youtube.com/embed/TQNHNUlQM_o?autoplay=0" style="border:none;" width="100%" height="355" frameborder="0" align="" scrolling="no" name="Sade Greatest Hits Full Album - The Best of Sade - Sade Love Songs Ever (HQ)">
 									</iframe>
 										<img src="./Image/good%20life.jpg" alt="" width="100%" height="222">
 
@@ -277,7 +290,7 @@
 									<!-- End Portfolio Section -->
 								</div>
 							</div>
-						</div>
+
 						<!-- Google maps Section -->
 						<div class="w3-padding-4 w3-section w3-justify w3-content" id="Mapa">
 							<h2 class="w3-text-light-blue">Mapa </h2>
@@ -326,9 +339,9 @@
 					<a href="https://sk.pinterest.com/ksenicv/" target="_blank">
 						<i class="fa fa-pinterest w3-hover-text-red"></i>
 
-						<a href="https://www.linkedin.com/in/vladim%C3%ADr-kseni%C4%8D-a084a2161/" target="_blank">
+						<a href="https://www.linkedin.com/in/vladim%C3%ADr-kseni%C4%8D-a084a2161/" target="_blank"></a>
 							<i class="fa fa-linkedin w3-hover-text-blue"></i>
-							<p class="w3-center w3-justify w3-padding-60 w3-text-grey w3-hover-blue">Powered by V.Ksenič 2018©&nbsp;<a href="https://github.com/settings/profile?rel=" target="_blank" class="w3-hover-white"><i class="fa fa-github w3-hover-opacity"></i>&nbsp;.&nbsp;.&nbsp;.&nbsp;.&nbsp;.&nbsp;MyGithub Click here<a href="https://jolana1.github.io/WebServis" target="_blank" class="w3-hover-white w3-center">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;...................&nbsp;WebServis©Nakopneme Váš web k lepším výsledkom,skúste to s nami!</a></a></p></a>
+							<p class="w3-center w3-justify w3-padding-60 w3-text-grey w3-hover-blue">Powered by V.Ksenič 2018©&nbsp;<a href="https://github.com/settings/profile?rel=" target="_blank" class="w3-hover-white"><i class="fa fa-github w3-hover-opacity"></i>&nbsp;.&nbsp;.&nbsp;.&nbsp;.&nbsp;.&nbsp;MyGithub Click here<a href="https://jolana1.github.io/WebServis" target="_blank" class="w3-hover-white w3-center">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;...................&nbsp;WebServis©Nakopneme Váš web k lepším výsledkom,pozrite si aj tento web!</a></a></p></a>
 	                      <!-- Return to Top -->
 								<a href="#Domov" class="w3-bar-item w3-circle w3-button w3-dark-grey w3-padding-small w3-hover-white" id="domov" style="display: inline-block">
 									<!--button class="w3-padding-large w3-text-grey w3-button w3-hover-yellow"-->
@@ -338,8 +351,7 @@
 									<!-- End footer -->
 								</a>
 
-					</a></a></a></a></footer></i></i></p></div>
-		</header></div></body></html>
+					</a></a></a></footer></i></i></p></div></header></div></body></html>
 
 
 
