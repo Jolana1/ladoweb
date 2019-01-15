@@ -208,7 +208,7 @@
 									<div class="w3-content w3-justify w3-text-grey w3-padding-60" id="Form">
 										<h2 class="w3-padding-16 w3-text-light-blue w3-hover-white">Formulár / Form</h2>
 										<hr style="width:235px" class="w3-padding-60">
-										<b class="w3-hover-text-light-blue">Vyplňte formulár alebo mi jednoducho odošlite otázku na môj email:</b>
+										<b class="w3-hover-text-light-blue">Vyplňte formulár alebo mi odošlite otázku na môj email:</b>
 										<div class="container">
 
 											<form method="get" class="container">
@@ -216,14 +216,14 @@
 												<fieldset>
 													<legend>Form</legend><br>
 
-													<label for="fname">Meno:</label>
-													<input type="text" required="required" name="fname" maxlength="8" placeholder="napis meno" value="" id="fname"><br>
+													<label for="fname">Meno:<br></label>
+													<input type="text" required="required" name="fname" maxlength="8" placeholder="napíš meno" value="" id="fname"><br>
 
-													<label>Priezvisko:</label>
-													<input type="text" required="required" value="Mrkvička">
+													<label>Priezvisko:<br></label>
+													<input type="text" required="required" name="lname" maxlength="8" placeholder="napíš priezvisko" value="" id="lname">
 													<!--br> password:
 							<input type="password" maxlength="5" disabled="disabled"><br> color:
-							<input type="color" name="color"--><br> Dátum:
+							<input type="color" name="color"--><br><label>Dátum:<br></label>
 													<input type="date" name="date">
 
 
@@ -239,7 +239,7 @@
 								cervena:
 								<input type="radio" name="matrix" value="c">
 							</label-->
-													<br>
+
 
 													<!--select name="moznost">
 														<option value="a" selected="selected">1</option>
@@ -248,26 +248,27 @@
 														<option value="d" selected="selected">4 </option>
 													</select--><br>
 													<!--textarea readonly-->
-													<textarea writeonly >
+													<br><label>Text:<br></label>
+													<textarea writeonly>
+
 
                     </textarea>
 													<!--br>
-														<input type="file" multiple>
+														<input type="file" multiple-->
 
 
-														<br--><br>
-													Váš mail:
-													<input type="email" required="required">
-													<br>
+													<br><label>Tvoj mail:<br></label>
+													<input type="email">
 
-													vek:
-													<input type="number" required="required"><br>
+
+
+													<!--input type="number"-->
 
 													<input type="submit">
+
 													<input type="reset">
-													<!--input type="button" value="niečo">
-													<button-->
-														<!--img src="img/whatthe____.jpg" width="50"></button-->
+
+													<!--img src="img/whatthe____.jpg" width="50"></button>
 												</fieldset>
 											</form>
 										</div>
@@ -277,11 +278,13 @@
 				<p><input class="w3-input w3-padding-16" type="text" placeholder="Email" required name="Email"></p>
 				<p><input class="w3-input w3-padding-16" type="text" placeholder="Subjekt" required name="Subject"></p>
 				<p><input class="w3-input w3-padding-16" type="text" placeholder="Odkaz" required name="Message"></p-->
-									<p>
-										<button class="w3-button w3-hover-blue w3-padding-large w3-section w3-text-grey"><a href="mailto:ksenicv@gmail.com" target="_blank"><i class="fa fa-envelope"><i> Odošli mi email</i></i></a></button></p>
-								</section>
-							</div>
-							<!--div class="w3-row-padding" style="margin:0 -16px">
+
+													<button class="w3-button w3-hover-blue w3-padding-large w3-section w3-text-grey"><a href="mailto:ksenicv@gmail.com" target="_blank"><i class="fa fa-envelope"><i> Odošli mi email</i></i></a></button>
+
+												</fieldset>
+											</form>
+										</div>
+										<!--div class="w3-row-padding" style="margin:0 -16px">
 									<div class="w3-half w3-margin-bottom">
 										<ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
 											<li class="w3-dark-grey w3-xlarge w3-padding-24">Základ</li>
@@ -320,76 +323,76 @@
 										</ul>
 									</div>
 						<!-- End Grid/Pricing tables -->
-						</i>
+									</div></section></div></i>
 
-			<!-- Testimonials -->
-			<h2 class="w3-padding-4  w3-text-light-blue w3-hover-white">Referencie / Feed </h2>
-			<hr style="width:195px" class="w3-opacity">
-			<img src="./Image/john_doe.jpg" alt="J. Doe" class="w3-left w3-circle w3-margin-right" style="width:80px">
-			<p><span class="w3-content w3-hover-white w3-margin-right w3-text-grey ">John Doe.ASP Corporation.
-			<p>”Tento pán sa stará o našu spoločnosť už celé roky. Dbá o bezpečnosť našich stránok a navyše aby naše stránky bezchybne fungovali.Ďakujeme pekne :)“</p>
-			<br>
-			<img src="./Image/profile-pic.jpg" alt="J. Suong" class="w3-left w3-circle w3-margin-right" style="width:80px">
-			<p><span class="w3-content w3-hover-white w3-margin-right w3-text-grey">Jane Suong.Podnikateľka.
-			<p>”Našu firmu a jej výrobky sme potrebovali lepšie prezentovať na webe.Pán V.K. nám spravil perfetnú stránku.Teraz iba v dobrom,skoro nestíhame zásobovať trh našími výrobkami.Dakujeme ešte raz.“
-			</p></span>
-			<!-- End About Section -->
-
-
-
-			<!-- Portfolio Section -->
-			<div class="w3-padding-0 w3-content" id="Fotky">
-				<h2 class="w3-text-light-blue w3-hover-white">Rôzne fotky a hudba na relax </h2>
-				<hr style="width:1900px" class="w3-opacity">
-
-				<!-- Grid for photos -->
-				<div class="w3-row-padding" style="margin:0 -16px">
-					<div class="w3-half">
-						<img src="./Image/nature-3151869_1920.jpg" style="width:100%">
-						<img src="./Image/photo-1461722936851-13a79b294a5d.jpeg" style="width:100%">
-						<iframe src="https://youtube.com/embed/7vaIugWa5v4?autoplay=0" style="border:none;" width="100%" height="326" frameborder="0" align="" scrolling="no" name="Chill relax">
-						</iframe>
-						<img src="./Image/good%20life.jpg" alt="" width="100%" height="262">
-
-
-					</div>
-
-					<div class="w3-half">
-						<img src="./Image/human-3175027_1920.jpg" style="width:100%">
-						<img src="./Image/web-technologies.png" alt="it" style="width:100%" height="308">
-						<img src="./Image/css3logo.png" style="width:30%"height="158">
-						<img src="./Image/bootstrap.png" alt="bs" width="30%" height="158">
-						<img src="./Image/x17-int-002.jpg" style="width:100%" height="473">
-						<img src="./Image/x17-015.jpg" style="width:100%">
-					</div>
-					<!-- End photo grid -->
-					<!-- End Portfolio Section -->
-				</div>
-			</div>
-
-			<!-- Google maps Section -->
-			<div class="w3-padding-4 w3-section w3-justify w3-content" id="Mapa">
-				<h2 class="w3-text-light-blue">Mapa </h2>
-				<hr style="width:100px" class="w3-opacity">
-				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2631.6219359013385!2d21.282532850402756!3d48.731815279173595!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473ede29d93fb3bf%3A0xaa964d920a9e7e66!2sPostupimsk%C3%A1+755%2F29%2C+040+22+Ko%C5%A1ice!5e0!3m2!1sen!2ssk!4v1545327953895" width="100%" height="340" frameborder="0" style="border:0" allowfullscreen></iframe>
-			</div>
-
-
-			<!-- Contact Section -->
-			<div class="w3-padding-4 w3-section w3-content w3-justify w3-text-blue-grey" id="Kontakt">
-				<h2 class=" w3-text-light-blue w3-hover-white">Napíš mi</h2>
-				<hr style="width:150px" class="w3-opacity">
-
-
-				<p><i class="fa fa-map-marker fa-fw w3-text-red w3-xlarge w3-margin-left w3-hover-white"></i> Košice, Slovakia</p>
-				<p><i class="fa fa-phone fa-fw w3-text-orange w3-xlarge w3-margin-left w3-hover-white"></i> Telefón: +421907 151 293</p>
-				<a href="mailto:ksenicv@gmail.com"><i class="fa fa-envelope fa-fw w3-text-green w3-xlarge w3-margin-left w3-hover-white"></i>Email: ksenicv@gmail.com</a>
-			</div>
+						<!-- Testimonials -->
+						<h2 class="w3-padding-4  w3-text-light-blue w3-hover-white">Referencie / Feed </h2>
+						<hr style="width:195px" class="w3-opacity">
+						<img src="./Image/john_doe.jpg" alt="J. Doe" class="w3-left w3-circle w3-margin-right" style="width:80px">
+						<p><span class="w3-content w3-hover-white w3-margin-right w3-text-grey ">John Doe.ASP Corporation.
+								<p>”Tento pán sa stará o našu spoločnosť už celé roky. Dbá o bezpečnosť našich stránok a navyše aby naše stránky bezchybne fungovali.Ďakujeme pekne :)“</p>
+								<br>
+								<img src="./Image/profile-pic.jpg" alt="J. Suong" class="w3-left w3-circle w3-margin-right" style="width:80px">
+								<p><span class="w3-content w3-hover-white w3-margin-right w3-text-grey">Jane Suong.Podnikateľka.
+										<p>”Našu firmu a jej výrobky sme potrebovali lepšie prezentovať na webe.Pán V.K. nám spravil perfetnú stránku.Teraz iba v dobrom,skoro nestíhame zásobovať trh našími výrobkami.Dakujeme ešte raz.“
+										</p></span>
+									<!-- End About Section -->
 
 
 
+									<!-- Portfolio Section -->
+									<div class="w3-padding-0 w3-content" id="Fotky">
+										<h2 class="w3-text-light-blue w3-hover-white">Rôzne fotky a hudba na relax </h2>
+										<hr style="width:1900px" class="w3-opacity">
 
-			<!--form action="/action_page.php" target="_blank">
+										<!-- Grid for photos -->
+										<div class="w3-row-padding" style="margin:0 -16px">
+											<div class="w3-half">
+												<img src="./Image/nature-3151869_1920.jpg" style="width:100%">
+												<img src="./Image/photo-1461722936851-13a79b294a5d.jpeg" style="width:100%">
+												<iframe src="https://youtube.com/embed/7vaIugWa5v4?autoplay=0" style="border:none;" width="100%" height="326" frameborder="0" align="" scrolling="no" name="Chill relax">
+												</iframe>
+												<img src="./Image/good%20life.jpg" alt="" width="100%" height="262">
+
+
+											</div>
+
+											<div class="w3-half">
+												<img src="./Image/human-3175027_1920.jpg" style="width:100%">
+												<img src="./Image/web-technologies.png" alt="it" style="width:100%" height="308">
+												<img src="./Image/css3logo.png" style="width:30%" height="158">
+												<img src="./Image/bootstrap.png" alt="bs" width="30%" height="158">
+												<img src="./Image/x17-int-002.jpg" style="width:100%" height="473">
+												<img src="./Image/x17-015.jpg" style="width:100%">
+											</div>
+											<!-- End photo grid -->
+											<!-- End Portfolio Section -->
+										</div>
+									</div>
+
+									<!-- Google maps Section -->
+									<div class="w3-padding-4 w3-section w3-justify w3-content" id="Mapa">
+										<h2 class="w3-text-light-blue">Mapa </h2>
+										<hr style="width:100px" class="w3-opacity">
+										<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2631.6219359013385!2d21.282532850402756!3d48.731815279173595!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473ede29d93fb3bf%3A0xaa964d920a9e7e66!2sPostupimsk%C3%A1+755%2F29%2C+040+22+Ko%C5%A1ice!5e0!3m2!1sen!2ssk!4v1545327953895" width="100%" height="340" frameborder="0" style="border:0" allowfullscreen></iframe>
+									</div>
+
+
+									<!-- Contact Section -->
+									<div class="w3-padding-4 w3-section w3-content w3-justify w3-text-blue-grey" id="Kontakt">
+										<h2 class=" w3-text-light-blue w3-hover-white">Napíš mi</h2>
+										<hr style="width:150px" class="w3-opacity">
+
+
+										<p><i class="fa fa-map-marker fa-fw w3-text-red w3-xlarge w3-margin-left w3-hover-white"></i> Košice, Slovakia</p>
+										<p><i class="fa fa-phone fa-fw w3-text-orange w3-xlarge w3-margin-left w3-hover-white"></i> Telefón: +421907 151 293</p>
+										<a href="mailto:ksenicv@gmail.com"><i class="fa fa-envelope fa-fw w3-text-green w3-xlarge w3-margin-left w3-hover-white"></i>Email: ksenicv@gmail.com</a>
+									</div>
+
+
+
+
+									<!--form action="/action_page.php" target="_blank">
 										<p><input class="w3-input w3-padding-16" type="text" placeholder="Tvoje meno" required name="Tvoje meno"></p>
 										<p><input class="w3-input w3-padding-16" type="text" placeholder="Email" required name="Email"></p>
 										<p><input class="w3-input w3-padding-16" type="text" placeholder="Subjekt" required name="Subjekt"></p>
@@ -404,34 +407,35 @@
 									<!-- End Contact Section -->
 
 
-			<!-- Footer -->
-			<footer class="w3-center  w3-text-light-blue">
-				<a href="https://www.facebook.com/vladimir.ksenic" target="_blank">
-					<i class="fa fa-facebook-official w3-hover-text-blue"></i>
-					<a href="https://www.youtube.com/channel/UCX3EKD2gPCW81IiBCWDeh-Q?view_as=subscriber" target="_blank">
-						<i class="fa fa-youtube  w3-hover-text-red"></i>
-						<!--a href="https://www.apple.com/sk/" target="_blank">
+									<!-- Footer -->
+									<footer class="w3-center  w3-text-light-blue">
+										<a href="https://www.facebook.com/vladimir.ksenic" target="_blank">
+											<i class="fa fa-facebook-official w3-hover-text-blue"></i>
+											<a href="https://www.youtube.com/channel/UCX3EKD2gPCW81IiBCWDeh-Q?view_as=subscriber" target="_blank">
+												<i class="fa fa-youtube  w3-hover-text-red"></i>
+												<!--a href="https://www.apple.com/sk/" target="_blank">
 					<i class="fa fa-apple w3-hover-text-grey"></i-->
-						<a href="https://www.mixcloud.com/vladim%C3%ADr-kseni%C4%8D/favorites/" target="_blank">
-							<i class="fa fa-mixcloud w3-hover-text-red"></i>
-							<a href="https://sk.pinterest.com/ksenicv/" target="_blank">
-								<i class="fa fa-pinterest w3-hover-text-red"></i>
-								<a href="https://www.linkedin.com/in/vladim%C3%ADr-kseni%C4%8D-a084a2161/" target="_blank">
+												<a href="https://www.mixcloud.com/vladim%C3%ADr-kseni%C4%8D/favorites/" target="_blank">
+													<i class="fa fa-mixcloud w3-hover-text-red"></i>
+													<a href="https://sk.pinterest.com/ksenicv/" target="_blank">
+														<i class="fa fa-pinterest w3-hover-text-red"></i>
+														<a href="https://www.linkedin.com/in/vladim%C3%ADr-kseni%C4%8D-a084a2161/" target="_blank">
 
-									<i class="fa fa-linkedin w3-hover-text-blue"></i></a>
-								<p class="w3-center w3-justify w3-padding-60 w3-text-grey w3-hover-blue">Powered by V.Ksenič©2019&nbsp;<a href="https://github.com/settings/profile?rel=" target="_blank" class="w3-hover-white"><i class="fa fa-github w3-hover-opacity"></i>&nbsp;.&nbsp;.&nbsp;.&nbsp;.&nbsp;.&nbsp;MyGithub Click here<a href="https://jolana1.github.io/WebServis" target="_blank" class="w3-hover-white w3-center">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;...................&nbsp;©WebServis All rights reserved&nbsp;Nakopneme Váš web k lepším výsledkom,pozri si aj tento web!</a></a></p>
-							</a>
-							<!-- Return to Top -->
-							<a href="#Domov" class="w3-bar-item w3-circle w3-button w3-dark-grey w3-padding-small w3-hover-white" id="domov" style="display: inline-block">
-								<!--button class="w3-padding-large w3-text-grey w3-button w3-hover-yellow"-->
-								<i class="fa fa-arrow-up w3-text-blue w3-hover-white w3-xlarge w3-margin-center"></i>
+															<i class="fa fa-linkedin w3-hover-text-blue"></i></a>
+														<p class="w3-center w3-justify w3-padding-60 w3-text-grey w3-hover-blue">Powered by V.Ksenič©2019&nbsp;<a href="https://github.com/settings/profile?rel=" target="_blank" class="w3-hover-white"><i class="fa fa-github w3-hover-opacity"></i>&nbsp;.&nbsp;.&nbsp;.&nbsp;.&nbsp;.&nbsp;MyGithub Click here<a href="https://jolana1.github.io/WebServis" target="_blank" class="w3-hover-white w3-center">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;...................&nbsp;©WebServis All rights reserved&nbsp;Nakopneme Váš web k lepším výsledkom,pozri si aj tento web!</a></a></p>
+													</a>
+													<!-- Return to Top -->
+													<a href="#Domov" class="w3-bar-item w3-circle w3-button w3-dark-grey w3-padding-small w3-hover-white" id="domov" style="display: inline-block">
+														<!--button class="w3-padding-large w3-text-grey w3-button w3-hover-yellow"-->
+														<i class="fa fa-arrow-up w3-text-blue w3-hover-white w3-xlarge w3-margin-center"></i>
 
-								<!--script src="js/main.js"></script-->
-								<!-- End footer -->
-							</a>
+														<!--script src="js/main.js"></script-->
+														<!-- End footer -->
+													</a>
 
-						</a></a></a></footer>
-				</span></p></i></p></div></header></div></body></html>
+												</a></a></a></footer>
+							</span></p></i></p></div></header></div></body></html>
+
 
 
 <!-- END PAGE CONTENT #e7ffe7,#7F1900,#00bcd4 -->
