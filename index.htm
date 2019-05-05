@@ -98,7 +98,20 @@
 			padding: 10px;
 		}
 
+      /* ak chcem img na pozadie v stranke */
+		body {
+			background-image: URL('pozadi.gif');
+			/* obrázek na pozadí */
+			background-attachment: fixed;
+			/* pozadí neroluje */
+			/*background-color: black;*/
+			/* případná barva pozadí černá */
+			color: white;
+			/* bílý text */
+		}
+
 	</style>
+
 
 	<!-- Page Container >
 <div class="w3-content w3-margin-top"-->
@@ -108,56 +121,59 @@
 <body>
 	<div class="content" style="max-width:2000px;">
 		<div class="w3-sidebar w3-navbar w3-bar-block w3-small w3-hide-small w3-center">
-			<!-- Avatar image in top left corner -->
-			<img src="./Image/IMG_3155.jpg" class="rounded" alt="me" style="width:80px;height:99px" title="I am a Front End Developer based in Kosice, Slovakia with more than 2years of well rounded experience, developing complex web applications. Particularly interested in new technologies, new frameworks and programming languages. True believer on teamwork and open source community.">
+			<!-- Icon Bar (Sidebar - hidden on small screens) -->
+			<nav class="w3-sidebar w3-bar-block w3-small w3-black w3-center">
 
-			<a class="w3-bar-item w3-button w3-padding-small w3-text-blue w3-hover-white w3-circle" href="#Domov">
-				<i class="fa fa-home w3-xxlarge"></i>
-				<p>Domov</p>
-			</a>
-			<a class="w3-bar-item w3-button w3-padding-small w3-text-blue w3-hover-white w3-circle" href="#O mne">
-				<i class="fa fa-user w3-xxlarge"></i>
-				<p>O mne</p>
-			</a>
-			<a class="w3-bar-item w3-button w3-padding-small  w3-text-blue w3-hover-white w3-circle" href="#Zručnosti">
-				<i class="fa fa-briefcase w3-xxlarge"></i>
-				<p> Zručnosti </p>
-			</a>
-			<a class="w3-bar-item w3-button w3-padding-small  w3-text-blue w3-hover-white w3-circle" href="#Form">
-				<i class="fa fa-download w3-xxlarge"></i>
-				<p>Formulár</p>
-			</a>
+				<!-- Avatar image in top left corner -->
+				<img src="./Image/IMG_3155.jpg" class="rounded" alt="me" style="width:80px;height:99px" title="I am a Front End Developer based in Kosice, Slovakia with more than 2years of well rounded experience, developing complex web applications. Particularly interested in new technologies, new frameworks and programming languages. True believer on teamwork and open source community.">
 
-			<a class="w3-bar-item w3-button w3-padding-small  w3-text-blue w3-hover-white w3-circle" href="#Test">
-				<i class="fa fa-asterisk w3-xxlarge"></i>
-				<p>Ohlasy</p>
-			</a>
-			<a class="w3-bar-item w3-button w3-padding-small  w3-text-blue w3-hover-white w3-circle" href="#Fotky">
-				<i class="fa fa-eye w3-xxlarge"></i>
-				<p>Fotky&amp;My CV </p>
-			</a>
-			<!--a href="#Hudba" class="w3-bar-item w3-button w3-padding-small  w3-text-blue w3-hover-white">
-			<i class="fa fa-music w3-xxlarge"></i>
-			<p>Hudba</p>
-		</a-->
-			<a class="w3-bar-item w3-button w3-padding-small  w3-text-blue w3-hover-white w3-circle" href="#footer">
-				<i class="fa fa-globe w3-xxlarge"></i>
-				<p>Kontakt</p>
-			</a>
-			<!-- Return to Top -->
-			<a class="w3-bar-item  w3-button  w3-text-blue w3-padding-small w3-hover-white w3-circle" href="#main">
-				<!--button class="w3-padding-large w3-text-grey w3-button w3-hover-yellow"-->
-				<i class="fa fa-arrow-up w3-hover-white w3-xxlarge w3-margin-center"></i>
-				<p>Hore</p>
-				<!-- End footer -->
+				<a class="w3-bar-item w3-button w3-padding-small w3-text-blue w3-hover-white w3-circle" href="#Domov">
+					<i class="fa fa-home w3-xxlarge"></i>
+					<p>Domov</p>
+				</a>
+				<a class="w3-bar-item w3-button w3-padding-small w3-text-blue w3-hover-white w3-circle" href="#O mne">
+					<i class="fa fa-user w3-xxlarge"></i>
+					<p>O mne</p>
+				</a>
+				<a class="w3-bar-item w3-button w3-padding-small  w3-text-blue w3-hover-white w3-circle" href="#Zručnosti">
+					<i class="fa fa-briefcase w3-xxlarge"></i>
+					<p> Zručnosti </p>
+				</a>
+				<a class="w3-bar-item w3-button w3-padding-small  w3-text-blue w3-hover-white w3-circle" href="#Form">
+					<i class="fa fa-download w3-xxlarge"></i>
+					<p>Formulár</p>
+				</a>
 
-			</a>
+				<a class="w3-bar-item w3-button w3-padding-small  w3-text-blue w3-hover-white w3-circle" href="#Test">
+					<i class="fa fa-asterisk w3-xxlarge"></i>
+					<p>Ohlasy</p>
+				</a>
+				<a class="w3-bar-item w3-button w3-padding-small  w3-text-blue w3-hover-white w3-circle" href="#Fotky">
+					<i class="fa fa-eye w3-xxlarge"></i>
+					<p>Fotky</p>
+				</a>
+				<a class="w3-bar-item w3-button w3-padding-small w3-text-blue w3-hover-white w3-circle" href="#MyCV">
+					<i class="fa fa-calendar w3-xxlarge"></i>
+					<p>My CV</p>
+				</a>
+				<a class="w3-bar-item w3-button w3-padding-small  w3-text-blue w3-hover-white w3-circle" href="#footer">
+					<i class="fa fa-globe w3-xxlarge"></i>
+					<p>Kontakt</p>
+				</a>
+				<!-- Return to Top -->
+				<a class="w3-bar-item  w3-button  w3-text-blue w3-padding-small w3-hover-white w3-circle" href="#main">
+					<!--button class="w3-padding-large w3-text-grey w3-button w3-hover-yellow"-->
+					<i class="fa fa-arrow-up w3-hover-white w3-xxlarge w3-margin-center"></i>
+					<p>Hore</p>
+					<!-- End footer -->
 
+				</a>
+			</nav>
 		</div>
-
-
+	</div>
 
 		<!-- Navbar on small screens (Hidden on medium and large screens) -->
+
 		<nav class="navbar navbar-default">
 			<div class="container-fluid">
 				<div class="navbar-header">
@@ -167,7 +183,7 @@
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 					</button>
-					<div id="myNavbar" class="w3-hide-medium w3-hide-large">
+					<div id="myNavbar" class="w3-left w3-hide-medium w3-hide-large">
 
 
 
@@ -178,8 +194,9 @@
 							<a class="w3-bar-item w3-button w3-hover-white" href="#Form" style="width:25% !important"><i class="fa fa-download w3-small"></i> Formulár</a>
 							<a class="w3-bar-item w3-button w3-hover-white" href="#Test" style="width:25% !important"><i class="fa fa-heart w3-small"></i> Ohlasy</a>
 							<a class="w3-bar-item w3-button w3-hover-white" href="#Fotky" style="width:25% !important"><i class="fa fa-eye w3-small"></i> Fotky</a>
-							<!--a href="#Hudba" class="w3-bar-item w3-button w3-hover-white" style="width:25% !important"> <i class="fa fa-music w3-small"></i> Hudba</a-->
+							<a class="w3-bar-item w3-button w3-hover-white" href="#MyCV" style="width:25% !important"><i class="fa fa-calendar w3-small"></i> My CV</a>
 							<a class="w3-bar-item w3-button w3-hover-white" href="#footer" style="width:25% !important"><i class="fa fa-globe w3-small"></i> Kontakt</a>
+							<a class="w3-bar-item w3-button w3-hover-white" href="#main" style="width:25% !important"><i class="fa fa-arrow-left w3-small"></i> Návrat</a>
 						</div>
 					</div>
 				</div>
@@ -321,44 +338,44 @@
 												<!-- About Section form -->
 												<section id="Form">
 
-													<div id="Form" class="w3-content  w3-text-grey w3-padding-160">
-														<h2 class="w3-padding-16 w3-text-light-blue w3-hover-white">Form / Formulár</h2>
+													<div id="Form" class="w3-content w3-text-grey w3-padding-60">
+														<h2 class="w3-padding-4 w3-text-light-blue w3-hover-white">Form / Formulár</h2>
 														<hr class="w3-padding-60" style="width:235px">
 
-														<div class="invoice-details">
+														<!--div class="invoice-details"-->
 
-															<!--h4 class="title-small mb-md-1">Contact us</h4>
+														<!--h4 class="title-small mb-md-1">Contact us</h4>
             <p class="sub-line mb-md-3">
                 If you've got general questions about our service,
                 have run into problems or just want to share feedback
                 then reach out to our support team below.
-            </p>
+            </p-->
 
 
 
 
 
-            <textarea class="invoice-textarea" required="" id="message" name="message" placeholder="Enter your message here..." rows="10"></textarea>
+														<!--textarea class="invoice-textarea" required="required" id="message" placeholder="message"  rows="10"></textarea-->
 
-												<form method="post" action="/account/contact"-->
-															<form method="get" class="invoice-details">
+														<!--form method="post" action="/account/contact"-->
+														<form method="get" class="invoice-details w3-container w3-text-grey w3-padding-0">
 
-																<fieldset>
-																	<p class="w3-hover-text-light-blue w3-text-grey">
-																		<!--legend>Vyplňte formulár alebo ma kontaktujte na email:</legend-->
+															<fieldset>
+																<p class="w3-content w3-hover-text-light-blue w3-text-grey">
+																	<!--legend>Vyplňte formulár alebo ma kontaktujte na email:</legend-->
 
-																		<label for="fname">Meno:<br></label>
-																		<input type="text" required="required" name="fname" maxlength="8" placeholder="napíš meno" value="" id="fname"><br>
+																	<label for="fname">Vaše meno:<br></label>
+																	<input type="text" required="required" name="fname" maxlength="10" placeholder="first name" value="" id="fname"><br>
 
-																		<label>Priezvisko:<br></label>
-																		<input type="text" required="required" name="lname" maxlength="8" placeholder="napíš priezvisko" value="" id="lname">
-																		<!--br> password:
+																	<label>Vaše priezvisko:<br></label>
+																	<input type="text" required="required" name="lname" maxlength="10" placeholder="last name" value="" id="lname">
+																	<!--br> password:
 							<input type="password" maxlength="5" disabled="disabled"><br> color:
-							<input type="color" name="color"--><br><label>Dátum:<br></label>
-																		<input type="date" name="date">
+							<input type="color" name="color"--><br><label>Vyplň dátum:<br></label>
+																	<input type="date" name="date">
 
 
-																		<!--input type="checkbox" name="suhlas" id="suhlas" checked="checked">
+																	<!--input type="checkbox" name="suhlas" id="suhlas" checked="checked">
 														<label for="suhlas">: Súhlasím</label><br>
 
 														<!--label>
@@ -372,60 +389,63 @@
 							</label-->
 
 
-																		<!--select name="moznost">
+																	<!--select name="moznost">
 														<option value="a" selected="selected">1</option>
 														<option value="b" selected="selected">2</option>
 														<option value="c" selected="selected">3</option>
 														<option value="d" selected="selected">4 </option>
 													</select-->
-																		<br><label>Text:<br></label>
-																		<!--textarea writeonly--><textarea class="invoice-textarea" required="required" id="message" name="message" placeholder="message.." rows="8">
+																	<br><label>Váš text:<br>
+																		<!--textarea writeonly-->
+																		<textarea class="container-fluid invoice-textarea" required="required" name="message" placeholder="napíšte vaše otázky" value="" id="message" rows="10">
 
 													</textarea>
-																		<!--br>
-																			<input type="file" multiple>
+
+																		<!--input type="file" multiple="">
 
 
-																			<!--br>
+
 															mail:
 															<input type="email" required="required">
 															<br>
 
                     vek:
-                    <input type="number" required="required"><br-->
+                    <input type="number" required="required"-->
 
 																		<input type="submit">
-																		<input type="reset">
+																		<input type="reset">Váš email
+																		<input type="email" required="required"><!--button class="w3-button"><i class="fa fa-envelope w3-content w3-text-grey"></i>
+													<a href="mailto:ksenicv@gmail.com"> Môžeš mi poslať email</a></button-->
 																		<!--input type="button" value="niečo"-->
-																	</p>
-																</fieldset>
-															</form>
-														</div>
+																	</label></p>
+															</fieldset>
+														</form></div>
 
 
 
 
 
 
-														<!--button class="w3-button w3-hover-blue w3-padding-large w3-section w3-text-grey"><a href="mailto:ksenicv@gmail.com" target="_blank"><i class="fa fa-envelope"><i> Odošli mi email</i></i></a></button-->
+
+													<!--button class="w3-button w3-hover-blue w3-padding-large w3-section w3-text-grey"><a href="mailto:ksenicv@gmail.com" target="_blank"><i class="fa fa-envelope"><i> Odošli mi email</i></i></a></button-->
 
 
-														<!--label>Tvoj mail:<br></label>
+													<!--label>Tvoj mail:<br></label>
 													<input type="email"-->
 
 
-														<!--br>
+													<!--br>
 														<input type="file" multiple-->
 
 
 
 
 
-														<!--input type="number"-->
+													<!--input type="number"-->
 
 
 
-														<!--img src="img/whatthe____.jpg" width="50"></button>
+													<!--img src="img/whatthe____.jpg" width="50"></button>
 												</fieldset>
 											</form>
 										</div>
@@ -439,7 +459,7 @@
 
 
 
-														<!--div class="w3-row-padding" style="margin:0 -16px">
+													<!--div class="w3-row-padding" style="margin:0 -16px">
 									<div class="w3-half w3-margin-bottom">
 										<ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
 											<li class="w3-dark-grey w3-xlarge w3-padding-24">Základ</li>
@@ -454,7 +474,7 @@
 											</li>
 											<li class="w3-hover-blue w3-padding-24">
 												<button class="w3-button"><i class="fa fa-envelope"></i>
-													<a href="mailto:ksenicv@gmail.com.com"> Odošli mi email</a></button>
+													<a href="mailto:ksenicv@gmail.com"> Odošli mi email</a></button>
 											</li>
 										</ul>
 									</div>
@@ -482,116 +502,121 @@
 
 
 
-														<!-- Testimonials/Ohlasy -->
-														<section id="Test">
+													<!-- Testimonials/Ohlasy -->
+													<section id="Test">
 
-															<div id="Test" class="w3-content  w3-text-grey w3-padding-160">
+														<div id="Test" class="w3-content  w3-text-grey w3-padding-60">
 
-																<h2 class="w3-padding-4  w3-text-light-blue w3-hover-white">Testimonials / Ohlasy </h2>
-																<hr class="w3-padding-60" style="width:255px">
-																<img class="w3-circle w3-float-left" src="./Image/john_doe.jpg" style="width:60px" alt="J. Doe">
-																<p><span class="w3-content w3-hover-white w3-margin-right w3-text-grey w3-wide ">John Doe.ASP Corporation.</span>
-																</p>
-																<p>”This master has been taking care of our company for years. It takes care of the security of our site and in addition that our site works flawlessly. Thank you :)“</p>
-																<br>
-																<img class="w3-circle" src="./Image/profile-pic.jpg" style="width:60px" alt="J. Suong">
-																<p><span class="w3-content w3-hover-white w3-margin-right w3-text-grey w3-wide">Jane Suong.Businesswoman.</span>
-																</p>
-																<p>”We needed to present our company and its products better on the web. Mr. V.K. has made us a perfect site. Now only in good, we almost do not want to supply the market with our products. Thank you again.“
-																</p>
-																<!-- End About Section -->
+															<h2 class="w3-padding-4  w3-text-light-blue w3-hover-white">Testimonials / Ohlasy </h2>
+															<hr class="w3-padding-0" style="width:325px">
+															<img class="w3-circle w3-float-left" src="./Image/john_doe.jpg" style="width:60px" alt="J. Doe">
+															<p><span class="w3-content w3-hover-white w3-margin-right w3-text-grey w3-wide ">John Doe.ASP Corporation.</span>
+															</p>
+															<p>”This master has been taking care of our company for years. It takes care of the security of our site and in addition that our site works flawlessly. Thank you :)“</p>
+															<br>
+															<img class="w3-circle" src="./Image/profile-pic.jpg" style="width:60px" alt="J. Suong">
+															<p><span class="w3-content w3-hover-white w3-margin-right w3-text-grey w3-wide">Jane Suong.Businesswoman.</span>
+															</p>
+															<p>”We needed to present our company and its products better on the web. Mr. V.K. has made us a perfect site. Now only in good, we almost do not want to supply the market with our products. Thank you again.“
+															</p>
+															<!-- End About Section -->
 
 
 
-																<!-- Portfolio Section -->
-																<div id="Fotky" class="w3-padding-0 w3-content">
-																	<h2 class="w3-text-light-blue w3-hover-white">Pics /Fotky </h2>
-																	<hr class="w3-padding-60" style="width:325px">
+															<!-- Portfolio Section -->
+															<div id="Fotky" class="w3-padding-0 w3-content">
+																<h2 class="w3-padding-4 w3-text-light-blue w3-hover-white">Pics / Fotky </h2>
+																<hr class="w3-padding-0" style="width:255px">
 
-																	<!-- Grid for photos -->
-																	<div class="w3-row-padding" style="margin:0 -16px">
-																		<div class="w3-half">
+																<!-- Grid for photos -->
+																<div class="w3-row-padding" style="margin:0 -16px">
+																	<div class="w3-half">
 
-																			<a href="./Image/b0ec08912e35316eb093bf286f6c1096.jpg" target="_blank">
-																				<img class="img-rounded" src="./Image/b0ec08912e35316eb093bf286f6c1096.jpg" alt="" width="100%" height="326"></a>
+																		<a href="./Image/b0ec08912e35316eb093bf286f6c1096.jpg" target="_blank">
+																			<img class="rounded" src="./Image/b0ec08912e35316eb093bf286f6c1096.jpg" alt="" width="100%" height="326"></a>
 
-																			<a href="/Image/fcda2edf1c06749546a1b3f5069fd8dc.jpg" target="_blank">
-																				<img class="img-rounded" src="./Image/fcda2edf1c06749546a1b3f5069fd8dc.jpg" alt="" width="100%" height="326"></a>
-																			<a href="./Image/0fa0e361160d052e079735eee2f8f136.jpg" target="_blank">
-																				<img class="img-rounded" src="./Image/0fa0e361160d052e079735eee2f8f136.jpg" alt="" width="100%" height="326"></a>
-																			<a href="
-																									 ./Image/INK.jpg" target="_blank"><img class="img-rounded" src="./Image/INK.jpg" alt="" width="100%" height="326"></a>
+																		<a href="/Image/fcda2edf1c06749546a1b3f5069fd8dc.jpg" target="_blank">
+																			<img class="rounded" src="./Image/fcda2edf1c06749546a1b3f5069fd8dc.jpg" alt="" width="100%" height="326"></a>
+																		<a href="./Image/0fa0e361160d052e079735eee2f8f136.jpg" target="_blank">
+																			<img class="rounded" src="./Image/0fa0e361160d052e079735eee2f8f136.jpg" alt="" width="100%" height="326"></a>
+																		<a href="
+																									 ./Image/INK.jpg" target="_blank"><img class="rounded" src="./Image/INK.jpg" alt="" width="100%" height="326"></a>
 
-																			<!--iframe width="100%" height="190" src="https://www.youtube.com/embed/_eThAg5OrHQ?autoplay=0" frameborder="0" align="" scrolling="no" name="Feeling Awesome ' Chill House Mix">
+																		<!--iframe width="100%" height="190" src="https://www.youtube.com/embed/_eThAg5OrHQ?autoplay=0" frameborder="0" align="" scrolling="no" name="Feeling Awesome ' Chill House Mix">
 												</iframe-->
 
-																		</div>
+																	</div>
 
-																		<div class="w3-half">
-																			<a href="./Image/8f7e1da1376255a7f2c1fd9edf80ef44.jpg" target="_blank"><img class="img-rounded" src="./Image/8f7e1da1376255a7f2c1fd9edf80ef44.jpg" alt="" width="100%" height="326"></a>
-																			<!--img src="./Image/web-technologies.png" alt="it" style="width:100%" height="264">
+																	<div class="w3-half">
+																		<a href="./Image/8f7e1da1376255a7f2c1fd9edf80ef44.jpg" target="_blank"><img class="rounded" src="./Image/8f7e1da1376255a7f2c1fd9edf80ef44.jpg" alt="" width="100%" height="326"></a>
+																		<!--img src="./Image/web-technologies.png" alt="it" style="width:100%" height="264">
 												<img src="./Image/374gti.jpg" style="width:20%" height="105">
 												<img src="./Image/bootstrap.png" alt="bs" width="20%" height="105"-->
-																			<a href="./Image/be8ad217f286a5754c09fddd71b4fd7c.jpg" target="_blank">
-																				<img class="img-rounded" src="./Image/be8ad217f286a5754c09fddd71b4fd7c.jpg" alt="" width="100%" height="326"></a>
-																			<a href="./Image/human-3175027_1920.jpg" target="_blank"><img class="rounded" src="./Image/human-3175027_1920.jpg" alt="" style="width:100%" height="326"></a>
-																			<a href="./Image/c04413ca0449a64ec6d79230f333d8db.jpg" target="_blank"><img class="rounded" src="./Image/c04413ca0449a64ec6d79230f333d8db.jpg" alt="" style="width:100%" height="326"></a>
+																		<a href="./Image/be8ad217f286a5754c09fddd71b4fd7c.jpg" target="_blank">
+																			<img class="rounded" src="./Image/be8ad217f286a5754c09fddd71b4fd7c.jpg" alt="" width="100%" height="326"></a>
+																		<a href="./Image/human-3175027_1920.jpg" target="_blank"><img class="rounded" src="./Image/human-3175027_1920.jpg" alt="" style="width:100%" height="326"></a>
+																		<a href="./Image/c04413ca0449a64ec6d79230f333d8db.jpg" target="_blank"><img class="rounded" src="./Image/c04413ca0449a64ec6d79230f333d8db.jpg" alt="" style="width:100%" height="326"></a>
 
 
-																			<!-- End photo grid -->
-																			<!-- End Portfolio Section -->
+																		<!-- End photo grid -->
+																		<!-- End Portfolio Section -->
+																	</div>
+																	</div>
 
-																		</div>
-
-																		<!--div class="w3-content  w3-text-grey w3-padding-16" id="Hudba">
+																	<!--div class="w3-content  w3-text-grey w3-padding-16" id="Hudba">
 																						<section id="Hudba"-->
+																	<!-- MyCV section -->
 
-																		<div id="Hudba" class="w3-container  w3-text-grey w3-padding-60">
-																			<h2 class="w3-margin-160 w3-text-light-blue w3-hover-white" style="width:225px">My CV</h2>
+																	<section id="MyCV">
+																	<div id="MyCV" class="w3-content w3-padding-0 w3-text-grey">
+																		<h2 class="w3-text-light-blue w3-hover-white" style="width:px">MyCV / Môj životopis</h2>
 
-																			<!--iframe class="rounded" src="https://youtube.com/embed/XJ9Vylyk5Uw? autoplay=0" style="border:none;" scrolling="no" Name="Night Lounge - Lounge Musik, Instrumentale Musik, Easy Listening & Chill Out - LATE NIGHT MOODS" width="100%" height="260" frameborder="0"></iframe-->
-																			<!--div style="width: 100%;"-->
-																				<div style="position: relative; padding-bottom: 56.25%; padding-top: 0; height: 0;"><iframe frameborder="0" width="1200px" height="675px" style="position:absolute; top: 0; left: 0; width: 100%; height: 90%;" src="https://view.genial.ly/5c963df2e1906b76bf619328" type="text/html" allowscriptaccess="always" allowfullscreen="true" scrolling="yes" allownetworking="all"></iframe> </div>
-																			</div>
-																			<!-- Footer Section -->
-
-
-																			<!-- Google maps Section -->
-																			<!--iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2631.6219359013385!2d21.282532850402756!3d48.731815279173595!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473ede29d93fb3bf%3A0xaa964d920a9e7e66!2sPostupimsk%C3%A1+755%2F29%2C+040+22+Ko%C5%A1ice!5e0!3m2!1sen!2ssk!4v1545327953895" width="100%" height="240" frameborder="0" style="border:0" allowfullscreen></iframe-->
-
-
-																			<footer>
-																				<footer id="footer" class="w3-container-fluid w3-padding-60  w3-text-grey">
-
-																					<h2 class="w3-margin-160 w3-text-light-blue w3-hover-white w3-padding-">Contact me / Napíš mi</h2>
+																		<!--iframe src="https://youtube.com/embed/XJ9Vylyk5Uw? autoplay=0" style="border:none;" scrolling="no" Name="Night Lounge - Lounge Musik, Instrumentale Musik, Easy Listening & Chill Out - LATE NIGHT MOODS" width="100%" height="260" frameborder="0"></iframe-->
+																		<!--div style="width: 100%;"-->
+																		<div style="position: relative; padding-bottom: 56.25%; padding-top: 0; height: 0;"><iframe frameborder="0" width="1400px" height="675px" style="position:absolute; top: 0; left: 0; width: 100%; height: 92%;" src="https://view.genial.ly/5c963df2e1906b76bf619328" type="text/html" allowscriptaccess="always" allowfullscreen="true" scrolling="yes" allownetworking="all"></iframe>
+																		</div>
+																		</div>
+																	<!-- Footer Section -->
 
 
+																	<!-- Google maps Section -->
+																	<!--iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2631.6219359013385!2d21.282532850402756!3d48.731815279173595!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473ede29d93fb3bf%3A0xaa964d920a9e7e66!2sPostupimsk%C3%A1+755%2F29%2C+040+22+Ko%C5%A1ice!5e0!3m2!1sen!2ssk!4v1545327953895" width="100%" height="240" frameborder="0" style="border:0" allowfullscreen></iframe-->
 
 
-																						<i class="fa fa-map-marker fa-fw w3-text-red w3-xlarge w3-left"></i>Košice, Slovakia
+																	<footer>
+																		<footer id="footer" class="w3-content w3-padding-0  w3-text-grey">
 
-																						<a class="fa fa-phone fa-fw w3-text-orange w3-xlarge w3-margin-left"></a>Telefón: +421 6711924
-																					<a class="fa fa-envelope fa-fw w3-text-green w3-xlarge w3-margin-left"href="mailto:ksenicv@gmail.com" data-toggle="tooltip" title="Napíš mi na email!"></a>Email
-
-																					<p class="w3-center w3-justify w3-padding-4  w3-text-light-blue w3-wide"><br>Powered by ©V.Ksenič ©All rights reserved 2019.
-																						<!--a href="https://github.com/settings/profile?rel=" target="_blank" class="w3-hover-white"><i class="fa fa-github w3-hover-opacity"-->Find me on social media!>>> <a class="fa fa-facebook-official w3-hover-text-blue" href="https://www.facebook.com/vladimir.ksenic"  data-toggle="tooltip" title="Som aj na FB"></a>
-																						<a class="fa fa-pinterest w3-hover-text-white" href="https://sk.pinterest.com/ksenicv/" ></a>
-																						<a class="fa fa-twitter w3-hover-text-white" href="https://twitter.com/ladow11">
-																						</a>
-																						<a class="fa fa-youtube  w3-hover-text-white" href="https://www.youtube.com/channel/UCX3EKD2gPCW81IiBCWDeh-Q?view_as=subscriber">
-																						</a>
-																						<a class="fa fa-instagram w3-hover-text-white" href="https://www.instagram.com/vladimirksenic/">
-																						</a>
-																						<a class="fa fa-mixcloud w3-hover-text-white" href="https://www.mixcloud.com/vladim%C3%ADr-kseni%C4%8D/favorites/"></a>
-
-																						<a class="fa fa-linkedin w3-hover-text-white" href="https://www.linkedin.com/in/vladim%C3%ADr-kseni%C4%8D-a084a2161/"></a>
-																						<a class="fa fa-github w3-hover-white w3-center  w3-justify  w3-wide" href="https://github.com/settings/profile?rel=" data-toggle="tooltip" title="Github"></a></p></footer></footer>
+																			<h2 class="w3-text-light-blue w3-hover-white">Contact me / Napíš mi</h2>
 
 
 
 
+																			<i class="fa fa-map-marker fa-fw w3-text-red w3-xlarge w3-left" title="Mesto"></i>Košice, Slovakia
 
-																						<!--form action="/action_page.php" target="_blank">
+																			<i class="fa fa-phone fa-fw w3-text-orange w3-xlarge w3-margin-left" title="Zavolajte!"></i>+421 556711924
+																			<a class="fa fa-envelope fa-fw w3-text-green w3-xlarge w3-margin-left" href="mailto:ksenicv@gmail.com" data-toggle="tooltip" title="Napíš mi na email!"></a>Email
+
+																			<p class="w3-small  w3-padding-4  w3-text-light-blue w3-center  w3-wide"><br>Powered by ©V.Ksenič ©All rights reserved 2019.
+																				<!--a href="https://github.com/settings/profile?rel=" target="_blank" class="w3-hover-white"><i class="fa fa-github w3-hover-opacity"-->Find me on social media!>>> <a class="fa fa-facebook-official w3-hover-text-blue" href="https://www.facebook.com/vladimir.ksenic" data-toggle="tooltip" title="Nájdeš ma aj na FB"></a>
+																				<a class="fa fa-pinterest w3-hover-text-white" href="https://sk.pinterest.com/ksenicv/"></a>
+																				<a class="fa fa-twitter w3-hover-text-white" href="https://twitter.com/ladow11">
+																				</a>
+																				<a class="fa fa-youtube  w3-hover-text-white" href="https://www.youtube.com/channel/UCX3EKD2gPCW81IiBCWDeh-Q?view_as=subscriber">
+																				</a>
+																				<a class="fa fa-instagram w3-hover-text-white" href="https://www.instagram.com/vladimirksenic/">
+																				</a>
+																				<a class="fa fa-mixcloud w3-hover-text-white" href="https://www.mixcloud.com/vladim%C3%ADr-kseni%C4%8D/favorites/"></a>
+
+																				<a class="fa fa-linkedin w3-hover-text-white" href="https://www.linkedin.com/in/vladim%C3%ADr-kseni%C4%8D-a084a2161/"></a>
+																				<a class="fa fa-github w3-hover-white w3-center  w3-justify  w3-wide" href="https://github.com/settings/profile?rel=" data-toggle="tooltip" title="Github"></a></p>
+																		</footer>
+																	</footer>
+
+
+
+
+
+																	<!--form action="/action_page.php" target="_blank">
 										<p><input class="w3-input w3-padding-16" type="text" placeholder="Tvoje meno" required name="Tvoje meno"></p>
 										<p><input class="w3-input w3-padding-16" type="text" placeholder="Email" required name="Email"></p>
 										<p><input class="w3-input w3-padding-16" type="text" placeholder="Subjekt" required name="Subjekt"></p>
@@ -607,23 +632,23 @@
 
 
 
-																							<!-- End footer -->
+																	<!-- End footer -->
 
-																						<!-- Return to Top -->
-																						<a id="Domov" class="w3-button w3-grey w3-padding-small fa fa-arrow-up w3-text-blue w3-hover-white w3-xlarge w3-right" href="#Domov" style="display: inline-block position: absolute; top: 0; left: 0; width: 100%; height: 100%;">Up
-																							<!--button class="w3-padding-large w3-text-grey w3-button w3-hover-yellow"-->
-																							</a>
+																	<!-- Return to Top -->
+																	<a id="Domov" class="w3-button w3-grey w3-padding-small fa fa-arrow-up w3-text-blue w3-hover-white w3-xlarge w3-right" href="#Domov" style="display: inline-block position: absolute; top: 0; left: 0; width: 100%; height: 100%;" title="Späť na začiatok stránky">Up
+																		<!--button class="w3-padding-large w3-text-grey w3-button w3-hover-yellow"-->
+																	</a>
 
 
 
-																		<p></p>
-																	</div>
-																</div>
+																	<p></p>
+																</section>
 															</div>
-														</section>
+														</div>
+													</section>
 
 
-													</div>
+
 													<i><i></i>
 
 													</i>
@@ -642,10 +667,7 @@
 				</div>
 			</div>
 		</nav>
-	</div>
-</body>
-
-</html>
+	</body></html>
 
 
 
