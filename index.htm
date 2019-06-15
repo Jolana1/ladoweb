@@ -6,7 +6,7 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-
+    <script src=""></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<!--link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat"-->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -18,6 +18,21 @@
 	<!--link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css"-->
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+	<!-- 1. Add latest jQuery and fancybox files -->
+    <script src="//code.jquery.com/jquery-3.3.1.min.js"></script>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+	<!-- CSS -->
+	<link rel="stylesheet" type="text/css" href="jquery.fancybox.min.css">
+
+	<!-- Your HTML content goes here -->
+
+	<!-- JS -->
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+	<script src="jquery.fancybox.min.js"></script>
+</head>
+<body>
 
 
 
@@ -113,14 +128,14 @@
 	</style>
 
 
-	<!-- Page Container >
+	<!-- Page Container-- >
 <div class="w3-content w3-margin-top"-->
 	<!-- Page Container -->
-</head>
 
-<body>
+
+<!--body-->
 	<div class="content" style="max-width:2000px;">
-		<div class="w3-sidebar w3-navbar w3-bar-block w3-small w3-hide-small w3-center">
+	<div class="w3-sidebar w3-navbar w3-bar-block w3-small w3-hide-small w3-center">
 			<!-- Icon Bar (Sidebar - hidden on small screens) -->
 			<nav class="w3-sidebar w3-bar-block w3-small w3-black w3-center">
 
@@ -154,14 +169,14 @@
 				</a>
 				<a class="w3-bar-item w3-button w3-padding-small w3-text-blue w3-hover-white w3-circle" href="#MyCV">
 					<i class="fa fa-calendar w3-xxlarge"></i>
-					<p>My CV</p>
+					<p>Životopis</p>
 				</a>
 				<a class="w3-bar-item w3-button w3-padding-small  w3-text-blue w3-hover-white w3-circle" href="#footer">
 					<i class="fa fa-globe w3-xxlarge"></i>
 					<p>Kontakt</p>
 				</a>
 				<!-- Return to Top -->
-				<a class="w3-bar-item  w3-button  w3-text-blue w3-padding-small w3-hover-white w3-circle" href="#main">
+				<a class="w3-bar-item  w3-button  w3-text-blue w3-padding-small w3-hover-white w3-circle" href="#Domov">
 					<!--button class="w3-padding-large w3-text-grey w3-button w3-hover-yellow"-->
 					<i class="fa fa-arrow-up w3-hover-white w3-xxlarge w3-margin-center"></i>
 					<p>Hore</p>
@@ -170,50 +185,16 @@
 				</a>
 			</nav>
 		</div>
-	</div>
+
+
+
 
 		<!-- Navbar on small screens (Hidden on medium and large screens) -->
 
-		<nav class="navbar navbar-default">
-			<div class="container-fluid">
-				<div class="navbar-header">
+<div class="w3-top w3-hide-medium w3-hide-large" id="myNavbar">
+  <div class="w3-bar w3-small w3-opacity  w3-hover-opacity-off w3-center  w3-black ">
 
-					<button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#myNavbar">
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-					</button>
-					<div id="myNavbar" class="w3-left w3-hide-medium w3-hide-large">
-
-
-
-						<div class="w3-bar w3-white w3-opacity w3-hover-opacity-off w3-center w3-small">
-							<a class="w3-bar-item w3-button w3-hover-white " href="#Domov" style="width:25% !important"><i class="fa fa-home w3-small"></i> Domov</a>
-							<a class="w3-bar-item w3-button w3-hover-white" href="#O mne" style="width:25% !important"><i class="fa fa-user w3-small"></i> O mne</a>
-							<a class="w3-bar-item w3-button w3-hover-white" href="#Zručnosti" style="width:25% !important"><i class="fa fa-briefcase w3-small"></i> Zručnosti</a>
-							<a class="w3-bar-item w3-button w3-hover-white" href="#Form" style="width:25% !important"><i class="fa fa-download w3-small"></i> Formulár</a>
-							<a class="w3-bar-item w3-button w3-hover-white" href="#Test" style="width:25% !important"><i class="fa fa-heart w3-small"></i> Ohlasy</a>
-							<a class="w3-bar-item w3-button w3-hover-white" href="#Fotky" style="width:25% !important"><i class="fa fa-eye w3-small"></i> Fotky</a>
-							<a class="w3-bar-item w3-button w3-hover-white" href="#MyCV" style="width:25% !important"><i class="fa fa-calendar w3-small"></i> My CV</a>
-							<a class="w3-bar-item w3-button w3-hover-white" href="#footer" style="width:25% !important"><i class="fa fa-globe w3-small"></i> Kontakt</a>
-							<a class="w3-bar-item w3-button w3-hover-white" href="#main" style="width:25% !important"><i class="fa fa-arrow-left w3-small"></i> Návrat</a>
-						</div>
-					</div>
-				</div>
-
-
-
-				<!-- Page Content -->
-
-				<div id="main" class="w3-content  w3-text-grey w3-padding-160">
-
-					<!--Header/Home -->
-					<header>
-						<header id="Domov" class="w3-padding-160 w3-margin w3-center w3-text-light-blue w3-hover-white">
-
-							<!--div class="container">
-
-	  <div class="panel-group">
+	  <!--div class="panel-group">
     <div class="panel panel-default">
       <div class="panel-heading">
         <h4 class="panel-title">
@@ -227,6 +208,37 @@
     </div>
   </div>
 </div-->
+
+
+
+
+
+
+						    <a class="w3-bar-item w3-button w3-hover-white" href="#Domov" style="width:25% !important"><i class="fa fa-home w3-small"></i> Domov</a>
+							<a class="w3-bar-item w3-button w3-hover-white" href="#O mne" style="width:25% !important"><i class="fa fa-user w3-small"></i> O mne</a>
+							<a class="w3-bar-item w3-button w3-hover-white" href="#Zručnosti" style="width:25% !important"><i class="fa fa-briefcase w3-small"></i> Zručnosti</a>
+							<a class="w3-bar-item w3-button w3-hover-white" href="#Form" style="width:25% !important"><i class="fa fa-download w3-small"></i> Formulár</a>
+							<a class="w3-bar-item w3-button w3-hover-white" href="#Test" style="width:25% !important"><i class="fa fa-heart w3-small"></i> Ohlasy</a>
+							<a class="w3-bar-item w3-button w3-hover-white" href="#Fotky" style="width:25% !important"><i class="fa fa-eye w3-small"></i> Fotky</a>
+							<a class="w3-bar-item w3-button w3-hover-white" href="#MyCV" style="width:25% !important"><i class="fa fa-calendar w3-small"></i> My CV</a>
+							<a class="w3-bar-item w3-button w3-hover-white" href="#footer" style="width:25% !important"><i class="fa fa-globe w3-small"></i> Kontakt</a>
+							<a class="w3-bar-item w3-button w3-hover-white" href="#Domov" style="width:25% !important"><i class="fa fa-arrow-left w3-small"></i> Návrat</a>
+						</div></div>
+
+
+
+
+
+				<!-- Page Content-->
+
+				<div id="main" class="w3-content  w3-text-grey w3-padding-60">
+
+					<!--Header/Home -->
+					<header>
+						<header id="Domov" class="w3-padding-160 w3-margin w3-center w3-text-light-blue w3-hover-white">
+
+							<!--div class="container"-->
+
 
 
 
@@ -266,7 +278,7 @@
 
 								<!-- About Section -->
 								<div id="O mne" class="w3-margin w3-justify w3-text-grey w3-padding-60 ">
-									<h2 class="w3-text-light-blue w3-hover-white "><i>About me / O mne </i></h2>
+									<h2 class="w3-text-light-blue w3-hover-white ">About me </h2>
 									<hr class="w3-padding-4" style="width:280px">
 									<p><b><i>Hello everyone!</i>
 											<br></b>
@@ -275,16 +287,16 @@
 
 
 												<!-- About Section --></i></i></p>
-									<div id="Zručnosti" class="w3-content w3-justify w3-text-grey w3-padding-60"><i><i>
-												<h2 class="w3-padding-4 w3-text-light-blue w3-hover-white">Skills / Zručnosti</h2>
+									<div id="Zručnosti" class="w3-content w3-justify w3-text-grey w3-padding-60">
+												<h2 class="w3-padding-4 w3-text-light-blue w3-hover-white">Skills </h2>
 												<hr class="w3-padding-60" style="width:275px">
-												<p class="w3-wide">Bootstrap3,4 & MS Office & Windows & Dizajn webu</p>
+												<p class="w3-wide">Bootstrap 3,4 & WordPress & Windows & Html 4,5</p>
 												<div class="w3-white">
 													<div class="progress">
 														<div class="progress-bar progress-bar-striped progress-bar-animated w3-light-blue" style="width:99%"></div>
 													</div>
 												</div>
-												<p class="w3-wide">Html3,4,5 & CSS</p>
+												<p class="w3-wide">CSS & Dizajn webu</p>
 												<div class="w3-white">
 													<div class="progress">
 														<div class="progress-bar progress-bar-striped progress-bar-animated w3-light-blue" style="width:95%"></div>
@@ -297,12 +309,12 @@
 													</div>
 												</div>
 
-												<p class="w3-wide">Javascript & React</p>
+												<p class="w3-wide">Javascript & Python</p>
 												<div class="w3-white">
 													<div class="progress">
 														<div class="progress-bar progress-bar-striped progress-bar-animated w3-light-blue" style="width:85%"></div>
 													</div>
-													<p class="w3-wide w3-text-grey">CSS3 & Less</p>
+													<p class="w3-wide w3-text-grey">React</p>
 													<div class="w3-white">
 														<div class="progress">
 															<div class="progress-bar progress-bar-striped progress-bar-animated w3-light-blue " style="width:75%"></div>
@@ -339,7 +351,7 @@
 												<section id="Form">
 
 													<div id="Form" class="w3-content w3-text-grey w3-padding-60">
-														<h2 class="w3-padding-4 w3-text-light-blue w3-hover-white">Form / Formulár</h2>
+														<h2 class="w3-padding-4 w3-text-light-blue w3-hover-white">Form </h2>
 														<hr class="w3-padding-60" style="width:235px">
 
 														<!--div class="invoice-details"-->
@@ -358,10 +370,11 @@
 														<!--textarea class="invoice-textarea" required="required" id="message" placeholder="message"  rows="10"></textarea-->
 
 														<!--form method="post" action="/account/contact"-->
-														<form method="get" class="invoice-details w3-container w3-text-grey w3-padding-0">
+
+														<form method="get" class="invoice-details container-fluid text-grey padding-0">
 
 															<fieldset>
-																<p class="w3-content w3-hover-text-light-blue w3-text-grey">
+																<p class="w3-hover-text-light-blue w3-text-grey">
 																	<!--legend>Vyplňte formulár alebo ma kontaktujte na email:</legend-->
 
 																	<label for="fname">Vaše meno:<br></label>
@@ -412,9 +425,9 @@
                     vek:
                     <input type="number" required="required"-->
 
-																		<input type="submit">
-																		<input type="reset">Váš email
-																		<input type="email" required="required"><!--button class="w3-button"><i class="fa fa-envelope w3-content w3-text-grey"></i>
+																		<input type="submit" required="required">
+																		<input type="reset">
+																		<!--input type="email" required="required"><button class="w3-button"><i class="fa fa-envelope w3-content w3-text-grey"></i>
 													<a href="mailto:ksenicv@gmail.com"> Môžeš mi poslať email</a></button-->
 																		<!--input type="button" value="niečo"-->
 																	</label></p>
@@ -507,7 +520,7 @@
 
 														<div id="Test" class="w3-content  w3-text-grey w3-padding-60">
 
-															<h2 class="w3-padding-4  w3-text-light-blue w3-hover-white">Testimonials / Ohlasy </h2>
+															<h2 class="w3-padding-4  w3-text-light-blue w3-hover-white">Testimonials </h2>
 															<hr class="w3-padding-0" style="width:325px">
 															<img class="w3-circle w3-float-left" src="./Image/john_doe.jpg" style="width:60px" alt="J. Doe">
 															<p><span class="w3-content w3-hover-white w3-margin-right w3-text-grey w3-wide ">John Doe.ASP Corporation.</span>
@@ -525,7 +538,7 @@
 
 															<!-- Portfolio Section -->
 															<div id="Fotky" class="w3-padding-0 w3-content">
-																<h2 class="w3-padding-4 w3-text-light-blue w3-hover-white">Pics / Fotky </h2>
+																<h2 class="w3-padding-4 w3-text-light-blue w3-hover-white">Pics </h2>
 																<hr class="w3-padding-0" style="width:255px">
 
 																<!-- Grid for photos -->
@@ -569,7 +582,7 @@
 
 																	<section id="MyCV">
 																	<div id="MyCV" class="w3-content w3-padding-0 w3-text-grey">
-																		<h2 class="w3-text-light-blue w3-hover-white" style="width:px">MyCV / Môj životopis</h2>
+																		<h2 class="w3-text-light-blue w3-hover-white" style="width:px">MyCV </h2>
 
 																		<!--iframe src="https://youtube.com/embed/XJ9Vylyk5Uw? autoplay=0" style="border:none;" scrolling="no" Name="Night Lounge - Lounge Musik, Instrumentale Musik, Easy Listening & Chill Out - LATE NIGHT MOODS" width="100%" height="260" frameborder="0"></iframe-->
 																		<!--div style="width: 100%;"-->
@@ -586,7 +599,7 @@
 																	<footer>
 																		<footer id="footer" class="w3-content w3-padding-0  w3-text-grey">
 
-																			<h2 class="w3-text-light-blue w3-hover-white">Contact me / Napíš mi</h2>
+																			<h2 class="w3-text-light-blue w3-hover-white">Contact me </h2>
 
 
 
@@ -656,18 +669,9 @@
 													<p>
 													</p>
 												</section>
-											</i>
-										</i>
-									</div>
-								</div>
+
 								<script src="//s3.amazonaws.com/js-static/2001379501c6f3c8ca.js"></script>
-							</h1,h6>
-						</header>
-					</header>
-				</div>
-			</div>
-		</nav>
-	</body></html>
+									</div></div></h1,h6></header></header></div></div></body></html>
 
 
 
