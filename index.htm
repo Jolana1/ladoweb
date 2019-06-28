@@ -8,7 +8,7 @@
 	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <script src=""></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-	<!--link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat"-->
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<!--link rel="stylesheet" href="./Css/W3css.css"-->
 	<link rel="stylesheet" href="./Css/w31.css">
@@ -31,13 +31,10 @@
 	<!-- JS -->
 	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 	<script src="jquery.fancybox.min.js"></script>
-</head>
+
 <body>
-
-
-
-	<style>
-		h1,
+<style> body,
+	    h1,
 		h2,
 		h3,
 		h4,
@@ -75,7 +72,7 @@
 		/* Set the width of the sidebar to 80px */
 		.w3-sidebar {
 			width: 80px;
-			max-height: inherit;
+			max-height:inherit;
 			background-color: #000;
 
 		}
@@ -106,11 +103,9 @@
 			height: 100%;
 		}
 
-		/* Set black background color, white text and some padding */
-		footer {
-			background-color: black;
-			color: white;
-			padding: 10px;
+		/* Set black backgroundcolor whitext and some padding */
+		footer {	background-color:black;
+		 text-align: center;	padding: 10px;
 		}
 
       /* ak chcem img na pozadie v stranke */
@@ -124,7 +119,7 @@
 			color: white;
 			/* bílý text */
 		}
-
+</head>
 	</style>
 
 
@@ -134,13 +129,13 @@
 
 
 <!--body-->
-	<div class="content" style="max-width:2000px;">
+
 	<div class="w3-sidebar w3-navbar w3-bar-block w3-small w3-hide-small w3-center">
 			<!-- Icon Bar (Sidebar - hidden on small screens) -->
 			<nav class="w3-sidebar w3-bar-block w3-small w3-black w3-center">
 
 				<!-- Avatar image in top left corner -->
-				<img src="./Image/IMG_3155.jpg" class="rounded" alt="me" style="width:80px;height:99px" title="I am a Front End Developer based in Kosice, Slovakia with more than 2years of well rounded experience, developing complex web applications. Particularly interested in new technologies, new frameworks and programming languages. True believer on teamwork and open source community.">
+				<img src="./Image/IMG_3155.jpg" class="rounded" alt="me" style="width:80px;height:99px" title="I am a Front End Developer based in Kosice, Slovakia with more than years of well rounded experience, developing complex web applications. Particularly interested in new technologies, new frameworks and programming languages. True believer on teamwork and open source community.">
 
 				<a class="w3-bar-item w3-button w3-padding-small w3-text-blue w3-hover-white w3-circle" href="#Domov">
 					<i class="fa fa-home w3-xxlarge"></i>
@@ -171,6 +166,10 @@
 					<i class="fa fa-calendar w3-xxlarge"></i>
 					<p>Životopis</p>
 				</a>
+				<a class="w3-bar-item w3-button w3-padding-small w3-text-blue w3-hover-white w3-circle" href="#Music">
+					<i class="fa fa-music w3-xxlarge"></i>
+					<p>Hudba</p>
+				</a>
 				<a class="w3-bar-item w3-button w3-padding-small  w3-text-blue w3-hover-white w3-circle" href="#footer">
 					<i class="fa fa-globe w3-xxlarge"></i>
 					<p>Kontakt</p>
@@ -192,7 +191,7 @@
 		<!-- Navbar on small screens (Hidden on medium and large screens) -->
 
 <div class="w3-top w3-hide-medium w3-hide-large" id="myNavbar">
-  <div class="w3-bar w3-small w3-opacity  w3-hover-opacity-off w3-center  w3-black ">
+  <div class="w3-bar w3-small w3-opacity  w3-hover-opacity-off w3-center w3-black">
 
 	  <!--div class="panel-group">
     <div class="panel panel-default">
@@ -220,7 +219,8 @@
 							<a class="w3-bar-item w3-button w3-hover-white" href="#Form" style="width:25% !important"><i class="fa fa-download w3-small"></i> Formulár</a>
 							<a class="w3-bar-item w3-button w3-hover-white" href="#Test" style="width:25% !important"><i class="fa fa-heart w3-small"></i> Ohlasy</a>
 							<a class="w3-bar-item w3-button w3-hover-white" href="#Fotky" style="width:25% !important"><i class="fa fa-eye w3-small"></i> Fotky</a>
-							<a class="w3-bar-item w3-button w3-hover-white" href="#MyCV" style="width:25% !important"><i class="fa fa-calendar w3-small"></i> My CV</a>
+							<a class="w3-bar-item w3-button w3-hover-white" href="#MyCV" style="width:25% !important"><i class="fa fa-calendar w3-small"></i> Životopis</a>
+	                        <a class="w3-bar-item w3-button w3-hover-white" href="#Music" style="width:25% !important"><i class="fa fa-music w3-small"></i> Hudba</a>
 							<a class="w3-bar-item w3-button w3-hover-white" href="#footer" style="width:25% !important"><i class="fa fa-globe w3-small"></i> Kontakt</a>
 							<a class="w3-bar-item w3-button w3-hover-white" href="#Domov" style="width:25% !important"><i class="fa fa-arrow-left w3-small"></i> Návrat</a>
 						</div></div>
@@ -231,25 +231,25 @@
 
 				<!-- Page Content-->
 
-				<div id="main" class="w3-content  w3-text-grey w3-padding-60">
+				<div id="main" class="w3-container  w3-text-grey w3-padding-60">
 
 					<!--Header/Home -->
 					<header>
 						<header id="Domov" class="w3-padding-160 w3-margin w3-center w3-text-light-blue w3-hover-white">
 
-							<!--div class="container"-->
+
 
 
 
 
 							<h1,h6><span class="w3-wide">
 									<i>
-										<h1><b>I'm Vladimír K.</b></h1>
+										<h1><strong>I'm Vlad. K.</strong></h1>
 									</i>
 									<i>
 										<h6><b>I'm Front End Developer.</b></h6>
 									</i>
-									<a href="./Image/photo-1461722936851-13a79b294a5d.jpeg" target="_blank"><img class="img-thumbnail mx-auto d-block" src="./Image/photo-1461722936851-13a79b294a5d.jpeg" alt="intro" style="width:100%;height:420px" title="I am a Front end Developer based in Kosice, Slovakia."></a>
+									<a href="./Image/puzzle-3223941_1920.jpg" target="_blank"><img class="img-thumbnail mx-auto d-block" src="./Image/puzzle-3223941_1920.jpg" alt="intro" style="width:100%;height:420px" title="I am a Front end Developer based in Kosice, Slovakia."></a>
 									<!--img class="img-responsive img-rounded"  img src="./Image/8f7e1da1376255a7f2c1fd9edf80ef44.jpg" width="500px" height="805px"  alt="intro"-->
 								</span>
 
@@ -280,13 +280,13 @@
 								<div id="O mne" class="w3-margin w3-justify w3-text-grey w3-padding-60 ">
 									<h2 class="w3-text-light-blue w3-hover-white ">About me </h2>
 									<hr class="w3-padding-4" style="width:280px">
-									<p><b><i>Hello everyone!</i>
+									<p><b><i>Hi there!</i>
 											<br></b>
-										<br><i>I am a Front-end Developer based in Kosice, Slovakia with more than years of well rounded experience, developing complex web applications. Particularly interested in new technologies, new frameworks and programming languages. True believer on teamwork and open source community.
-											I wish your friends a have nice day :)<br><br>Som Front-end Developer so sídlom v Košiciach na Slovensku s viacročnými skúsenosťami, vyvíjajúc komplexné webové stránky a aplikácie. Zaujímam sa najmä o nové technológie, nové rámce a programovacie jazyky.Verím na tímovú prácu a komunitu. <i>
+										<br><i>I am a Front-end Developer based in Kosice, Slovakia with more years of well rounded experience, developing complex web applications. Particularly i interested in new technologies, new frameworks and programming languages. I believe on teamwork and open source community. I'm an programmer and overall an IT guy.
+											<br><br>Som front-end vývojár so sídlom v Košiciach na Slovensku s viacročnými skúsenosťami s vývojom komplexných webových aplikácií. Zaujímajú ma najmä nové technológie, nové rámce a programovacie jazyky. Verím v tímovú prácu a open source komunitu. Som programátor a celkovo IT človek.
 
 
-												<!-- About Section --></i></i></p>
+												<!-- About Section --></i></p>
 									<div id="Zručnosti" class="w3-content w3-justify w3-text-grey w3-padding-60">
 												<h2 class="w3-padding-4 w3-text-light-blue w3-hover-white">Skills </h2>
 												<hr class="w3-padding-60" style="width:275px">
@@ -521,27 +521,44 @@
 														<div id="Test" class="w3-content  w3-text-grey w3-padding-60">
 
 															<h2 class="w3-padding-4  w3-text-light-blue w3-hover-white">Testimonials </h2>
-															<hr class="w3-padding-0" style="width:325px">
+															<hr class="w3-padding-60" style="width:325px">
 															<img class="w3-circle w3-float-left" src="./Image/john_doe.jpg" style="width:60px" alt="J. Doe">
 															<p><span class="w3-content w3-hover-white w3-margin-right w3-text-grey w3-wide ">John Doe.ASP Corporation.</span>
 															</p>
-															<p>”This master has been taking care of our company for years. It takes care of the security of our site and in addition that our site works flawlessly. Thank you :)“</p>
+															<i>”This master has been taking care of our company for years. It takes care of the security of our site and in addition that our site works flawlessly. Thank you :)“</i>
 															<br>
 															<img class="w3-circle" src="./Image/profile-pic.jpg" style="width:60px" alt="J. Suong">
 															<p><span class="w3-content w3-hover-white w3-margin-right w3-text-grey w3-wide">Jane Suong.Businesswoman.</span>
 															</p>
-															<p>”We needed to present our company and its products better on the web. Mr. V.K. has made us a perfect site. Now only in good, we almost do not want to supply the market with our products. Thank you again.“
-															</p>
+															<i>”We needed to present our company and its products better on the web. Mr. V.K. has made us a perfect site. Now only in good, we almost do not want to supply the market with our products.<br> Thank you again.“
+															</i>
 															<!-- End About Section -->
 
 
 
 															<!-- Portfolio Section -->
-															<div id="Fotky" class="w3-padding-0 w3-content">
-																<h2 class="w3-padding-4 w3-text-light-blue w3-hover-white">Pics </h2>
+															<div id="Fotky" class="w3-padding-160 w3-text-grey w3-content">
+
+																<h2 class="w3-padding-4 w3-text-light-blue w3-hover-white">Gallery of pics </h2>
 																<hr class="w3-padding-0" style="width:255px">
 
-																<!-- Grid for photos -->
+
+<a data-fancybox="gallery" href="./Image/b0ec08912e35316eb093bf286f6c1096.jpg"><img class="rounded" src="./Image/b0ec08912e35316eb093bf286f6c1096.jpg"height="190"width="10%"></a>
+<a data-fancybox="gallery" href="./Image/fcda2edf1c06749546a1b3f5069fd8dc.jpg"><img class="rounded" src="./Image/fcda2edf1c06749546a1b3f5069fd8dc.jpg"height="190"width="10%"></a>
+<a data-fancybox="gallery" href="./Image/0fa0e361160d052e079735eee2f8f136.jpg"><img class="rounded" src="./Image/0fa0e361160d052e079735eee2f8f136.jpg"height="190"width="10%"></a>
+<a data-fancybox="gallery" href="./Image/good%20life.jpg">                     <img class="rounded" src="./Image/good%20life.jpg"height="190"width="10%"></a>
+<a data-fancybox="gallery" href="./Image/c04413ca0449a64ec6d79230f333d8db.jpg"><img class="rounded" src="./Image/c04413ca0449a64ec6d79230f333d8db.jpg"height="190"width="10%"></a>
+<a data-fancybox="gallery" href="./Image/be8ad217f286a5754c09fddd71b4fd7c.jpg"><img class="rounded" src="./Image/be8ad217f286a5754c09fddd71b4fd7c.jpg"height="190"width="10%"></a>
+<a data-fancybox="gallery" href="./Image/8f7e1da1376255a7f2c1fd9edf80ef44.jpg"><img class="rounded" src="./Image/8f7e1da1376255a7f2c1fd9edf80ef44.jpg"height="190"width="10%"></a>
+<a data-fancybox="gallery" href="./Image/78ce04b2b0a46fe8cce6fe82edcca044.jpg"><img class="rounded" src="./Image/78ce04b2b0a46fe8cce6fe82edcca044.jpg"height="190"width="10%"></a>
+<a data-fancybox="gallery" href="./Image/IMG_0177.JPG"><img class="rounded" src="./Image/IMG_0177.JPG"height="190"width="10%"></a>
+<!--a data-fancybox="gallery" href="./Image/weekly-workout-plan-R-_lOqp5.jpeg"><img class="rounded" src="./Image/weekly-workout-plan-R-_lOqp5.jpeg"height="190"width="7.5%"></a>
+<a data-fancybox="gallery" href="./Image/IMG_3155.jpg"><img class="rounded" src="./Image/IMG_3155.jpg"height="180"></a>
+<a data-fancybox="gallery" href="./Image/web-technologies.png"><img class="rounded" src="./Image/web-technologies.png"height="80"></a-->
+
+
+																<!-- Grid for photos povodne >
+
 																<div class="w3-row-padding" style="margin:0 -16px">
 																	<div class="w3-half">
 
@@ -556,7 +573,7 @@
 																									 ./Image/INK.jpg" target="_blank"><img class="rounded" src="./Image/INK.jpg" alt="" width="100%" height="326"></a>
 
 																		<!--iframe width="100%" height="190" src="https://www.youtube.com/embed/_eThAg5OrHQ?autoplay=0" frameborder="0" align="" scrolling="no" name="Feeling Awesome ' Chill House Mix">
-												</iframe-->
+												</iframe>
 
 																	</div>
 
@@ -564,7 +581,7 @@
 																		<a href="./Image/8f7e1da1376255a7f2c1fd9edf80ef44.jpg" target="_blank"><img class="rounded" src="./Image/8f7e1da1376255a7f2c1fd9edf80ef44.jpg" alt="" width="100%" height="326"></a>
 																		<!--img src="./Image/web-technologies.png" alt="it" style="width:100%" height="264">
 												<img src="./Image/374gti.jpg" style="width:20%" height="105">
-												<img src="./Image/bootstrap.png" alt="bs" width="20%" height="105"-->
+												<img src="./Image/bootstrap.png" alt="bs" width="20%" height="105">
 																		<a href="./Image/be8ad217f286a5754c09fddd71b4fd7c.jpg" target="_blank">
 																			<img class="rounded" src="./Image/be8ad217f286a5754c09fddd71b4fd7c.jpg" alt="" width="100%" height="326"></a>
 																		<a href="./Image/human-3175027_1920.jpg" target="_blank"><img class="rounded" src="./Image/human-3175027_1920.jpg" alt="" style="width:100%" height="326"></a>
@@ -577,18 +594,23 @@
 																	</div>
 
 																	<!--div class="w3-content  w3-text-grey w3-padding-16" id="Hudba">
-																						<section id="Hudba"-->
+
 																	<!-- MyCV section -->
 
 																	<section id="MyCV">
-																	<div id="MyCV" class="w3-content w3-padding-0 w3-text-grey">
-																		<h2 class="w3-text-light-blue w3-hover-white" style="width:px">MyCV </h2>
-
+																	<div id="MyCV" class="w3-justify w3-text-grey w3-padding-160 w3-content w3-text-grey">
+																	<h2 class="w3-text-light-blue w3-hover-white w3-padding-4">MyCV </h2>
+                                                                    <hr class="w3-padding-0" style="width:255px">
 																		<!--iframe src="https://youtube.com/embed/XJ9Vylyk5Uw? autoplay=0" style="border:none;" scrolling="no" Name="Night Lounge - Lounge Musik, Instrumentale Musik, Easy Listening & Chill Out - LATE NIGHT MOODS" width="100%" height="260" frameborder="0"></iframe-->
 																		<!--div style="width: 100%;"-->
-																		<div style="position: relative; padding-bottom: 56.25%; padding-top: 0; height: 0;"><iframe frameborder="0" width="1400px" height="675px" style="position:absolute; top: 0; left: 0; width: 100%; height: 92%;" src="https://view.genial.ly/5c963df2e1906b76bf619328" type="text/html" allowscriptaccess="always" allowfullscreen="true" scrolling="yes" allownetworking="all"></iframe>
-																		</div>
-																		</div>
+																		<div style="position: relative; padding-bottom: 56.25%; padding-top: 0; height: 0;"><iframe frameborder="0" width="1400px" height="475px" style="position:absolute; top: 0; left: 0; width: 100%; height: 88%;" src="https://view.genial.ly/5c963df2e1906b76bf619328" type="text/html" allowscriptaccess="always" allowfullscreen="true" scrolling="yes" allownetworking="all"></iframe>
+																		</div></div></section>
+																		<section id="Music">
+																		<div id="Music" class="w3-justify w3-text-grey w3-padding-160 w3-content w3-text-grey" href="#Music">
+																		<h2 class="w3-text-light-blue w3-hover-white w3-padding-4">Relax Music </h2>
+																		<hr class="w3-padding-0" style="width:255px">
+																		<iframe src="https://youtube.com/embed/XJ9Vylyk5Uw? autoplay=0" style="border:none;"  Name="Night Lounge - Lounge Musik, Instrumentale Musik, Easy Listening & Chill Out - LATE NIGHT MOODS" width="100%" height="475px" allowscriptaccess="always" allowfullscreen="true" scrolling="yes" allownetworking="all"></iframe>
+																		</div></section>
 																	<!-- Footer Section -->
 
 
@@ -599,29 +621,29 @@
 																	<footer>
 																		<footer id="footer" class="w3-content w3-padding-0  w3-text-grey">
 
-																			<h2 class="w3-text-light-blue w3-hover-white">Contact me </h2>
+																			<h2>Contact me </h2>
 
 
 
 
-																			<i class="fa fa-map-marker fa-fw w3-text-red w3-xlarge w3-left" title="Mesto"></i>Košice, Slovakia
+																			<i class="fa fa-map-marker fa-fw w3-text-red w3-xlarge w3-margin-left" title="Mesto"></i>Košice, Slovakia
 
-																			<i class="fa fa-phone fa-fw w3-text-orange w3-xlarge w3-margin-left" title="Zavolajte!"></i>+421 556711924
+																			<i class="fa fa-phone fa-fw w3-text-orange w3-xlarge w3-margin-left"  title="Zavolajte!"></i>+421 907151293
 																			<a class="fa fa-envelope fa-fw w3-text-green w3-xlarge w3-margin-left" href="mailto:ksenicv@gmail.com" data-toggle="tooltip" title="Napíš mi na email!"></a>Email
 
 																			<p class="w3-small  w3-padding-4  w3-text-light-blue w3-center  w3-wide"><br>Powered by ©V.Ksenič ©All rights reserved 2019.
-																				<!--a href="https://github.com/settings/profile?rel=" target="_blank" class="w3-hover-white"><i class="fa fa-github w3-hover-opacity"-->Find me on social media!>>> <a class="fa fa-facebook-official w3-hover-text-blue" href="https://www.facebook.com/vladimir.ksenic" data-toggle="tooltip" title="Nájdeš ma aj na FB"></a>
-																				<a class="fa fa-pinterest w3-hover-text-white" href="https://sk.pinterest.com/ksenicv/"></a>
-																				<a class="fa fa-twitter w3-hover-text-white" href="https://twitter.com/ladow11">
+																				<!--a href="https://github.com/settings/profile?rel=" target="_blank" class="w3-hover-white"><i class="fa fa-github w3-hover-opacity"-->Find me on social media!>>> <a class="fa fa-facebook-official w3-hover-text-blue" href="https://www.facebook.com/vladimir.ksenic" data-toggle="tooltip" title="facebook"></a>
+																				<a class="fa fa-pinterest w3-hover-text-white" href="https://sk.pinterest.com/ksenicv/" data-toggle="tooltip" title="pinterest"></a>
+																				<a class="fa fa-twitter w3-hover-text-white" href="https://twitter.com/ladow11" data-toggle="tooltip" title="twitter">
 																				</a>
-																				<a class="fa fa-youtube  w3-hover-text-white" href="https://www.youtube.com/channel/UCX3EKD2gPCW81IiBCWDeh-Q?view_as=subscriber">
+																				<a class="fa fa-youtube  w3-hover-text-white" href="https://www.youtube.com/channel/UCX3EKD2gPCW81IiBCWDeh-Q?view_as=subscriber" data-toggle="tooltip" title="youtube">
 																				</a>
-																				<a class="fa fa-instagram w3-hover-text-white" href="https://www.instagram.com/vladimirksenic/">
+																				<a class="fa fa-instagram w3-hover-text-white" href="https://www.instagram.com/vladimirksenic/" data-toggle="tooltip" title="instagram">
 																				</a>
-																				<a class="fa fa-mixcloud w3-hover-text-white" href="https://www.mixcloud.com/vladim%C3%ADr-kseni%C4%8D/favorites/"></a>
+																				<a class="fa fa-mixcloud w3-hover-text-white" href="https://www.mixcloud.com/vladim%C3%ADr-kseni%C4%8D/favorites/" data-toggle="tooltip" title="mixcloud"></a>
 
-																				<a class="fa fa-linkedin w3-hover-text-white" href="https://www.linkedin.com/in/vladim%C3%ADr-kseni%C4%8D-a084a2161/"></a>
-																				<a class="fa fa-github w3-hover-white w3-center  w3-justify  w3-wide" href="https://github.com/settings/profile?rel=" data-toggle="tooltip" title="Github"></a></p>
+																				<a class="fa fa-linkedin w3-hover-text-white" href="https://www.linkedin.com/in/vladim%C3%ADr-kseni%C4%8D-a084a2161/"data-toggle="tooltip" title="linkedin"></a>
+																				<a class="fa fa-github w3-hover-white w3-center  w3-justify  w3-wide" href="https://github.com/settings/profile?rel=" data-toggle="tooltip" title="github"></a></p>
 																		</footer>
 																	</footer>
 
@@ -656,9 +678,7 @@
 
 																	<p></p>
 																</section>
-															</div>
-														</div>
-													</section>
+
 
 
 
@@ -668,10 +688,10 @@
 
 													<p>
 													</p>
-												</section>
+
 
 								<script src="//s3.amazonaws.com/js-static/2001379501c6f3c8ca.js"></script>
-									</div></div></h1,h6></header></header></div></div></body></html>
+										</section></div></div></h1,h6></header></header></div></body></head></html>
 
 
 
