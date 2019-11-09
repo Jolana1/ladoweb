@@ -1,0 +1,268 @@
+body {
+ background-color:#151618;
+ color:#fff;
+ font-family:'Open Sans',Verdana,sans-serif;
+ font-size:12px;
+ line-height:1.385em;
+ position:relative;
+ margin:0
+}
+.layout-error {
+ height:100%
+}
+.layout-error * {
+ -webkit-box-sizing:border-box;
+         box-sizing:border-box
+}
+.layout-error body {
+ min-height:100%;
+ height:100%
+}
+.layout-error body .ui-page {
+ min-height:100%;
+ max-width:990px
+}
+.layout-error body .ui-page .ui-main-container {
+ min-height:100%;
+ padding-top:55px;
+ padding-bottom:65px
+}
+.layout-error body .ui-page .ui-main-container #header {
+ position:absolute;
+ top:0;
+ left:0;
+ width:100%
+}
+.layout-error body .ui-page .ui-main-container #header .brand-logo {
+ display:block
+}
+.layout-error body .ui-page .ui-main-container #main-content {
+ min-height:100%;
+ position:relative;
+ padding-top:67px
+}
+.layout-error body .ui-page .ui-main-container #main-content h1 {
+ position:absolute;
+ top:0;
+ left:0;
+ width:100%
+}
+.layout-error body .ui-page .ui-main-container #main-content .content {
+ min-height:100%
+}
+.layout-error body .ui-page .ui-main-container #footer {
+ color:#a79018;
+ margin:0;
+ padding:20px 30px
+}
+.ui-page {
+ margin:0 auto;
+ max-width:1440px;
+ min-width:1024px;
+ position:relative;
+ overflow:auto
+}
+.ui-column-main {
+ margin:0 290px 0 210px;
+ position:relative
+}
+.ui-column-main:after,
+.ui-column-main:before {
+ content:" ";
+ display:table
+}
+.ui-column-main:after {
+ clear:both
+}
+
+.error-page .ui-column-main,
+.error-page .ui-main-container {
+ margin:0
+}
+.error-page .ui-footer {
+ padding:0 45px;
+ margin:20px 0;
+ text-align:left;
+ color:#ffd906
+}
+.ui-footer {
+ clear:left
+}
+.error-page h1 {
+ font-size:22px;
+ line-height:67px;
+ margin:0;
+ padding:0 30px;
+ overflow:hidden;
+ white-space:nowrap;
+ text-overflow:ellipsis;
+ background:#292b2d;
+ background:-webkit-gradient(linear,left top, left bottom,color-stop(0, #2d2f30),to(#232527));
+ background:linear-gradient(to bottom,#2d2f30 0,#232527 100%)
+}
+.error-page .content {
+ background-color:#2c2e31;
+ padding:30px
+}
+.error-page .content .highlight {
+ font-size:18px;
+ color:#fff;
+ margin-bottom:6px;
+ padding-top:20px
+}
+.error-page p {
+ margin:0;
+ padding:0;
+ font-size:12px;
+ color:#B9BABD
+}
+.error-page .error-illustration {
+ width:300px;
+ float:right
+}
+.error-page #canvas-error-game {
+ float:right;
+ z-index:1000;
+ position:relative;
+ margin-top:20px;
+ margin-right:20px
+}
+.error-page .perex p {
+ font-size:14px
+}
+.error-page .refresh-info {
+ margin:50px 0
+}
+.error-page .refresh-info a {
+ color:#ffd906;
+ text-decoration:underline
+}
+.error-page .refresh-info a:hover {
+ text-decoration:none
+}
+.error-page .foreign-info {
+ margin:25px 0
+}
+.error-page .foreign-info p {
+ padding-left:22px;
+ position:relative
+}
+.error-page .foreign-info p img {
+ position:absolute;
+ top:4px;
+ left:0
+}
+.main-navigation {
+ height:45px;
+ background-color:#ffd906;
+ position:relative;
+ display:table;
+ width:100%
+}
+.main-navigation .brand-logo {
+ width:192px;
+ min-height:45px;
+ max-height:45px;
+ display:table-cell
+}
+.main-navigation__holder {
+ display:table-cell
+}
+.brand-logo {
+ text-indent:100%;
+ white-space:nowrap;
+ overflow:hidden;
+ display:block;
+ position:relative;
+ background:url('data:image/svg+xml,%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22utf-8%22%3F%3E%0D%0A%3C!--%20Generator%3A%20Adobe%20Illustrator%2015.0.0%2C%20SVG%20Export%20Plug-In%20.%20SVG%20Version%3A%206.00%20Build%200)%20%20--%3E%0D%0A%3C!DOCTYPE%20svg%20PUBLIC%20%22-%2F%2FW3C%2F%2FDTD%20SVG%201.1%2F%2FEN%22%20%22http%3A%2F%2Fwww.w3.org%2FGraphics%2FSVG%2F1.1%2FDTD%2Fsvg11.dtd%22%3E%0D%0A%3Csvg%20version%3D%221.1%22%20id%3D%22Vrstva_1%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%20x%3D%220px%22%20y%3D%220px%22%0D%0A%09%20width%3D%22390.38px%22%20height%3D%2296px%22%20viewBox%3D%220%200%20390.38%2096%22%20enable-background%3D%22new%200%200%20390.38%2096%22%20xml%3Aspace%3D%22preserve%22%3E%0D%0A%3Cpath%20fill%3D%22%23FFFFFF%22%20d%3D%22M108.968%2C47.915c0%2C8.463-6.86%2C15.322-15.323%2C15.322c-8.462%2C0-15.323-6.859-15.323-15.322%0D%0A%09c0-8.464%2C6.861-15.323%2C15.323-15.323C102.108%2C32.592%2C108.968%2C39.451%2C108.968%2C47.915%22%2F%3E%0D%0A%3Cpolygon%20points%3D%2229.503%2C68.151%2029.503%2C27.553%2061.763%2C27.553%2061.763%2C37.596%2039.911%2C37.596%2039.911%2C43.074%2056.833%2C43.074%20%0D%0A%0956.833%2C53.179%2039.911%2C53.179%2039.911%2C68.151%20%22%2F%3E%0D%0A%3Cpath%20d%3D%22M139.902%2C44.9h10.348c2.192%2C0%2C4.201-1.339%2C4.201-3.652c0-2.435-1.887-3.713-4.201-3.713h-10.348V44.9z%20M129.616%2C68.151%0D%0A%09V27.553h21.608c7.367%2C0%2C13.635%2C5.417%2C13.635%2C13.695c0%2C5.601-3.652%2C10.592-7.973%2C12.114c0.973%2C1.644%2C7.913%2C13.451%2C8.764%2C14.789%0D%0A%09h-12.844c-0.729-1.217-6.694-11.807-7.607-13.391h-5.297v13.391H129.616z%22%2F%3E%0D%0A%3Cpolygon%20points%3D%22187.152%2C68.151%20187.152%2C37.596%20177.229%2C37.596%20177.229%2C27.553%20207.543%2C27.553%20207.543%2C37.596%20197.622%2C37.596%20%0D%0A%09197.622%2C68.151%20%22%2F%3E%0D%0A%3Cpath%20d%3D%22M222.798%2C27.553h10.409v25.87c0%2C2.678%2C2.191%2C5.355%2C5.539%2C5.355c3.043%2C0%2C5.539-2.313%2C5.539-5.355v-25.87h10.227v25.14%0D%0A%09c0%2C9.13-6.878%2C16.189-15.766%2C16.189c-9.009%2C0-15.948-6.877-15.948-16.189V27.553z%22%2F%3E%0D%0A%3Cpath%20d%3D%22M274.161%2C68.151v-41.39c1.646%2C1.461%2C20.21%2C18.139%2C22.218%2C19.844V27.553h10.166v41.392%0D%0A%09c-2.009-1.766-20.453-18.322-22.156-19.843v19.05H274.161z%22%2F%3E%0D%0A%3Cpath%20d%3D%22M339.923%2C42.648c-0.243%2C0.73-2.8%2C8.157-2.982%2C8.704h6.147C342.905%2C50.866%2C340.166%2C43.318%2C339.923%2C42.648%20M331.098%2C68.151%0D%0A%09h-11.079c0.305-0.852%2C14.365-39.808%2C14.609-40.599h10.591c0.243%2C0.67%2C14.913%2C39.626%2C15.278%2C40.599h-11.2%0D%0A%09c-0.303-0.852-2.252-6.146-2.496-6.816h-13.33C333.288%2C61.884%2C331.28%2C67.604%2C331.098%2C68.151%22%2F%3E%0D%0A%3Cpath%20d%3D%22M115.327%2C47.669c0-11.856-9.612-21.468-21.469-21.468c-11.855%2C0-21.468%2C9.611-21.468%2C21.468%0D%0A%09c0%2C11.857%2C9.613%2C21.469%2C21.468%2C21.469C105.715%2C69.138%2C115.327%2C59.526%2C115.327%2C47.669%20M105.117%2C47.772%0D%0A%09c0%2C6.16-4.994%2C11.154-11.154%2C11.154c-6.16%2C0-11.156-4.994-11.156-11.154s4.996-11.154%2C11.156-11.154%0D%0A%09C100.123%2C36.618%2C105.117%2C41.612%2C105.117%2C47.772%22%2F%3E%0D%0A%3C%2Fsvg%3E%0D%0A') -1px 0/192px auto no-repeat;
+ padding-right:23px
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+ font-weight:400
+}
+h1,
+h2,
+h3 {
+ margin:0 0 10px
+}
+h4,
+h5,
+h6 {
+ margin:0 0 5px
+}
+h1 {
+ font-size:1.385em
+}
+h2 {
+ font-size:1.231em
+}
+h3 {
+ font-size:1.077em
+}
+h4 {
+ font-size:.846em
+}
+p {
+ margin:0 0 15px;
+ font-size:13px;
+ line-height:18px
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary {
+ display:block
+}
+.ui-tooltip {
+ padding:8px;
+ position:absolute;
+ z-index:9999;
+ max-width:300px;
+ -webkit-box-shadow:0 0 5px #aaa;
+ box-shadow:0 0 5px #aaa
+}
+body .ui-tooltip {
+ border-width:2px
+}
+a {
+ color:#fff;
+ text-decoration:underline
+}
+a:hover {
+ text-decoration:none
+}
+a.link-underline {
+ text-decoration:underline
+}
+a.link-underline:hover {
+ text-decoration:none
+}
+.tooltip {
+ background-color:#3f4349;
+ padding:5px 10px;
+ color:#FFF;
+ font-size:11px;
+ text-align:center;
+ max-width:320px;
+ position:absolute;
+ z-index:9999;
+ box-shadow:0 0 10px #000;
+ -webkit-box-shadow:0 0 10px #000;
+ -moz-box-shadow:0 0 10px #000
+}
+
+
