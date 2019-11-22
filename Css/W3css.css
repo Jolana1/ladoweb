@@ -1,4 +1,16 @@
 /* W3.CSS 3.00 Nov 2019 by Jan Egil and V.Ksenic */
+/* ak chcem img na pozadie v stranke
+		body {
+			background-image: URL('pozadi.gif');
+			/* obrázek na pozadí */
+			background-attachment: fixed;
+			/* pozadí neroluje */
+			/*background-color: black;*/
+			/* případná barva pozadí černá */
+			color: white;
+			/* bílý text */
+
+
 html{box-sizing:border-box}*,*:before,*:after{box-sizing:inherit}
 element {
 }
@@ -8,8 +20,8 @@ element {
 }
 .btn.btn-up {
     position: fixed;
-    bottom: 10px;
-    right: 10px;
+    bottom: 25px;
+    right: 23px;
     background-color:
 #fff;
 -webkit-box-shadow: 0 0 10px

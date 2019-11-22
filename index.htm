@@ -113,20 +113,11 @@
 
 		/* Set black backgroundcolor whitext and some padding */
 		footer {background-color:black;
-		 text-align: center;	padding: 8px;
+		 text-align: center;	padding: 15px;
 		}
 
-      /* ak chcem img na pozadie v stranke
-		body {
-			background-image: URL('pozadi.gif');
-			/* obrázek na pozadí */
-			background-attachment: fixed;
-			/* pozadí neroluje */
-			/*background-color: black;*/
-			/* případná barva pozadí černá */
-			color: white;
-			/* bílý text */
-		}
+
+
 </head>
 	</style>
 
@@ -243,7 +234,7 @@
 
 					<!--Header/Home w3-padding w3-margin -->
 					<header>
-						<header id="Domov" class="w3-center w3-text-light-blue w3-hover-white">
+						<header id="Domov" class="w3-center w3-text-light-blue">
 
 
 
@@ -322,7 +313,7 @@
 													<div class="progress">
 														<div class="progress-bar progress-bar-striped progress-bar-animated w3-light-blue" style="width:85%"></div>
 													</div>
-													<p class="w3-wide w3-text-grey">React</p>
+													<p class="w3-wide w3-text-grey">Java</p>
 													<div class="w3-white">
 														<div class="progress">
 															<div class="progress-bar progress-bar-striped progress-bar-animated w3-light-blue " style="width:75%"></div>
@@ -379,20 +370,46 @@
 
 														<!--form method="post" action="/account/contact"-->
 
-														<form method="get" class="invoice-details container-fluid text-grey padding-60">
+														<form method="get" class="invoice-details w3-container-fluid w3-text-grey w3-padding-60">
+  <label for="name">Name</label>
 
-															<fieldset>
+    <input type="text" id="name" name="name" placeholder="Celé meno.." required name="name">
+<br>
+    <label for="email">E-Mail</label>
+
+    <input type="text" id="email" name="email" placeholder="Tvoj email.." required name="email">
+<br>
+<label for="comment">Comment:</label><br>
+<textarea name="comment" rows="5" cols="40"></textarea>
+  <br>
+<!--input class="w3-input w3-padding-10" type="text" placeholder="Váš text sem vpište!" required name="Message"></p-->
+	<label>Date</label>
+	<input type="date" name="date">
+    <!--label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="slovakia">Slovakia</option>
+      <option value="eu">EU</option>
+      <option value="usa">USA</option>
+    </select-->
+
+
+	<input type="submit" required="text">
+	<input type="reset">
+
+
+		</form>
+															<!--fieldset>
 																<p class="w3-hover-text-light-blue w3-text-grey">
 																	<!--legend>Vyplňte formulár alebo ma kontaktujte na email:</legend-->
 
-																	<label for="fname">Vaše meno:<br></label>
+																	<!--label for="fname">Vaše meno:<br></label>
 																	<input type="text" required="required" name="fname" maxlength="10" placeholder="first name" value="" id="fname"><br>
 
 																	<label>Vaše priezvisko:<br></label>
 																	<input type="text" required="required" name="lname" maxlength="10" placeholder="last name" value="" id="lname">
 																	<!--br> password:
 							<input type="password" maxlength="5" disabled="disabled"><br> color:
-							<input type="color" name="color"--><br><label>Vyplň dátum:<br></label>
+							<input type="color" name="color"><br><label>Vyplň dátum:<br></label>
 																	<input type="date" name="date">
 
 
@@ -415,12 +432,14 @@
 														<option value="b" selected="selected">2</option>
 														<option value="c" selected="selected">3</option>
 														<option value="d" selected="selected">4 </option>
-													</select-->
+													</select>
 																	<br><label>Váš text:<br>
-																		<!--textarea writeonly-->
-																		<textarea class="container-fluid invoice-textarea" required="required" name="message" placeholder="napíšte vaše otázky" value="" id="message" rows="10">
+																		<!--textarea writeonly>
+																		<textarea class="container-fluid invoice-textarea" required="required" name="message" placeholder="napíšte vaše otázky" value="" id="message" rows="5">
 
 													</textarea>
+																		<input type="submit" required="required">
+																		<input type="reset">
 
 																		<!--input type="file" multiple="">
 
@@ -433,14 +452,12 @@
                     vek:
                     <input type="number" required="required"-->
 
-																		<input type="submit" required="required">
-																		<input type="reset">
 																		<!--input type="email" required="required"><button class="w3-button"><i class="fa fa-envelope w3-content w3-text-grey"></i>
 													<a href="mailto:ksenicv@gmail.com"> Môžeš mi poslať email</a></button-->
-																		<!--input type="button" value="niečo"-->
+																		<!--input type="button" value="niečo">
 																	</label></p>
 															</fieldset>
-														</form></div>
+														</form></div-->
 
 
 
@@ -551,16 +568,17 @@
 																<hr class="w3-padding-60" style="width:255px">
 
 
-<a data-fancybox="gallery" href="./Image/b0ec08912e35316eb093bf286f6c1096.jpg"><img class="rounded" src="./Image/b0ec08912e35316eb093bf286f6c1096.jpg"height="100"width="10%"></a>
-<a data-fancybox="gallery" href="./Image/fcda2edf1c06749546a1b3f5069fd8dc.jpg"><img class="rounded" src="./Image/fcda2edf1c06749546a1b3f5069fd8dc.jpg"height="100"width="10%"></a>
-<a data-fancybox="gallery" href="./Image/0fa0e361160d052e079735eee2f8f136.jpg"><img class="rounded" src="./Image/0fa0e361160d052e079735eee2f8f136.jpg"height="100"width="10%"></a>
-<a data-fancybox="gallery" href="./Image/good%20life.jpg">                     <img class="rounded" src="./Image/good%20life.jpg"height="100"width="10%"></a>
-<a data-fancybox="gallery" href="./Image/skusenosti%20%E2%80%93%20k%C3%B3pia.jpg"><img class="rounded" src="./Image/skusenosti%20%E2%80%93%20k%C3%B3pia.jpg"height="100"width="10%"></a>
-<a data-fancybox="gallery" href="./Image/be8ad217f286a5754c09fddd71b4fd7c.jpg"><img class="rounded" src="./Image/be8ad217f286a5754c09fddd71b4fd7c.jpg"height="100"width="10%"></a>
-<a data-fancybox="gallery" href="./Image/8f7e1da1376255a7f2c1fd9edf80ef44.jpg"><img class="rounded" src="./Image/8f7e1da1376255a7f2c1fd9edf80ef44.jpg"height="100"width="10%"></a>
-<a data-fancybox="gallery" href="./Image/78ce04b2b0a46fe8cce6fe82edcca044.jpg"><img class="rounded" src="./Image/78ce04b2b0a46fe8cce6fe82edcca044.jpg"height="100"width="10%"></a>
-<a data-fancybox="gallery" href="./Image/x17-detail-050.jpg"><img class="rounded" src="./Image/x17-detail-050.jpg"height="100"width="10%"></a>
-<!--a data-fancybox="gallery" href="./Image/IMG_1320-EFFECTS%20%E2%80%93%20k%C3%B3pia.jpg"><img class="rounded" src="./Image/IMG_1320-EFFECTS%20%E2%80%93%20k%C3%B3pia.jpg"height="100"width="7.5%"></a-->
+<a data-fancybox="gallery" href="./Image/b0ec08912e35316eb093bf286f6c1096.jpg"><img class="rounded" src="./Image/b0ec08912e35316eb093bf286f6c1096.jpg"height="600"width="100%"></a>
+<a data-fancybox="gallery" href="./Image/fcda2edf1c06749546a1b3f5069fd8dc.jpg"><img class="rounded" src="./Image/fcda2edf1c06749546a1b3f5069fd8dc.jpg"height="200"width="14%"></a>
+<a data-fancybox="gallery" href="./Image/0fa0e361160d052e079735eee2f8f136.jpg"><img class="rounded" src="./Image/0fa0e361160d052e079735eee2f8f136.jpg"height="200"width="14%"></a>
+<a data-fancybox="gallery" href="./Image/skusenosti%20%E2%80%93%20k%C3%B3pia.jpg"><img class="rounded" src="./Image/skusenosti%20%E2%80%93%20k%C3%B3pia.jpg"height="200"width="14%"></a>
+<a data-fancybox="gallery" href="./Image/be8ad217f286a5754c09fddd71b4fd7c.jpg"><img class="rounded" src="./Image/be8ad217f286a5754c09fddd71b4fd7c.jpg"height="200"width="14%"></a>
+<a data-fancybox="gallery" href="./Image/8f7e1da1376255a7f2c1fd9edf80ef44.jpg"><img class="rounded" src="./Image/8f7e1da1376255a7f2c1fd9edf80ef44.jpg"height="200"width="14%"></a>
+<a data-fancybox="gallery" href="./Image/78ce04b2b0a46fe8cce6fe82edcca044.jpg"><img class="rounded" src="./Image/78ce04b2b0a46fe8cce6fe82edcca044.jpg"height="200"width="14%"></a>
+<!--a data-fancybox="gallery" href="./Image/x17-detail-050.jpg"><img class="rounded" src="./Image/x17-detail-050.jpg"height="200"width="13%"></a-->
+<a data-fancybox="gallery" href="./Image/IMG_1320-EFFECTS%20%E2%80%93%20k%C3%B3pia.jpg"><img class="rounded" src="./Image/IMG_1320-EFFECTS%20%E2%80%93%20k%C3%B3pia.jpg"height="200"width="14.6%"></a>
+<!--a data-fancybox="gallery" href="./Image/good%20life.jpg">                     <img class="rounded" src="./Image/good%20life.jpg"height="200"width="13%"></a>
+<!--a data-fancybox="gallery" href="./Image/IMG_1320-EFFECTS%20%E2%80%93%20k%C3%B3pia.jpg"><img class="rounded" src="./Image/IMG_1320-EFFECTS%20%E2%80%93%20k%C3%B3pia.jpg"height="100"width="10%"></a-->
 
 															</div></div></section>
 
@@ -610,13 +628,13 @@
                                                                     <hr class="w3-padding-60" style="width:255px">
 																		<!--iframe src="https://youtube.com/embed/XJ9Vylyk5Uw? autoplay=0" style="border:none;" scrolling="no" Name="Night Lounge - Lounge Musik, Instrumentale Musik, Easy Listening & Chill Out - LATE NIGHT MOODS" width="100%" height="260" frameborder="0"></iframe-->
 																		<!--div style="width: 100%;"-->
-																		<div style="position: relative; padding-bottom: 56.25%; padding-top: 0; height: 0;"><iframe frameborder="no" width="1200px" height="460px" style="position:absolute; top: 0; left: 0; width: 100%; height: 90%;" src="https://view.genial.ly/5c963df2e1906b76bf619328" type="text/html" allowscriptaccess="always" allowfullscreen="true" scrolling="yes" allownetworking="all"></iframe>
+																		<div style="position: relative; padding-bottom: 60.25%; padding-top: 0; height: 0;"><iframe frameborder="no" width="1200px" height="475px" style="position:absolute; top: 0; left: 0; width: 100%; height: 73%;" src="https://view.genial.ly/5c963df2e1906b76bf619328" type="text/html" allowscriptaccess="always" allowfullscreen="true" scrolling="no" allownetworking="all"></iframe>
 																		</div>
 																		<section id="Music">
 																		<div id="Music" class="w3-justify w3-text-grey w3-content w3-text-grey" href="#Music">
 																		<h2 class="w3-text-light-blue w3-hover-white">Relax Music </h2>
 																		<hr class="w3-padding-60" style="width:255px" "height:475px">
-																		<iframe src="https://youtube.com/embed/IJZK6mopgDE?autoplay=0" style="border:none;"  Name="Afterlife - Sunfish" width="100%" height="475px" allowscriptaccess="always" allowfullscreen="true" scrolling="yes" allownetworking="all"></iframe>
+																		<iframe src="https://youtube.com/embed/IJZK6mopgDE?autoplay=0"  width="100%" height="690" frameborder="0" style="border:0" allowfullscreen align="" scrolling="no" Name="Afterlife - Sunfish"></iframe>
 																			</div>
 																	<!-- Footer Section -->
 
@@ -635,7 +653,7 @@
 
 																			<i class="fa fa-map-marker fa-fw w3-text-red w3-xlarge w3-margin-left" title="Mesto"></i>Košice, Slovakia
 
-																			<i class="fa fa-phone fa-fw w3-text-orange w3-xlarge w3-margin-left"  title="Zavolajte!"></i>+421 907 151 293
+																			<i class="fa fa-phone fa-fw w3-text-orange w3-xlarge w3-margin-left"  title="Zavolajte!"></i>+421 907151293
 																			<a class="fa fa-envelope fa-fw w3-text-green w3-xlarge w3-margin-left" href="mailto:ksenicv@gmail.com" data-toggle="tooltip" title="Napíš mi na email!"></a>Email
 
 																			<p class="w3-small w3-text-grey w3-center  w3-wide"><br>Powered by ©V.Ksenič ©All rights reserved 2019.
