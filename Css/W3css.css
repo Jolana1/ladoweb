@@ -20,8 +20,8 @@ element {
 }
 .btn.btn-up {
     position: fixed;
-    bottom: 25px;
-    right: 23px;
+    bottom: 15px;
+    right: 13px;
     background-color:
 #fff;
 -webkit-box-shadow: 0 0 10px
@@ -61,6 +61,8 @@ html, body {
     font-size: 20px;
     font-weight: 300;
 }
+
+
 
 html{-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}
 article,aside,details,figcaption,figure,footer,header,main,menu,nav,section,summary{display:block}
@@ -334,7 +336,7 @@ input[type=checkbox].w3-check:disabled+.w3-validate,input[type=radio].w3-radio:d
 .w3-sepia-min{-webkit-filter:sepia(50%);filter:sepia(50%)}
 .w3-text-shadow{text-shadow:1px 1px 0 #444}.w3-text-shadow-white{text-shadow:1px 1px 0 #ddd}
 .w3-transparent{background-color:transparent!important}
-.w3-hover-none:hover{-webkit-box-shadow:none!important;box-shadow:none!important;background-color:transparent!important}
+.w3-hover-none:hover{-webkit-box-shadow:none!important;box-shadow:none!important;background-color:transparent!important}*/
 /* Colors */
 .w3-amber,.w3-hover-amber:hover{color:#000!important;background-color:#ffc107!important}
 .w3-aqua,.w3-hover-aqua:hover{color:#000!important;background-color:#00ffff!important}
