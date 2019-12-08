@@ -63,7 +63,7 @@ element {
 }
 .btn.btn-up {
     position: fixed;
-    bottom: 10px;
+    bottom: 60px;
     right: 10px;
     background-color:#fff;
 -webkit-box-shadow: 0 0 10px
