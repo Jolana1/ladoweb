@@ -8,16 +8,16 @@
     margin: -65px auto 0 auto;
     overflow: hidden;
     transition: height 1s ease;
-} */
-/* ak chcem img na pozadie v stranke
+}
+ak chcem img na pozadie v stranke
 3
         body {
 4
-            background-image: URL('pozadi.gif');
+            background-image: URL('pozadi.gif');*/
 5
             /* obrázek na pozadí */
 6
-            /*background-attachment: fixed;
+            /*background-attachment: fixed;*/
 7
             /* pozadí neroluje */
 8
@@ -25,7 +25,7 @@
 9
             /* případná barva pozadí černá */
 10
-            /*color: white;
+            /*color: white;*/
 11
             /* bílý text */
 html{-webkit-box-sizing:border-box;box-sizing:border-box}*,*:before,*:after{-webkit-box-sizing:inherit;box-sizing:inherit}
@@ -69,11 +69,8 @@ element {
     position: relative;
     overflow: hidden;
     z-index: 1;
-	transition: height 1s ease;
+
 }
-
-
-
 
 
 html{-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}
