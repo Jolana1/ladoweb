@@ -9,7 +9,7 @@
     overflow: hidden;
     transition: height 1s ease;
 }
-ak chcem img na pozadie v stranke
+/*ak chcem img na pozadie v stranke
 3
         body {
 4
@@ -31,27 +31,8 @@ ak chcem img na pozadie v stranke
 html{-webkit-box-sizing:border-box;box-sizing:border-box}*,*:before,*:after{-webkit-box-sizing:inherit;box-sizing:inherit}
 element {
 }
-.btn:hover {
-    color:skyblue;
-
-}
-.btn.btn-up {
-    position: fixed;
-    bottom: 50px;
-    right: 25px;
-
-   background-color: #fff;
-
--webkit-box-shadow: 0 0 10px
-    rgba(0, 0, 0, 0.3);
-        box-shadow: 0 0 10px
-    rgba(0, 0, 0, 0.3);
-}
-.btn:hover {
-    color: #000;
-}
 .btn {
-    display: inline-block;
+    display:block;
     color: #7db9ff;
     border: 2px solid;
     padding: .5em 1.7em;
@@ -60,16 +41,46 @@ element {
     overflow: hidden;
     z-index: 1;
 }
-.btn {
-    display: inline-block;
-    color: #4aacf4;
-    border: 2px solid;
-    padding: .5em 1.7em;
-    text-decoration: none;
-    position: relative;
-    overflow: hidden;
-    z-index: 1;
+/*.btn:hover {
+    color:
+    #fff;}
 
+.btn:before {
+    color: #000;
+}*/
+.btn:after {
+	content: "";
+	position: absolute;
+	left: -100%;
+	top: 0;
+	display:inline-block;
+	width: 100%;
+	height: 100%;
+	background-color: #4aacf4;
+	opacity: 0;
+	transition: all .3s ease;
+	z-index: -1;
+}
+.btn.btn-up {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    background-color:#fff;
+-webkit-box-shadow: 0 0 10px
+    rgba(0, 0, 0, 0.3);
+        box-shadow: 0 0 10px
+    rgba(0, 0, 0, 0.3);
+}
+}
+
+* {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+html, body {
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    font-weight: 300;
 }
 
 
