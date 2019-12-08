@@ -1,29 +1,47 @@
-/* W3.CSS 3.00 Nov 2019 by Jan Egil and V.Ksenic */
+/* W3.CSS 3.00 dec 2019 by Jan Egil and V.Ksenic */
+
+/* @media screen and (max-width: 600px)
+.menu {
+    display: block;
+    width: 100%;
+    float: right;
+    margin: -65px auto 0 auto;
+    overflow: hidden;
+    transition: height 1s ease;
+} */
 /* ak chcem img na pozadie v stranke
-		body {
-			background-image: URL('pozadi.gif');
-			/* obrázek na pozadí */
-			background-attachment: fixed;
-			/* pozadí neroluje */
-			/*background-color: black;*/
-			/* případná barva pozadí černá */
-			color: white;
-			/* bílý text */
-
-
+3
+        body {
+4
+            background-image: URL('pozadi.gif');
+5
+            /* obrázek na pozadí */
+6
+            /*background-attachment: fixed;
+7
+            /* pozadí neroluje */
+8
+            /*background-color: black;*/
+9
+            /* případná barva pozadí černá */
+10
+            /*color: white;
+11
+            /* bílý text */
 html{-webkit-box-sizing:border-box;box-sizing:border-box}*,*:before,*:after{-webkit-box-sizing:inherit;box-sizing:inherit}
 element {
 }
 .btn:hover {
-    color:
-    #fff;
+    color:skyblue;
+
 }
 .btn.btn-up {
     position: fixed;
-    bottom: 15px;
-    right: 13px;
-    background-color:
-#fff;
+    bottom: 50px;
+    right: 25px;
+
+   background-color: #fff;
+
 -webkit-box-shadow: 0 0 10px
     rgba(0, 0, 0, 0.3);
         box-shadow: 0 0 10px
@@ -51,16 +69,10 @@ element {
     position: relative;
     overflow: hidden;
     z-index: 1;
+	transition: height 1s ease;
 }
-* {
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
-}
-html, body {
-    font-family: "Verdana",sans-serif;
-    font-size: 20px;
-    font-weight: 300;
-}
+
+
 
 
 

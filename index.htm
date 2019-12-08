@@ -6,12 +6,12 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<!--link rel="stylesheet" href="./Css/pagepiling.css"-->
     <script src=""></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	<!--link rel="stylesheet" href="./Css/styles.css"-->
-	<link rel="stylesheet" href="./Css/W3css.css">
+	<link rel="stylesheet" href="/Css/W3css.css">
 
 
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
@@ -30,10 +30,12 @@
 	<!-- Your HTML content goes here -->
 
 	<!-- JS -->
+	<script type="text/javascript" src="../jquery.pagepiling.min.js"></script>
 	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 	<script src="jquery.fancybox.min.js"></script>
 
 <body>
+
 <style>
 	    h1,
 		h2,
@@ -59,18 +61,7 @@
 			}
 		}
 
- /* @media screen and (max-width: 600px)
-.menu {
-    display: block;
-    width: 100%;
-    float: right;
-    margin: -65px auto 0 auto;
-    overflow: hidden;
-    transition: height 1s ease;
-} */
-
-
-		.w3-row-padding img {
+        .w3-row-padding img {
 			margin-bottom: 10px
 		}
 
@@ -80,7 +71,7 @@
 
 		/* Set the width of the sidebar to 80px */
 		.w3-sidebar {
-			width: 75px;
+			width: 80px;
 			max-height:none;
 			background-color: gainsboro;
 
@@ -141,7 +132,7 @@
 					<i class="fa fa-home w3-xlarge"></i>
 					<p>Domov</p>
 				</a>
-				<a class="w3-bar-item w3-button w3-padding-small w3-text-blue w3-hover-white " href="#O mne">
+				<a class="w3-bar-item w3-button w3-padding-small w3-text-blue w3-hover-white w3-circle " href="#O mne">
 					<i class="fa fa-user w3-xlarge"></i>
 					<p>O mne</p>
 				</a>
@@ -149,7 +140,7 @@
 					<i class="fa fa-briefcase w3-xlarge"></i>
 					<p> Zručnosti </p>
 				</a>
-				<a class="w3-bar-item w3-button w3-padding-small  w3-text-blue w3-hover-white" href="#Form">
+				<a class="w3-bar-item w3-button w3-padding-small  w3-text-blue w3-hover-white w3-circle" href="#Form">
 					<i class="fa fa-download w3-xlarge"></i>
 					<p>Formulár</p>
 				</a>
@@ -158,7 +149,7 @@
 					<i class="fa fa-asterisk w3-xlarge"></i>
 					<p>Ohlasy</p>
 				</a>
-				<a class="w3-bar-item w3-button w3-padding-small  w3-text-blue w3-hover-white " href="#Fotky">
+				<a class="w3-bar-item w3-button w3-padding-small  w3-text-blue w3-hover-white w3-circle " href="#Fotky">
 					<i class="fa fa-eye w3-xlarge"></i>
 					<p>Fotky</p>
 				</a>
@@ -166,7 +157,7 @@
 					<i class="fa fa-calendar w3-xlarge"></i>
 					<p>Životopis</p>
 				</a>
-				<a class="w3-bar-item w3-button w3-padding-small w3-text-blue w3-hover-white " href="#Music">
+				<a class="w3-bar-item w3-button w3-padding-small w3-text-blue w3-hover-white w3-circle " href="#Music">
 					<i class="fa fa-music w3-xlarge"></i>
 					<p>Hudba</p>
 				</a>
@@ -243,11 +234,11 @@
 
 
 							<h6,h1><span class="w3-wide w3-text-light-blue w3-hover-white">
-									<i>
+									<!--i>
 										<h3><strong>I'm Front End Developer.</strong></h3>
 									</i>
-									<!--i>
-										<h1><strong>I'm V. K.</strong></h1>
+									<i>
+										<h2><strong>I'm V. K.</strong></h2>
 									</i-->
 									<a href="./Image/skusenosti%20%E2%80%93%20k%C3%B3pia.jpg" target="_blank"><img class="img-thumbnail mx-auto d-block" src="./Image/skusenosti%20%E2%80%93%20k%C3%B3pia.jpg" alt="intro" style="width:100%;height:560px" title="As a web developer, I specialize in creating modular and scalable front-end architectures."></a>
 									<!--img class="img-responsive img-rounded"  img src="./Image/8f7e1da1376255a7f2c1fd9edf80ef44.jpg" width="500px" height="805px"  alt="intro"-->
@@ -278,40 +269,40 @@
 
 								<!-- About Section -->
 								<div id="O mne" class="w3-margin w3-justify w3-text-grey w3-padding-60 ">
-									<h2 class="w3-text-light-blue w3-hover-white w3-padding-14 ">About me </h2>
+									<h2 class="w3-text-light-blue w3-hover-white w3-padding-14 ">Hi there! </h2>
 									<hr class="w3-padding-60" style="width:280px">
-									<p><b><i>Hi there!</i>
+									<!--p><b><i>Hi there!</i-->
 										<br><i>I am a Front-end Developer based in Kosice, Slovakia with more years of well rounded experience, developing complex web applications. Particularly i interested in new technologies, new frameworks and programming languages. As a web developer, I specialize in creating modular and scalable front-end architectures. I believe on teamwork and open source community. I'm an programmer and overall an IT guy.
 										<br><br>Som front-end vývojár so sídlom v Košiciach na Slovensku s viacročnými skúsenosťami s vývojom komplexných webových aplikácií. Zaujímajú ma najmä nové technológie, nové rámce a programovacie jazyky. Verím v tímovú prácu a open source komunitu. Som programátor a celkovo IT človek.
 
 
 											<br>
-										<!-- About Section --></i></b><br><br>
+										<!-- About Section --></i><br><br>
 
 
 									<div id="Zručnosti" class="w3-content w3-justify w3-text-grey w3-padding-60">
 												<h2 class="w3-padding-14 w3-text-light-blue w3-hover-white">Skills </h2>
 												<hr class="w3-padding-60" style="width:275px">
-												<p class="w3-wide">Bootstrap 3,4 & WordPress & Html 5 & Adobe photoshop</p>
+												<p class="w3-wide">Bootstrap 3,4&amp;WordPress&amp;Html 5&amp;Adobe photoshop</p>
 												<div class="w3-white">
 													<div class="progress">
 														<div class="progress-bar progress-bar-striped progress-bar-animated w3-light-blue" style="width:99%"></div>
 													</div>
 												</div>
-												<p class="w3-wide">Css & Sass & Less & Php</p>
+												<p class="w3-wide">Css&amp;Sass&amp;Less&amp;Php</p>
 												<div class="w3-white">
 													<div class="progress">
 														<div class="progress-bar progress-bar-striped progress-bar-animated w3-light-blue" style="width:95%"></div>
 													</div>
 												</div>
-												<p class="w3-wide">C++ & Jquery</p>
+												<p class="w3-wide">C++ &amp;Jquery</p>
 												<div class="w3-white">
 													<div class="progress">
 														<div class="progress-bar progress-bar-striped progress-bar-animated w3-light-blue " style="width:90%"></div>
 													</div>
 												</div>
 
-												<p class="w3-wide">Javascript & Python</p>
+												<p class="w3-wide">Javascript&amp;Python</p>
 												<div class="w3-white">
 													<div class="progress">
 														<div class="progress-bar progress-bar-striped progress-bar-animated w3-light-blue" style="width:85%"></div>
@@ -578,7 +569,7 @@
 <a data-fancybox="gallery" href="./Image/skusenosti%20%E2%80%93%20k%C3%B3pia.jpg"><img class="w3-circle w3-content" src="./Image/skusenosti%20%E2%80%93%20k%C3%B3pia.jpg"height="150"width="14%"></a>
 <a data-fancybox="gallery" href="./Image/be8ad217f286a5754c09fddd71b4fd7c.jpg"><img class="rounded" src="./Image/be8ad217f286a5754c09fddd71b4fd7c.jpg"height="150"width="14%"></a>
 <a data-fancybox="gallery" href="./Image/78ce04b2b0a46fe8cce6fe82edcca044.jpg"><img class="w3-circle w3-content" src="./Image/78ce04b2b0a46fe8cce6fe82edcca044.jpg"height="150"width="14%"></a>
-<!--a data-fancybox="gallery" href="./Image/8f7e1da1376255a7f2c1fd9edf80ef44.jpg"><img class="rounded w3-content" src="./Image/8f7e1da1376255a7f2c1fd9edf80ef44.jpg"height="150"width="14%"></a>
+<a data-fancybox="gallery" href="./Image/tall%20ship%20under%20sails.jpg"><img class="rounded w3-content" src="./Image/tall%20ship%20under%20sails.jpg"height="150"width="14%"></a>
 <!--a data-fancybox="gallery" href="./Image/x17-detail-050.jpg"><img class="rounded" src="./Image/x17-detail-050.jpg"height="200"width="13%"></a>
 <a data-fancybox="gallery" href="./Image/IMG_1320-EFFECTS%20%E2%80%93%20k%C3%B3pia.jpg"><img class="rounded" src="./Image/IMG_1320-EFFECTS%20%E2%80%93%20k%C3%B3pia.jpg"height="200"width="14.6%"></a>
 <!--a data-fancybox="gallery" href="./Image/good%20life.jpg">                     <img class="rounded" src="./Image/good%20life.jpg"height="200"width="13%"></a>
@@ -650,7 +641,7 @@
 
 																		<footer id="footer" class="w3-content w3-padding-60  w3-text-grey">
 
-																			<h2>Contact</h2>
+																			<h2>Contact </h2>
 
 
 
@@ -675,7 +666,7 @@
 																				<a class="fa fa-github w3-hover-text-white" href="https://github.com/settings/profile?rel=" data-toggle="tooltip" title="github"></a>
 
 
-														<a href="#" class="btn btn-up fa fa-arrow-up w3-bar-item w3-button w3-padding-xxsmall w3-text-light-blue w3-hover-white">Up</a>
+														<a href="#"class="w3-center btn btn-up fa fa-arrow-up w3-small w3-hover-blue">Back</a>
 
 
 
