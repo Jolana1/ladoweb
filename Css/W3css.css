@@ -31,9 +31,30 @@
 html{-webkit-box-sizing:border-box;box-sizing:border-box}*,*:before,*:after{-webkit-box-sizing:inherit;box-sizing:inherit}
 element {
 }
+
 .btn {
-    display:block;
-    color: #7db9ff;
+  display:none;
+  position: fixed;
+  bottom: 70px;
+  background: black;
+  background: rgba(0, 0, 0, 0.7);
+  width: 40px;
+  height: 40px;
+  margin-top: -40px;
+  text-decoration: none;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  right: 0px;
+  z-index: 1; }
+
+
+   /* color: #7db9ff;
     border: 2px solid;
     padding: .5em 1.7em;
     text-decoration: none;
@@ -50,7 +71,7 @@ element {
 }*/
 .btn:after {
 	content: "";
-	position: absolute;
+	position: fixed;
 	left: -100%;
 	top: 0;
 	display:inline-block;
@@ -58,12 +79,14 @@ element {
 	height: 100%;
 	background-color: #4aacf4;
 	opacity: 0;
-	transition: all .3s ease;
-	z-index: -1;
-}
+	transition: all 0.3s ease;
+	}
+
+
+
 .btn.btn-up {
     position: fixed;
-    bottom: 60px;
+    bottom: 70px;
     right: 10px;
     background-color:#fff;
 -webkit-box-shadow: 0 0 10px
@@ -71,15 +94,15 @@ element {
         box-shadow: 0 0 10px
     rgba(0, 0, 0, 0.3);
 }
-}
 
-* {
+
+{
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
 }
 html, body {
-    font-family: "Roboto", sans-serif;
-    font-size: 20px;
+    font-family: "Verdana", sans-serif;
+    font-size: 30px;
     font-weight: 300;
 }
 
