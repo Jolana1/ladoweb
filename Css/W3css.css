@@ -46,9 +46,7 @@ element {
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
   -webkit-transition: all 0.3s linear;
-  -moz-transition: all 0.3s ease;
-  -ms-transition: all 0.3s ease;
-  -o-transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
   right: 0px;
   z-index: 1; }
@@ -79,6 +77,7 @@ element {
 	height: 100%;
 	background-color: #4aacf4;
 	opacity: 0;
+	-webkit-transition: all 0.3s ease;
 	transition: all 0.3s ease;
 	}
 
