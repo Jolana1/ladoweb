@@ -39,13 +39,37 @@
 <body>
 
 	<style>
+
+	section#Domov {
+	padding: 300px 95px;
+	/*background-color: palegoldenrod;*/
+	background-color: rgba(0, 0, 0, 0.63);
+	background-image: url(./Image/nature-3151869_1920.jpg);
+	background-size: cover;
+	background-position: bottom;
+	background-attachment: fixed;
+	color: #4aacf4;
+	overflow: hidden;
+
+}
+
+section#Domov img {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: -1;
+
+}
+
+
 		h1,
 		h2,
 		h3,
 		h4,
 		h5,
 		h6 {
-			font-family: "Roboto", sans-serif;
+			font-family: "Verdana", sans-serif;
 		}
 
 
@@ -152,11 +176,11 @@
 				<p>Formulár</p>
 			</a>
 
-			<a class="w3-bar-item w3-button w3-padding-small  w3-text-blue w3-hover-white w3-circle " href="#Fotky">
+			<a class="w3-bar-item w3-button w3-padding-small  w3-text-blue w3-hover-white  " href="#Fotky">
 				<i class="fa fa-eye w3-xlarge"></i>
 				<p>Fotky</p>
 			</a>
-			<a class="w3-bar-item w3-button w3-padding-small w3-text-blue w3-hover-white " href="#MyCV">
+			<a class="w3-bar-item w3-button w3-padding-small w3-text-blue w3-hover-white w3-circle " href="#MyCV">
 				<i class="fa fa-calendar w3-xlarge"></i>
 				<p>Životopis</p>
 			</a>
@@ -178,8 +202,7 @@
 			</a>
 		</nav>
 	</div>
-	<!--button class="w3-padding-large w3-text-grey w3-button w3-hover-yellow">
-
+	<!--button class="w3-padding-large w3-text-grey w3-button w3-hover-yellow"-->
 
 
 
@@ -233,27 +256,48 @@
 	<div id="main" class="w3-content w3-text-grey">
 
 		<!--Header/Home w3-padding w3-margin -->
+		<section id="Domov">
+			<img class="rounded">
+			<div class="container">
+			<div class="row">
+					<h1 style="color: #fff"><!--i class="material-icons">favorite</i-->Vladimír Ksenič</h1>
+					<!--button id="Form">Napis mi</button-->
+
+				</div>
+			</div>
+		</section>
 		<header>
-			<header id="Domov" class="w3-center w3-text-light-blue">
+			<header id="home" class="w3-center w3-text-light-blue">
 
+<!--main>
 
-
-
-
-
+			<div class="container">
+				<div class="row">
+					<h1 style="color: #fff">Vladimír Ksenič</h1>
+					<a class="btn" href="#Form">Napíšte mi</a>
+				</div>
+			</div>
+		</section-->
 				<h6,h1><span class="w3-wide w3-text-light-blue w3-hover-white">
+
+
+
+
+
+
 						<!--i>
 										<h3><strong>I'm Front End Developer.</strong></h3>
 									</i>
 									<i>
 										<h2><strong>I'm V. K.</strong></h2>
-									</i-->
-						<a href="./Image/nature-3151869_1920.jpg"><img class="img-thumbnail mx-auto d-block" src="./Image/nature-3151869_1920.jpg" alt="intro" style="width:100%;height:425px;" title="As a web developer, I believe on teamwork and open source community."></a>
+									</i>
+						<a href="./Image/nature-3151869_1920.jpg"><img class="img-thumbnail mx-auto d-block" src="./Image/nature-3151869_1920.jpg" alt="intro" style="width:100%;height:425px;" title="As a web developer, I believe on teamwork and open source community."></a-->
 						<!--img class="img-responsive img-rounded"  img src="./Image/8f7e1da1376255a7f2c1fd9edf80ef44.jpg" width="500px" height="805px"  alt="intro"-->
 					</span>
-
 					<button id="hide">Hide pics</button>
 					<button id="show">Show pics</button>
+
+
 					<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 					<script>
 						$(document).ready(function() {

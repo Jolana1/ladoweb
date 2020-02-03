@@ -52,6 +52,7 @@ element {
   z-index: 1; }
 
 
+
    /* color: #7db9ff;
     border: 2px solid;
     padding: .5em 1.7em;
@@ -67,6 +68,7 @@ element {
 .btn:before {
     color: #000;
 }*/
+
 .btn:after {
 	content: "";
 	position: fixed;
