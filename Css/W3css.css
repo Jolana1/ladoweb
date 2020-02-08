@@ -51,24 +51,6 @@ element {
   right: 0px;
   z-index: 1; }
 
-
-
-   /* color: #7db9ff;
-    border: 2px solid;
-    padding: .5em 1.7em;
-    text-decoration: none;
-    position: relative;
-    overflow: hidden;
-    z-index: 1;
-}
-/*.btn:hover {
-    color:
-    #fff;}
-
-.btn:before {
-    color: #000;
-}*/
-
 .btn:after {
 	content: "";
 	position: fixed;
@@ -83,8 +65,6 @@ element {
 	transition: all 0.3s ease;
 	}
 
-
-
 .btn.btn-up {
     position: fixed;
     bottom: 140px;
@@ -95,6 +75,28 @@ element {
         box-shadow: 0 0 10px
     rgba(0, 0, 0, 0.3);
 }
+/*.btn-form {
+	display: inline-block;
+	color: #4aacf4;
+	border: 2px solid;
+	padding: .5em 1.7em;
+	text-decoration: none;
+	position: relative;
+	overflow: hidden;
+	z-index: 1;
+}
+
+
+
+.btn:hover {
+	color: #000;
+}
+
+.btn:hover:after {
+	left: 0;
+	opacity: 1;
+}*/
+
 
 
 {

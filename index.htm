@@ -8,7 +8,6 @@
 	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 
 	<!--link rel="stylesheet" href="./Css/pagepiling.css"-->
-
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="./Css/W3css.css">
@@ -16,7 +15,8 @@
 
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-	<!--link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css"-->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 
@@ -39,29 +39,48 @@
 <body>
 
 	<style>
+		@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
 
-	section#Domov {
-	padding: 300px 95px;
-	/*background-color: palegoldenrod;*/
-	background-color: rgba(0, 0, 0, 0.63);
-	background-image: url(./Image/nature-3151869_1920.jpg);
-	background-size: cover;
-	background-position: bottom;
-	background-attachment: fixed;
-	color: #4aacf4;
-	overflow: hidden;
+		section#Domov {
+			padding: 300px 95px;
+			/*background-color: palegoldenrod;*/
+			background-color: rgba(0, 0, 0, 0.63);
+			background-image: url(./Image/INK.jpg);
+			background-size: cover;
+			background-position: bottom;
+			background-attachment: fixed;
+			color: #4aacf4;
+			overflow: hidden;
 
-}
+		}
 
-section#Domov img {
-	position: fixed;
-	top: 0;
-	left: 0;
-	width: 100%;
-	z-index: -1;
+		section#Test {
+			padding: 90px 90px;
+			/*background-color: palegoldenrod;*/
+			background-color: rgba(0, 0, 0, 0.63);
+			background-image: url(./Image/INK.jpg);
+			background-size: cover;
+			background-position: bottom;
+			background-attachment: fixed;
+			color: #4aacf4;
+			overflow: hidden;
 
-}
+		}
 
+		section#Domov img {
+			position: fixed;
+			top: 0;
+			left: 0;
+			width: 100%;
+			z-index: -1;
+
+		}
+
+		section#footer {
+			background-color: black;
+			text-align: center;
+			padding: 155px;
+		}
 
 		h1,
 		h2,
@@ -135,7 +154,7 @@ section#Domov img {
 		footer {
 			background-color: black;
 			text-align: center;
-			padding: 15px;
+			padding: 155px;
 		}
 
 
@@ -157,7 +176,7 @@ section#Domov img {
 		<nav class="w3-sidebar w3-content w3-bar-block w3-small w3-black w3-center">
 
 			<!-- Avatar image in top left corner -->
-			<img src="./Image/IMG_3155.jpg" class="w3-round" alt="me" style="width:80px;height:95px" title="I'm V. Ksenic .I am a Front end Developer and as a web developer, I specialize in creating modular and scalable front-end architectures."><br>
+			<img src="./Image/IMG_3155.jpg" class="img-rounded" alt="me" style="width:80px;height:95px" title="I'm V. Ksenic .I am a Front end Developer and as a web developer, I specialize in creating modular and scalable front-end architectures."><br>
 
 			<a class="w3-bar-item w3-button w3-padding-small w3-text-blue w3-hover-white " href="#Domov">
 				<i class="fa fa-home w3-xlarge"></i>
@@ -209,7 +228,7 @@ section#Domov img {
 
 
 
-		<!-- Navbar on small screens (Hidden on medium and large screens w3-hide-medium w3-hide-large) -->
+	<!-- Navbar on small screens (Hidden on medium and large screens w3-hide-medium w3-hide-large) -->
 
 	<div class="w3-content w3-center w3-hide-medium w3-hide-large" id="myNavbar">
 		<div class="w3-container-fluid w3-top  w3-xsmall w3-opacity w3-hover-opacity-off">
@@ -257,11 +276,12 @@ section#Domov img {
 
 		<!--Header/Home w3-padding w3-margin -->
 		<section id="Domov">
-			<img class="rounded">
 			<div class="container">
-			<div class="row">
-					<h1 style="color: #fff"><!--i class="material-icons">favorite</i-->Vladimír Ksenič</h1>
-					<!--button id="Form">Napis mi</button-->
+				<div class="row">
+					<h1 style="color: #fff"><i class=" glyphicon glyphicon-heart"></i> Vladimír Ksenič</h1>
+					<!--i class="material-icons">favorite</i-->
+
+					<!--a class="btn-form" href="#Form">Napíšte mi</a-->
 
 				</div>
 			</div>
@@ -269,7 +289,7 @@ section#Domov img {
 		<header>
 			<header id="home" class="w3-center w3-text-light-blue">
 
-<!--main>
+				<!--main>
 
 			<div class="container">
 				<div class="row">
@@ -321,92 +341,94 @@ section#Domov img {
 
 
 
-					<!-- About Section -->
-					<div id="O mne" class="w3-content w3-justify w3-text-grey w3-padding-60 ">
-						<h2 class="w3-text-light-blue w3-hover-white w3-padding-14 w3-center ">Hi there! </h2>
+					<!-- About me -->
+					<sec id="O mne" class="w3-justify w3-center w3-text-grey w3-content w3-row ">
+						<h2 class="w3-padding-14 w3-text-light-blue w3-hover-white"><i class=" glyphicon glyphicon-home"></i> Hi there! </h2>
 						<hr class="w3-padding-60" style="width:">
 						<!--p><b><i>Hi there!</i-->
-						<p id="demo"><br>I am a Front-end Developer based in Kosice, Slovakia with more years of well-rounded experience, developing complex web applications.<br>Particularly I interested in new technologies, new frameworks and programming languages. As a web developer,i specialize in creating modular and scalable front-end architectures.I believe on teamwork and open source community.<br> I'm an programmer and overall an IT guy.
+						<p id="demo"><br><br><br><br><br>I am a Front-end Developer based in Kosice, Slovakia with more years of well-rounded experience, developing complex web applications.<br>Particularly I interested in new technologies, new frameworks and programming languages. As a web developer,i specialize in creating modular and scalable front-end architectures.I believe on teamwork and open source community.I'm an programmer and overall an IT guy.
 						</p>
-						<button type="button" onclick='document.getElementById("demo").innerHTML = "Som front-end vývojár so sídlom v Košiciach na Slovensku s viacročnými skúsenosťami s vývojom komplexných webových aplikácií. Zaujímajú ma najmä nové technológie, nové rámce a programovacie jazyky. Ako webový vývojár sa špecializujem na vytváranie modulárnych a škálovateľných front-end architektúr. Verím v tímovú prácu a komunitu s otvoreným zdrojom kodu. Som programátor a celkovo IT človek."'><img src="./Image/sk.png" height="25%" width="20px"> Svk text</button>
-
-						<!--br><br>Som front-end vývojár so sídlom v Košiciach na Slovensku s viacročnými skúsenosťami s vývojom komplexných webových aplikácií. Zaujímajú ma najmä nové technológie, nové rámce a programovacie jazyky. <br>Verím v tímovú prácu a open source komunitu. Som programátor a celkovo IT človek.
-
+						<button type="button" onclick='document.getElementById("demo").innerHTML = "Som front-end vývojár so sídlom v Košiciach na Slovensku s viacročnými skúsenosťami s vývojom komplexných webových aplikácií. Zaujímajú ma najmä nové technológie, nové rámce a programovacie jazyky. Ako webový vývojár sa špecializujem na vytváranie modulárnych a škálovateľných front-end architektúr. Verím v tímovú prácu a komunitu s otvoreným zdrojom kódu. Som programátor a celkovo IT človek."'><img src="./Image/sk.png" height="25%" width="20px"> Svk text</button>
+					</sec>
 
 
-										<!-- About Section --><br><br>
+					<!--br><br>Som front-end vývojár so sídlom v Košiciach na Slovensku s viacročnými skúsenosťami s vývojom komplexných webových aplikácií. Zaujímajú ma najmä nové technológie, nové rámce a programovacie jazyky. <br>Verím v tímovú prácu a open source komunitu. Som programátor a celkovo IT človek.
 
 
-						<div id="Zručnosti" class="w3-content w3-justify w3-text-grey w3-padding-60">
-							<h2 class="w3-padding-14 w3-text-light-blue w3-hover-white">Skills </h2>
-							<hr class="w3-padding-60" style="width:275px">
-							<p class="w3-wide">Bootstrap 3,4 &amp; Css &amp;Html 5 &amp; MS Office</p>
+
+					<!-- About skill Section -->
+
+
+					<sec id="Zručnosti" class="w3-content w3-justify w3-text-grey w3-padding-60">
+						<h2 class="w3-padding-14 w3-text-light-blue w3-hover-white"> </h2>
+						<hr class="w3-padding-60" style="width:275px"><br><br><br><br><br>
+						<p class="w3-wide">Bootstrap 3,4 &amp; Css &amp;Html 5 &amp; MS Office</p>
+						<div class="w3-white">
+							<div class="progress">
+								<div class="progress-bar progress-bar-striped progress-bar-animated w3-light-blue" style="width:99%"></div>
+							</div>
+						</div>
+						<p class="w3-wide">Css3 &amp; Sass &amp; Less &amp; Php</p>
+						<div class="w3-white">
+							<div class="progress">
+								<div class="progress-bar progress-bar-striped progress-bar-animated w3-light-blue" style="width:95%"></div>
+							</div>
+						</div>
+						<p class="w3-wide">Javascript &amp; C++ &amp; Jquery</p>
+						<div class="w3-white">
+							<div class="progress">
+								<div class="progress-bar progress-bar-striped progress-bar-animated w3-light-blue " style="width:90%"></div>
+							</div>
+						</div>
+
+						<p class="w3-wide">Java</p>
+						<div class="w3-white">
+							<div class="progress">
+								<div class="progress-bar progress-bar-striped progress-bar-animated w3-light-blue" style="width:85%"></div>
+							</div>
+							<p class="w3-wide w3-text-grey">Python</p>
 							<div class="w3-white">
 								<div class="progress">
-									<div class="progress-bar progress-bar-striped progress-bar-animated w3-light-blue" style="width:99%"></div>
+									<div class="progress-bar progress-bar-striped progress-bar-animated w3-light-blue " style="width:75%"></div>
 								</div>
 							</div>
-							<p class="w3-wide">Css3 &amp; Sass &amp; Less &amp; Php</p>
-							<div class="w3-white">
-								<div class="progress">
-									<div class="progress-bar progress-bar-striped progress-bar-animated w3-light-blue" style="width:95%"></div>
-								</div>
-							</div>
-							<p class="w3-wide">Javascript &amp; C++ &amp; Jquery</p>
-							<div class="w3-white">
-								<div class="progress">
-									<div class="progress-bar progress-bar-striped progress-bar-animated w3-light-blue " style="width:90%"></div>
-								</div>
-							</div>
+						</div>
+					</sec>
 
-							<p class="w3-wide">Java</p>
-							<div class="w3-white">
-								<div class="progress">
-									<div class="progress-bar progress-bar-striped progress-bar-animated w3-light-blue" style="width:85%"></div>
-								</div>
-								<p class="w3-wide w3-text-grey">Python</p>
-								<div class="w3-white">
-									<div class="progress">
-										<div class="progress-bar progress-bar-striped progress-bar-animated w3-light-blue " style="width:75%"></div>
-									</div>
-								</div>
-							</div>
-							<br>
+					<div class="w3-row w3-center w3-padding-16 w3-section w3-light-grey">
+						<div class="w3-quarter w3-section">
+							<span class="w3-large">11+</span><br>
+							Partnerov
+						</div>
+						<div class="w3-quarter w3-section">
+							<span class="w3-large">55+</span><br>
+							Projektov
+						</div>
+						<div class="w3-quarter w3-section">
+							<span class="w3-large">89+</span><br>
+							Spokojných Klientov
+						</div>
+						<div class="w3-quarter w3-section">
+							<span class="w3-large">150+</span><br>
+							Stretnutí
+						</div>
+					</div>
 
-							<div class="w3-row w3-center w3-padding-16 w3-section w3-light-grey">
-								<div class="w3-quarter w3-section">
-									<span class="w3-large">11+</span><br>
-									Partnerov
-								</div>
-								<div class="w3-quarter w3-section">
-									<span class="w3-large">55+</span><br>
-									Projektov
-								</div>
-								<div class="w3-quarter w3-section">
-									<span class="w3-large">89+</span><br>
-									Spokojných Klientov
-								</div>
-								<div class="w3-quarter w3-section">
-									<span class="w3-large">150+</span><br>
-									Stretnutí
-								</div>
-							</div>
-
-							<!--button class="w3-button w3-hover-blue w3-padding-large w3-section">
+					<!--button class="w3-button w3-hover-blue w3-padding-large w3-section">
 								<i class="fa fa-download"></i> Download
 							</button-->
 
-							<br><br>
-							<!-- About Section form -->
-							<section id="Form">
 
-								<div id="Form" class="w3-content w3-justify w3-text-grey w3-padding-60">
-									<h2 class="w3-padding-14 w3-text-light-blue w3-hover-white"></h2>
-									<!--hr class="w3-padding-60" style="width:235px"-->
+					<!-- About Section form -->
+					<section id="Form">
 
-									<!--div class="invoice-details"-->
+						<div id="Form" class="w3-content w3-justify w3-text-grey w3-padding-60">
+							<h2 class="w3-padding-14 w3-text-light-blue w3-hover-white"></h2>
+							<!--hr class="w3-padding-60" style="width:235px"-->
 
-									<!--h4 class="title-small mb-md-1">Contact us</h4>
+							<!--div class="invoice-details"-->
+
+							<!--h4 class="title-small mb-md-1">Contact us</h4>
             <p class="sub-line mb-md-3">
                 If you've got general questions about our service,
                 have run into problems or just want to share feedback
@@ -417,29 +439,29 @@ section#Domov img {
 
 
 
-									<!--textarea class="invoice-textarea" required="required" id="message" placeholder="message"  rows="10"></textarea-->
+							<!--textarea class="invoice-textarea" required="required" id="message" placeholder="message"  rows="10"></textarea-->
 
-									<!--form method="post" action="/account/contact"-->
+							<!--form method="post" action="/account/contact"-->
+							<br><br><br><br><br><br><br>
+							<form method="get" class="invoice-details w3-center w3-text-grey w3-padding-60">
+								<label for="name"> Name</label>
 
-									<form method="get" class="invoice-details w3-center w3-text-grey w3-padding-60">
-										<label for="name"> Name</label>
+								<input type="text" id="name" name="name" placeholder="Celé meno.." required name="name">
+								<br>
+								<label for="email"> Email</label>
 
-										<input type="text" id="name" name="name" placeholder="Celé meno.." required name="name">
-										<br>
-										<label for="email"> Email</label>
+								<input type="text" id="email" name="email" placeholder="Tvoj email.." required name="email">
+								<br>
+								<label>Date</label>
+								<input type="date" name="date">
+								<br>
+								<label for="comment">Comment:</label><br>
+								<textarea name="comment" rows="5" cols="35"></textarea>
+								<!--span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">SELECT * FROM Customers;</span-->
 
-										<input type="text" id="email" name="email" placeholder="Tvoj email.." required name="email">
-										<br>
-										<label>Date</label>
-										<input type="date" name="date">
-										<br>
-										<label for="comment">Comment:</label><br>
-										<textarea name="comment" rows="5" cols="35"></textarea>
-										 <!--span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">SELECT * FROM Customers;</span-->
-
-										<br>
-										<!--input class="w3-input w3-padding-10" type="text" placeholder="Váš text sem vpište!" required name="Message"></p-->
-										<!--label for="country">Country</label>
+								<br>
+								<!--input class="w3-input w3-padding-10" type="text" placeholder="Váš text sem vpište!" required name="Message"></p-->
+								<!--label for="country">Country</label>
     <select id="country" name="country">
       <option value="slovakia">Slovakia</option>
       <option value="eu">EU</option>
@@ -447,16 +469,18 @@ section#Domov img {
     </select-->
 
 
-										<input type="submit" required="text">
-										<input type="reset">
+								<input type="submit" required="text">
+								<input type="reset">
 
+							</form>
+						</div>
+					</section>
 
-									</form>
-									<!--fieldset>
+					<!--fieldset>
 																<p class="w3-hover-text-light-blue w3-text-grey">
 																	<!--legend>Vyplňte formulár alebo ma kontaktujte na email:</legend-->
 
-									<!--label for="fname">Vaše meno:<br></label>
+					<!--label for="fname">Vaše meno:<br></label>
 																	<input type="text" required="required" name="fname" maxlength="10" placeholder="first name" value="" id="fname"><br>
 
 																	<label>Vaše priezvisko:<br></label>
@@ -481,7 +505,7 @@ section#Domov img {
 							</label-->
 
 
-									<!--select name="moznost">
+					<!--select name="moznost">
 														<option value="a" selected="selected">1</option>
 														<option value="b" selected="selected">2</option>
 														<option value="c" selected="selected">3</option>
@@ -506,9 +530,9 @@ section#Domov img {
                     vek:
                     <input type="number" required="required"-->
 
-									<!--input type="email" required="required"><button class="w3-button"><i class="fa fa-envelope w3-content w3-text-grey"></i>
+					<!--input type="email" required="required"><button class="w3-button"><i class="fa fa-envelope w3-content w3-text-grey"></i>
 													<a href="mailto:ksenicv@gmail.com"> Môžeš mi poslať email</a></button-->
-									<!--input type="button" value="niečo">
+					<!--input type="button" value="niečo">
 																	</label></p>
 															</fieldset>
 														</form></div-->
@@ -519,25 +543,25 @@ section#Domov img {
 
 
 
-									<!--button class="w3-button w3-hover-blue w3-padding-large w3-section w3-text-grey"><a href="mailto:ksenicv@gmail.com" target="_blank"><i class="fa fa-envelope"><i> Odošli mi email</i></i></a></button-->
+					<!--button class="w3-button w3-hover-blue w3-padding-large w3-section w3-text-grey"><a href="mailto:ksenicv@gmail.com" target="_blank"><i class="fa fa-envelope"><i> Odošli mi email</i></i></a></button-->
 
 
-									<!--label>Tvoj mail:<br></label>
+					<!--label>Tvoj mail:<br></label>
 													<input type="email"-->
 
 
-									<!--br>
+					<!--br>
 														<input type="file" multiple-->
 
 
 
 
 
-									<!--input type="number"-->
+					<!--input type="number"-->
 
 
 
-									<!--img src="img/whatthe____.jpg" width="50"></button>
+					<!--img src="img/whatthe____.jpg" width="50"></button>
 												</fieldset>
 											</form>
 										</div>
@@ -551,7 +575,7 @@ section#Domov img {
 
 
 
-									<!--div class="w3-row-padding" style="margin:0 -16px">
+					<!--div class="w3-row-padding" style="margin:0 -16px">
 									<div class="w3-half w3-margin-bottom">
 										<ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
 											<li class="w3-dark-grey w3-xlarge w3-padding-24">Základ</li>
@@ -596,30 +620,31 @@ section#Domov img {
 
 
 
-									<!-- Portfolio Section -->
-									<div id="Fotky" class="w3-justify w3-center w3-text-grey w3-content w3-row">
+					<!-- Portfolio Section -->
+					<sec id="Fotky" class="w3-justify w3-center w3-text-grey w3-content w3-row">
 
-										<h2 class="w3-padding-14 w3-text-light-blue w3-hover-white">Gallery of pics </h2>
-										<hr class="w3-padding-60" style="width:">
+						<h2 class="w3-padding-14 w3-text-light-blue w3-hover-white"> Gallery of pics </h2>
+						<hr class="w3-padding-60" style="width:px">
+						<br><br><br><br>
 
-
-										<a data-fancybox="gallery" href="./Image/b0ec08912e35316eb093bf286f6c1096.jpg"><img class="rounded" src="./Image/b0ec08912e35316eb093bf286f6c1096.jpg" height="150" width="15%"></a>
-										<a data-fancybox="gallery" href="./Image/fcda2edf1c06749546a1b3f5069fd8dc.jpg"><img class="w3-circle w3-content" src="./Image/fcda2edf1c06749546a1b3f5069fd8dc.jpg" height="150" width="15%"></a>
-										<a data-fancybox="gallery" href="./Image/0fa0e361160d052e079735eee2f8f136.jpg"><img class="rounded" src="./Image/0fa0e361160d052e079735eee2f8f136.jpg" height="150" width="15%"></a>
-										<a data-fancybox="gallery" href="./Image/6882bf43-3619-4df0-b65d-5a3d09a87efd.jpg"><img class="w3-circle w3-content" src="./Image/6882bf43-3619-4df0-b65d-5a3d09a87efd.jpg" height="150" width="15%"></a>
-										<a data-fancybox="gallery" href="./Image/be8ad217f286a5754c09fddd71b4fd7c.jpg"><img class="rounded" src="./Image/be8ad217f286a5754c09fddd71b4fd7c.jpg" height="150" width="15%"></a>
-										<a data-fancybox="gallery" href="./Image/78ce04b2b0a46fe8cce6fe82edcca044.jpg"><img class="w3-circle w3-content" src="./Image/78ce04b2b0a46fe8cce6fe82edcca044.jpg" height="150" width="15%"></a><br><br>
-										<a data-fancybox="gallery" href="./Image/tall%20ship%20under%20sails.jpg"><img class="rounded w3-content" src="./Image/tall%20ship%20under%20sails.jpg" style="width:95%;height:475px;"></a>
-										<!--a data-fancybox="gallery" href="./Image/x17-detail-050.jpg"><img class="rounded" src="./Image/x17-detail-050.jpg"height="200"width="13%"></a>
+						<a data-fancybox="gallery" href="./Image/b0ec08912e35316eb093bf286f6c1096.jpg"><img class="rounded" src="./Image/b0ec08912e35316eb093bf286f6c1096.jpg" height="150" width="15%"></a>
+						<a data-fancybox="gallery" href="./Image/fcda2edf1c06749546a1b3f5069fd8dc.jpg"><img class="w3-circle w3-content" src="./Image/fcda2edf1c06749546a1b3f5069fd8dc.jpg" height="150" width="15%"></a>
+						<a data-fancybox="gallery" href="./Image/0fa0e361160d052e079735eee2f8f136.jpg"><img class="rounded" src="./Image/0fa0e361160d052e079735eee2f8f136.jpg" height="150" width="15%"></a>
+						<a data-fancybox="gallery" href="./Image/skusenosti%20%E2%80%93%20k%C3%B3pia.jpg"><img class="w3-circle w3-content" src="./Image/skusenosti%20%E2%80%93%20k%C3%B3pia.jpg" height="150" width="15%"></a>
+						<a data-fancybox="gallery" href="./Image/be8ad217f286a5754c09fddd71b4fd7c.jpg"><img class="rounded" src="./Image/be8ad217f286a5754c09fddd71b4fd7c.jpg" height="150" width="15%"></a>
+						<a data-fancybox="gallery" href="./Image/78ce04b2b0a46fe8cce6fe82edcca044.jpg"><img class="w3-circle w3-content" src="./Image/78ce04b2b0a46fe8cce6fe82edcca044.jpg" height="150" width="15%"></a><br><br>
+						<a data-fancybox="gallery" href="./Image/nature-3151869_1920.jpg"><img class="rounded w3-content" src="./Image/nature-3151869_1920.jpg" style="width:100%;height:475px;"></a>
+						<!--a data-fancybox="gallery" href="./Image/x17-detail-050.jpg"><img class="rounded" src="./Image/x17-detail-050.jpg"height="200"width="13%"></a>
 <a data-fancybox="gallery" href="./Image/IMG_1320-EFFECTS%20%E2%80%93%20k%C3%B3pia.jpg"><img class="rounded" src="./Image/IMG_1320-EFFECTS%20%E2%80%93%20k%C3%B3pia.jpg"height="200"width="14.6%"></a>
 <!--a data-fancybox="gallery" href="./Image/good%20life.jpg">                     <img class="rounded" src="./Image/good%20life.jpg"height="200"width="13%"></a>
 <!--a data-fancybox="gallery" href="./Image/IMG_1320-EFFECTS%20%E2%80%93%20k%C3%B3pia.jpg"><img class="rounded" src="./Image/IMG_1320-EFFECTS%20%E2%80%93%20k%C3%B3pia.jpg"height="100"width="10%"></a-->
 
-									</div>
-								</div>
-							</section>
 
-							<!-- Grid for photos povodne >
+
+					</sec>
+
+
+					<!-- Grid for photos povodne >
 
 																<div class="w3-row-padding" style="margin:0 -16px">
 																	<div class="w3-half">
@@ -651,96 +676,108 @@ section#Domov img {
 
 
 																		<!-- End photo grid -->
-							<!-- End Portfolio Section -->
+					<!-- End Portfolio Section -->
 
 
 
-							<!--div class="w3-content  w3-text-grey w3-padding-16" id="Hudba">
+					<!--div class="w3-content  w3-text-grey w3-padding-16" id="Hudba">
 
 							<!-- MyCV section -->
 
-							<section id="MyCV">
-								<div id="MyCV" class="w3-content w3-text-grey">
+					<sec id="MyCV">
+						<div id="MyCV" class="w3-content w3-text-grey">
 
-									<!--h2 class=" w3-padding-60 w3-text-light-blue w3-hover-white ">VK CV </h2-->
-									<hr class="w3-padding-60" style="width:px">
-									<!--iframe src="https://youtube.com/embed/XJ9Vylyk5Uw? autoplay=0" style="border:none;" scrolling="no" Name="Night Lounge - Lounge Musik, Instrumentale Musik, Easy Listening & Chill Out - LATE NIGHT MOODS" width="100%" height="260" frameborder="0"></iframe-->
+							<!--h2 class=" w3-padding-60 w3-text-light-blue w3-hover-white ">VK CV </h2-->
+							<hr class="w3-padding-60" style="width:px">
+							<!--iframe src="https://youtube.com/embed/XJ9Vylyk5Uw? autoplay=0" style="border:none;" scrolling="no" Name="Night Lounge - Lounge Musik, Instrumentale Musik, Easy Listening & Chill Out - LATE NIGHT MOODS" width="100%" height="260" frameborder="0"></iframe-->
 
-										<div style="position: relative; padding-top:0%; padding-bottom:77.25% ; height: 0%; width: 100%">
-											<iframe style="position:absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://view.genial.ly/5c9290316f346c72263fa70a/personal-branding-vk" type="text/html" allowscriptaccess="always" allowfullscreen="true" scrolling="no" allownetworking="all" width="1200px" height="575px" frameborder="0">
-												<!--br><a href="#"class="https://view.genial.ly/5c963df2e1906b76bf619328/personal-branding-vladimir-ksenic"</a-->
-											</iframe></div>
-
-
-										<!-- Testimonials/Ohlasy -->
-										<section id="Test">
-											<div id="Test" class="w3-content w3-text-grey">
-
-
-												<h2 class="w3-padding-60 w3-text-light-blue w3-hover-white"> </h2>
-												<hr class="w3-padding-60" style="width:px">
-												<img class="w3-circle w3-float-left" src="./Image/john_doe.jpg" style="width:60px" alt="J. Doe">
-												<p><span class="w3-content w3-hover-white w3-margin-right w3-text-grey w3-wide ">John Doe.ASP Corporation.</span>
-												</p>
-												<em>”This master has been taking care of our company for years. It takes care of the security of our site and in addition that our site works flawlessly. Thank you :)“</em>
-												<br><br>
-												<img class="w3-circle" src="./Image/profile-pic.jpg" style="width:60px" alt="J. Suong">
-												<p><span class="w3-content w3-hover-white w3-margin-right w3-text-grey w3-wide">Jane Suong.Businesswoman.</span>
-												</p>
-												<em>”We needed to present our company and its products better on the web. Mr. V.Ksenic has made us a perfect site. Now only in good, we almost do not want to supply the market with our products.<br> Thank you again.“
-												</em>
-
-												<br><br><br>
-												<footer id="footer" class="w3-content w3-small  w3-text-grey">
-													<section id="Music">
-														<div id="Music" class="w3-justify w3-text-grey w3-content w3-text-grey" href="#Music">
-															<h2 class="w3-text-light-blue ">Relax Music </h2>
-															<hr class="w3-padding-60" style="width:155px">
-															<iframe src="https://youtube.com/embed/Hj8lJcQk-Rk?autoplay=0" style="width: 100%; height: 475px;" frameborder="0" style="border:0" allowfullscreen align="" scrolling="no" Name="Afterlife - Naif"></iframe>
-														</div>
-														<!-- Footer Section -->
-
-
-														<!-- Google maps Section -->
-														<!--iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2631.6219359013385!2d21.282532850402756!3d48.731815279173595!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473ede29d93fb3bf%3A0xaa964d920a9e7e66!2sPostupimsk%C3%A1+755%2F29%2C+040+22+Ko%C5%A1ice!5e0!3m2!1sen!2ssk!4v1545327953895" width="100%" height="240" frameborder="0" style="border:0" allowfullscreen></iframe-->
+							<div style="position: relative; padding-top:0%; padding-bottom:77.25% ; height: 0%; width: 100%">
+								<iframe style="position:absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://view.genial.ly/5c9290316f346c72263fa70a/personal-branding-vk" type="text/html" allowscriptaccess="always" allowfullscreen="true" scrolling="no" allownetworking="all" width="1200px" height="575px" frameborder="0">
+									<!--br><a href="#"class="https://view.genial.ly/5c963df2e1906b76bf619328/personal-branding-vladimir-ksenic"</a-->
+								</iframe></div>
+						</div>
+					</sec>
 
 
 
 
-														<h2>Contact</h2>
+					<!-- Testimonials/Ohlasy -->
+					<section id="Test">
+						<div id="Test" class="w3-content w3-text-white">
+
+
+							<h2 class="w3-text-white ">Testimonials </h2>
+							<hr class="w3-padding-60" style="width:px">
+							<br><br>
+							<img class="w3-circle w3-float-left" src="./Image/john_doe.jpg" style="width:60px" alt="J. Doe">
+							<strong><span class="w3-content w3-hover-white w3-margin-right w3-text-white w3-wide">John Doe.ASP Corporation.</span>
+
+								<em>”This master has been taking care of our company for years. It takes care of the security of our site and in addition that our site works flawlessly. <br>Thank you :)“</em>
+								<hr class="w3-padding-60" style="width:px">
+								<br><br>
+								<img class="w3-circle w3-float-left" src="./Image/profile-pic.jpg" style="width:60px" alt="J. Suong">
+								<strong><span class="w3-content w3-hover-white w3-margin-right w3-text-white w3-wide">Jin Suong.Businesswoman.</span>
+									<em>”We needed to present our company and its products better on the web. Mr. V.Ksenic has made us a perfect site. Now only in good, we almost do not want to supply the market with our products.
+										<br>Thank you again.“
+									</em>
+								</strong>
+							</strong>
+						</div>
+					</section>
+					<br><br><br>
+					<section id="Music">
+						<div id="Music" class="w3-justify w3-text-grey w3-content w3-text-grey w3-center" href="#Music">
+							<h2 class="w3-padding-14 w3-text-light-blue w3-hover-white"><i class=" glyphicon glyphicon-music"></i> Music </h2>
+							<hr class="w3-padding-60" style="width:px">
+							<br><br><br>
+							<iframe src="https://youtube.com/embed/Hj8lJcQk-Rk?autoplay=0" style="width: 100%; height: 475px;" frameborder="0" style="border:0" allowfullscreen align="" scrolling="no" Name="Afterlife - Naif"></iframe>
+						</div>
+					</section>
+
+					<!-- Footer Section -->
+
+
+					<!-- Google maps Section -->
+					<!--iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2631.6219359013385!2d21.282532850402756!3d48.731815279173595!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473ede29d93fb3bf%3A0xaa964d920a9e7e66!2sPostupimsk%C3%A1+755%2F29%2C+040+22+Ko%C5%A1ice!5e0!3m2!1sen!2ssk!4v1545327953895" width="100%" height="240" frameborder="0" style="border:0" allowfullscreen></iframe-->
 
 
 
 
-														<i class="fa fa-map-marker fa-fw w3-text-red w3-xlarge w3-margin-left" title="Mesto"></i>Košice, Slovakia
-
-														<i class="fa fa-phone fa-fw w3-text-orange w3-xlarge w3-margin-left" title="Zavolajte!"></i>0907151293
-														<a class="fa fa-envelope fa-fw w3-text-green w3-xlarge w3-margin-left" href="mailto:ksenicv@gmail.com" data-toggle="tooltip" title="Pošli mi email!" target="_blank"></a>Email
-
-														<p class="w3-small w3-text-grey w3-center w3-wide"><br>Powered by ©V.Ksenič ©All rights reserved 2020.
-															<!--a href="https://github.com/settings/profile?rel=" target="_blank" class="w3-hover-white"><i class="fa fa-github w3-hover-opacity"-->Find me on social media!>>><a class="fa fa-facebook-official w3-hover-text-white" href="https://www.facebook.com/vladimir.ksenic" data-toggle="tooltip" title="facebook" target="_blank"></a>
-															<a class="fa fa-pinterest w3-hover-text-white" href="https://sk.pinterest.com/ksenicv/" data-toggle="tooltip" title="pinterest"></a>
-															<a class="fa fa-twitter w3-hover-text-white" href="https://twitter.com/ladow11" data-toggle="tooltip" title="twitter">
-															</a>
-															<a class="fa fa-youtube  w3-hover-text-white" href="https://www.youtube.com/channel/UCX3EKD2gPCW81IiBCWDeh-Q?view_as=subscriber" data-toggle="tooltip" title="youtube">
-															</a>
-															<a class="fa fa-instagram w3-hover-text-white" href="https://www.instagram.com/vladimirksenic/" data-toggle="tooltip" title="instagram">
-															</a>
-															<a class="fa fa-mixcloud w3-hover-text-white" href="https://www.mixcloud.com/vladim%C3%ADr-kseni%C4%8D/favorites/" data-toggle="tooltip" title="mixcloud"></a>
-
-															<a class="fa fa-linkedin w3-hover-text-white" href="https://www.linkedin.com/in/vladim%C3%ADr-kseni%C4%8D-a084a2161/" data-toggle="tooltip" title="linkedin"></a>
-															<a class="fa fa-github w3-hover-text-white" href="https://github.com/settings/profile?rel=" data-toggle="tooltip" title="github"></a>
-
-
-															<a href="#" class="fa fa-chevron-up btn btn-up  w3-large w3-hover-blue"></a>
+					<sec id="footer" class="w3-content w3-small  w3-text-grey">
+						<h2>Contact</h2>
 
 
 
 
+						<i class="fa fa-map-marker fa-fw w3-text-red w3-xlarge w3-margin-left" title="Mesto"></i>Slovakia
+
+						<i class="fa fa-phone fa-fw w3-text-orange w3-xlarge w3-margin-left" title="Zavolajte!"></i>0907151293
+						<a class="fa fa-envelope fa-fw w3-text-green w3-xlarge w3-margin-left" href="mailto:ksenicv@gmail.com" data-toggle="tooltip" title="Pošli mi email!" target="_blank"></a>Email
+
+						<br><br>
+						<!--a href="https://github.com/settings/profile?rel=" target="_blank" class="w3-hover-white"><i class="fa fa-github w3-hover-opacity"-->Find me on social media!>>><a class="fa fa-facebook-official w3-text-grey" href="https://www.facebook.com/vladimir.ksenic" data-toggle="tooltip" title="facebook" target="_blank">facebook</a>
+						<a class="fa fa-pinterest w3-text-grey" href="https://sk.pinterest.com/ksenicv/" data-toggle="tooltip" title="pinterest">pinterest</a>
+						<a class="fa fa-twitter w3-text-grey" href="https://twitter.com/ladow11" data-toggle="tooltip" title="twitter">twitter
+						</a>
+						<a class="fa fa-youtube  w3-text-grey" href="https://www.youtube.com/channel/UCX3EKD2gPCW81IiBCWDeh-Q?view_as=subscriber" data-toggle="tooltip" title="youtube">youtube
+						</a>
+						<!--a class="fa fa-instagram w3-text-grey" href="https://www.instagram.com/vladimirksenic/" data-toggle="tooltip" title="instagram">
+							</a>
+							<a class="fa fa-mixcloud w3-text-grey" href="https://www.mixcloud.com/vladim%C3%ADr-kseni%C4%8D/favorites/" data-toggle="tooltip" title="mixcloud"></a-->
+
+						<a class="fa fa-linkedin w3-text-grey" href="https://www.linkedin.com/in/vladim%C3%ADr-kseni%C4%8D-a084a2161/" data-toggle="tooltip" title="linkedin">linkedin"</a>
+						<a class="fa fa-github w3-text-grey" href="https://github.com/settings/profile?rel=" data-toggle="tooltip" title="github">github</a>
+
+						<p class="w3-small w3-text-grey w3-center w3-wide"><br>Powered by ©V.Ksenič ©All rights reserved 2020.<br>
+							<a href="#" class="fa fa-chevron-up btn btn-up  w3-large w3-hover-blue"></a>
 
 
 
-															<!--form action="/action_page.php" target="_blank">
+
+
+
+
+							<!--form action="/action_page.php" target="_blank">
 										<p><input class="w3-input w3-padding-16" type="text" placeholder="Tvoje meno" required name="Tvoje meno"></p>
 										<p><input class="w3-input w3-padding-16" type="text" placeholder="Email" required name="Email"></p>
 										<p><input class="w3-input w3-padding-16" type="text" placeholder="Subjekt" required name="Subjekt"></p>
@@ -756,41 +793,36 @@ section#Domov img {
 
 
 
-															<!-- End footer -->
+							<!-- End footer -->
 
-															<!-- Return to Top -->
-															<!--a id="Domov" class="w3-button w3-grey w3-padding-small fa fa-arrow-up w3-text-blue w3-hover-white w3-xlarge w3-right" href="#Domov" style="display: inline-block position: absolute; top: 0; left: 0; width: 100%; height: 100%;" title="Späť na začiatok stránky">Up
+							<!-- Return to Top -->
+							<!--a id="Domov" class="w3-button w3-grey w3-padding-small fa fa-arrow-up w3-text-blue w3-hover-white w3-xlarge w3-right" href="#Domov" style="display: inline-block position: absolute; top: 0; left: 0; width: 100%; height: 100%;" title="Späť na začiatok stránky">Up
 																		<!--button class="w3-padding-large w3-text-grey w3-button w3-hover-yellow">
 																	</a-->
 
+					</sec>
+
+					<p></p>
 
 
-															<p></p>
+
+
+
+					<i><i></i>
+
+					</i>
+
+					<p>
+					</p>
 
 
 
 
 
-															<i><i></i>
-
-															</i>
-
-															<p>
-															</p>
-
-													</section>
-												</footer>
-											</div>
-										</section>
-									</div>
-									<script src="//s3.amazonaws.com/js-static/2001379501c6f3c8ca.js"></script>
-
-									<script src="js/main.js"></script>
-
-							</section>
-						</div>
-					</div>
 				</h6,h1>
+				<script src="//s3.amazonaws.com/js-static/2001379501c6f3c8ca.js"></script>
+
+				<script src="js/main.js"></script>
 			</header>
 		</header>
 	</div>
@@ -798,6 +830,7 @@ section#Domov img {
 </head>
 
 </html>
+
 
 
 
