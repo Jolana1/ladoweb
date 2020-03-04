@@ -42,23 +42,23 @@
 		@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
 
 		section#Domov {
-			padding: 204px 41px;
+			padding: 241px 50px;
 			/*background-color: palegoldenrod;*/
 			background-color: rgba(0, 0, 0, 0.63);
-			background-image: url(./Image/skusenosti%20%E2%80%93%20k%C3%B3pia.jpg);
+			background-image: url(./Image/Scratches01.jpg);
 			background-size: cover;
 			background-position: bottom;
 			background-attachment: fixed;
 			color: #4aacf4;
 			overflow: hidden;
+}
 
-		}
 
 		section#Test {
 			padding: 50px 50px;
 			/*background-color: palegoldenrod;*/
 			background-color: rgba(0, 0, 0, 0.63);
-			background-image: url(./Image/nature-3151869_1920.jpg);
+			background-image: url(./Image/Scratches01.jpg);
 			background-size: cover;
 			background-position: bottom;
 			background-attachment: fixed;
@@ -69,7 +69,7 @@
         section#Form {
 			padding: 50px 30px;
 			background-color: rgba(0, 0, 0, 0.63);
-			background-image: url(./Image/INK.jpg);
+			background-image: url(./Image/Scratches01.jpg);
 			background-size: cover;
 			background-position: bottom;
 			background-attachment: fixed;
@@ -78,7 +78,7 @@
 
 		}
 
-		section#Domov img {
+       section#Domov img {
 			position: fixed;
 			top: 0;
 			left: 0;
@@ -87,11 +87,26 @@
 
 		}
 
-		section#footer {
-			background-color: palegoldenrod;
-			text-align: center;
-			padding: 185px;
-		}
+
+		section#Omne img{
+			padding: 50px 50px;
+			background-color: whitesmoke;
+			background-image: url(./Image/Scratches01.jpg);
+			background-size: cover;
+			background-position: bottom;
+			background-attachment: fixed;
+			overflow: hidden;
+       }
+
+      /* h2 {
+        color: white;
+        text-align: center;
+         }
+
+       p {
+       font-family: verdana;
+       font-size: 20px;
+       }*/
 
 		h1,
 		h2,
@@ -193,7 +208,7 @@
 				<i class="fa fa-home w3-xlarge"></i>
 				<p>Domov</p>
 			</a>
-			<a class="w3-bar-item w3-button w3-padding-small w3-text-blue w3-hover-white w3-circle " href="#O mne">
+			<a class="w3-bar-item w3-button w3-padding-small w3-text-blue w3-hover-white w3-circle " href="#Omne">
 				<i class="fa fa-user w3-xlarge"></i>
 				<p>O mne</p>
 			</a>
@@ -265,7 +280,7 @@
 
 
 			<a class="w3-bar-item w3-button w3-hover-white" href="#Domov" style="width:25% !important"><i class="fa fa-home w3-small"></i> Domov</a>
-			<a class="w3-bar-item w3-button w3-hover-white" href="#O mne" style="width:25% !important"><i class="fa fa-user w3-small"></i> O mne</a>
+			<a class="w3-bar-item w3-button w3-hover-white" href="#Omne" style="width:25% !important"><i class="fa fa-user w3-small"></i> O mne</a>
 			<a class="w3-bar-item w3-button w3-hover-white" href="#Zručnosti" style="width:25% !important"><i class="fa fa-briefcase w3-small"></i> Zručnosti</a>
 			<a class="w3-bar-item w3-button w3-hover-white" href="#Form" style="width:25% !important"><i class="fa fa-download w3-small"></i> Formulár</a>
 			<a class="w3-bar-item w3-button w3-hover-white" href="#Fotky" style="width:25% !important"><i class="fa fa-eye w3-small"></i> Fotky</a>
@@ -289,8 +304,10 @@
 		<section id="Domov">
 			<div class="container">
 				<div class="row"><strong>
-						<h1 style="font-size:50px;color:#fff;text-shadow:2px 2px 4px #000000;"><a class="fa fa-envelope fa-fw" href="mailto:ksenicv@gmail.com" data-toggle="tooltip" title="Pošli mi email!" target="_blank"></a>Vladimír Ksenič <i class='fa fa-code' style='font-size:50px'></i> </h1>
-						<h3 style="color:#fff;text-shadow:2px 2px 4px #000000;"><br><br><em>"Nothing in the world belongs to us,the only time"</em>
+				<i class='material-icons' style='font-size:50px;color:#fff;text-shadow:2px 2px 4px #000000'>favorite</i>
+
+					<h1 style="font-size:50px;color:#fff;text-shadow:2px 2px 4px #000000;">Vladimír Ksenič <i class='fa fa-code' style='font-size:50px'></i></h1>
+					<h3 style="color:#fff;text-shadow:2px 2px 4px #000000;"><br><br><q><em>Nothing in the world belongs to us,the only time</em></q>
 
 							<!--i class="material-icons">favorite</i-->
 
@@ -360,13 +377,13 @@
 
 
 					<!-- About me -->
-					<sec id="O mne" class="w3-justify w3-center w3-text-grey w3-content w3-row ">
-						<h2 class="w3-padding-14 w3-text-light-blue w3-hover-white w3-text-grey"><i class=" glyphicon glyphicon-home"></i> Hi there! </h2>
-						<hr class="w3-padding-60" style="width:">
+					<sec id="Omne" class="w3-justify w3-center w3-hover-white w3-text-grey w3-content w3-row ">
+						<h2 class="w3-padding-14 w3-hover-white w3-text-grey"><i class=" glyphicon glyphicon-home"></i> Hi there! </h2>
+						<hr class="w3-padding-60" style="text-shadow:2px 2px 4px #000000;">
 						<!--p><b><i>Hi there!</i-->
-						<p id="demo"><br><br><br><br>I am a Front-end Developer based in Kosice, Slovakia with more years of well-rounded experience, developing complex web applications.<br>Particularly I interested in new technologies, new frameworks and programming languages. As a web developer,i specialize in creating modular and scalable front-end architectures.I believe on teamwork and open source community.I'm an programmer and overall an IT guy.
-						</p>
-						<button type="button" onclick='document.getElementById("demo").innerHTML = "Som front-end vývojár so sídlom v Košiciach na Slovensku s viacročnými skúsenosťami s vývojom komplexných webových aplikácií. Zaujímajú ma najmä nové technológie, nové rámce a programovacie jazyky. Ako webový vývojár sa špecializujem na vytváranie modulárnych a škálovateľných front-end architektúr. Verím v tímovú prácu a komunitu s otvoreným zdrojom kódu. Som programátor a celkovo IT človek."'><img src="./Image/sk.png" height="25%" width="20px"> Svk text</button>
+						<em><br><br><br><br>
+						<b id="demo">I am a Front-end Developer based in Kosice, Slovakia with more years of well-rounded experience, developing complex web applications.Particularly I interested in new technologies, new frameworks and programming languages. As a web developer,i specialize in creating modular and scalable front-end architectures.I believe on teamwork and open source community.I'm an programmer and overall an IT guy.
+						<button type="button" onclick='document.getElementById("demo").innerHTML = "Som front-end vývojár so sídlom v Košiciach na Slovensku s viacročnými skúsenosťami s vývojom komplexných webových aplikácií. Zaujímajú ma najmä nové technológie, nové rámce a programovacie jazyky. Ako webový vývojár sa špecializujem na vytváranie modulárnych a škálovateľných front-end architektúr. Verím v tímovú prácu a komunitu s otvoreným zdrojom kódu. Som programátor a celkovo IT človek."'><img src="./Image/sk.png" height="25%" width="20px">Svk text</button></b></em>
 					</sec>
 
 
@@ -783,7 +800,7 @@
 							</a>
 							<a class="fa fa-mixcloud w3-text-grey" href="https://www.mixcloud.com/vladim%C3%ADr-kseni%C4%8D/favorites/" data-toggle="tooltip" title="mixcloud"></a-->
 
-							<a class="fa fa-linkedin w3-text-grey" href="https://www.linkedin.com/in/vladim%C3%ADr-kseni%C4%8D-a084a2161/" data-toggle="tooltip" title="linkedin">linkedin"</a>
+							<a class="fa fa-linkedin w3-text-grey" href="https://www.linkedin.com/in/vladim%C3%ADr-kseni%C4%8D-a084a2161/" data-toggle="tooltip" title="linkedin">linkedin</a>
 							<a class="fa fa-github w3-text-grey" href="https://github.com/settings/profile?rel=" data-toggle="tooltip" title="github">github</a><br><br>
 							<br>Powered by ©V.Ksenič ©All rights reserved 2020.<br>
 
