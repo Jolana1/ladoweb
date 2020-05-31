@@ -220,20 +220,21 @@
 			padding: 155px;
 		}*/
 
-
-
-		</head>
-
 	</style>
 
+</body>
 
-	<!-- Page Container-- >
+
+
+
+<!-- Page Container-- >
 <div class="w3-content w3-margin-top"-->
-	<!-- Page Container -->
+<!-- Page Container -->
 
 
-	<!--body-->
+<!--body-->
 
+<body>
 	<div class="w3-content w3-margin-100 w3-sidebar w3-navbar w3-bar-block w3-small w3-hide-small w3-center">
 		<!-- Icon Bar (Sidebar - hidden on small screens) -->
 		<nav class="w3-sidebar w3-content w3-bar-block w3-small w3-black w3-center">
@@ -497,9 +498,9 @@
 
 					<!-- About Section form -->
 					<section id="Form">
-						<div id="Form" class="w3-content w3-justify w3-text-black w3-padding-60">
+						<div id="Form" class="w3-center w3-justify w3-text-black w3-padding-14">
 
-							<h2 style="color:#fff;text-shadow:2px 2px 4px #000000;"></h2>
+							<h2 style="color:#fff;text-shadow:2px 2px 4px #000000;"><i class=" fa fa-download"></i> Formulár napíšte mi</h2>
 							<!--hr class="w3-padding-60" style="width:235px"-->
 
 							<!--div class="invoice-details"-->
@@ -519,9 +520,15 @@
 
 							<!--form method="post" action="/account/contact"-->
 							<br><br><br><br><br>
-							<form method="get" class="invoice-details w3-center">
+							<!--form method="get" class="invoice-details w3-center"-->
+							<div class="container" id="ff-compose"></div>
+								<script async defer src="https://formfacade.com/include/111026483964178072025/form/1FAIpQLSdaEwPNkjfxIs355DzC0fKGsF-cBevux9Ls1DgLCr_rsgJMlQ/bootstrap.js?div=ff-compose"></script>
 
-								<label for="name"> Name</label>
+							</div>
+
+					</section>
+
+					<!--label for="name"> Name</label>
 
 								<input type="text" id="name" name="name" placeholder="Celé meno.." required name="name">
 								<br>
@@ -530,28 +537,25 @@
 								<input type="text" id="email" name="email" placeholder="Tvoj email.." required name="email">
 								<br>
 								<!--label>Date</label>
-								<input type="date" name="date"-->
+								<input type="date" name="date">
 								<br>
 								<label for="comment">Comment:</label><br>
 								<textarea name="comment" placeholder="Please contact me by e-mail or phone.." rows="5" cols="40"></textarea>
 								<!--span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">SELECT * FROM Customers;</span-->
 
-								<br>
-								<!--input class="w3-input w3-padding-10" type="text" placeholder="Váš text sem vpište!" required name="Message"></p-->
-								<!--label for="country">Country</label>
+
+					<!--input class="w3-input w3-padding-10" type="text" placeholder="Váš text sem vpište!" required name="Message"></p-->
+					<!--label for="country">Country</label>
     <select id="country" name="country">
       <option value="slovakia">Slovakia</option>
       <option value="eu">EU</option>
       <option value="usa">USA</option>
-    </select-->
+    </select>
 
 
 								<input type="submit" required="text">
 								<input type="reset">
 
-							</form>
-						</div>
-					</section>
 
 					<!--fieldset>
 																<p class="w3-hover-text-light-blue w3-text-grey">
@@ -906,6 +910,7 @@
 </head>
 
 </html>
+
 
 
 
