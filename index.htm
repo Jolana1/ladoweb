@@ -3,19 +3,7 @@
 
 <head>
 	<title>©ladowebcv</title>
-	<!-- Global site tag (gtag.js) - Google Analytics -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-166913635-1"></script>
-	<script>
-		window.dataLayer = window.dataLayer || [];
 
-		function gtag() {
-			dataLayer.push(arguments);
-		}
-		gtag('js', new Date());
-
-		gtag('config', 'UA-166913635-1');
-
-	</script>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w31.css">
@@ -53,6 +41,7 @@
 
 	</script-->
 	<!-- End Google Tag Manager -->
+
 	<script src="//code.jquery.com/jquery-3.3.1.min.js"></script>
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
 	<script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
@@ -81,7 +70,7 @@
 			padding: 151px 51px;
 			/*background-color: palegoldenrod;*/
 			background-color: rgba(0, 0, 0, 0.63);
-			background-image: url(./Image/web-technologies.png);
+			background-image: url(./Image/nature-3151869_1920.jpg);
 			background-size: cover;
 			background-position: bottom;
 			background-attachment: fixed;
@@ -92,9 +81,9 @@
 
 
 		section#Test {
-			padding: 50px 50px;
-			background-color: #00bcd4;
-			/*background-color: rgba(0, 0, 0, 0.63);
+			padding: 30px 30px;
+			background-color: darkgrey;
+			/*background-color: rgba(0, 0, 0, 0.63);#00bcd4
 			background-image: url(./Image/Scratches01.jpg);*/
 			background-size: cover;
 			background-position: bottom;
@@ -104,16 +93,17 @@
 
 		}
 
-		section#Form
-			{
+		section#Form {
 			padding: 30px 30px;
-			background-color: rgba(0, 0, 0, 0.63);
-			background-image: url(./Image/nature-3151869_1920.jpg);
+			background-color: whitesmoke;
+			/*background-color: rgba(0, 0, 0, 0.63);
+			background-image: url(./Image/Scratches01.jpg);*/
 			background-size: cover;
 			background-position: bottom;
 			background-attachment: fixed;
 			color: #4aacf4;
 			overflow: hidden;
+
 
 		}
 
@@ -341,7 +331,7 @@
 							<i class='material-icons' style='font-size:50px;color:#fff;text-shadow:2px 2px 4px #000000'> code </i>
 
 							<h1 style="font-size:50px;color:#fff;text-shadow:2px 2px 4px #000000;"> Vladimír Ksenič </h1>
-							<h4 style="color:#fff;text-shadow:2px 2px 4px #000000;"><q> Nothing in the world belongs to us the only time </q>
+							<h4 style="color:#fff;text-shadow:2px 2px 4px #000000;"><q> Nothing in the world belongs to us, only our time. </q>
 								<i class='fa fa-code' style='font-size:40px'></i>
 							</h4>
 						</em>
@@ -414,13 +404,13 @@
 
 
 					<!-- About me -->
-					<sec id="Omne" class="w3-justify w3-center w3-hover-white w3-text-grey w3-content w3-row ">
-						<h2 class="w3-padding-14 w3-hover-white w3-text-grey"><i class=" glyphicon glyphicon-home"></i> Hi there! </h2>
+					<sec id="Omne" class="w3-justify w3-center w3-hover-white w3-text-grey content w3-row ">
+						<h2 class="w3-padding-14 w3-hover-white w3-text-grey"><i class=" glyphicon glyphicon-home"></i> Hello! </h2>
 						<hr class="w3-padding-60" style="text-shadow:2px 2px 4px #000000;">
 						<!--p><b><i>Hi there!</i-->
 						<em><br><br><br><br>
-							<b id="demo">I am a front-end developer based in Kosice, Slovakia with years of experience in developing complex websites and applications.<br>I am especially interested in new technologies, new frameworks and programming languages.<br> As a web developer, I specialize in creating websites and scalable front-end architectures.<br> I believe in teamwork and an open-source community. I'm a programmer and an IT person overall.
-								<button type="button" onclick='document.getElementById("demo").innerHTML = "Som front-end vývojár so sídlom v Košiciach na Slovensku s viacročnými skúsenosťami s vývojom komplexných webových stránok a aplikácií. Zaujímajú ma najmä nové technológie, nové rámce a programovacie jazyky. Ako webový vývojár sa špecializujem na vytváranie webových stránok a škálovateľných front-end architektúr. Verím v tímovú prácu a komunitu s otvoreným zdrojom kódu. Som programátor a celkovo IT človek."'><img src="./Image/sk.png" height="25%" width="20px">Svk text</button></b></em>
+							<b style='content;w3-wide;font-size:15px;color:black;text-shadow:2px 2px 4px #fff ' id="demo">I am a front-end developer based in Kosice, Slovakia with years of experience in developing complex websites and applications.I am especially interested in new technologies, new frameworks and programming languages. As a web developer, I specialize in creating websites and scalable front-end architectures.<br> I believe in teamwork and an open-source community. I'm a programmer and an IT person overall.
+								<button class="content" type="button" onclick='document.getElementById("demo").innerHTML = "Som front-end vývojár so sídlom v Košiciach na Slovensku s viacročnými skúsenosťami s vývojom komplexných webových stránok a aplikácií. Zaujímajú ma najmä nové technológie, nové rámce a programovacie jazyky. Ako webový vývojár sa špecializujem na vytváranie webových stránok a škálovateľných front-end architektúr. Verím v tímovú prácu a komunitu s otvoreným zdrojom kódu. Som programátor a celkovo IT človek."'>Svk text <img src="./Image/sk.png" height="25px" width="28px"></button></b></em>
 					</sec>
 
 
@@ -492,15 +482,16 @@
 
 
 					<!-- About Section form -->
-					<section id="Form">
-						<div id="Form" class="w3-center w3-justify w3-text-black w3-padding-14">
+						<!--hr class="w3-padding-60" style="width:235px"-->
 
-							<h2 style="color:#fff;text-shadow:2px 2px 4px #000000;"><i class=" fa fa-download"></i> Formulár napíšte mi</h2>
-							<!--hr class="w3-padding-60" style="width:235px"-->
+					<section id="Form" class="w3-text-white">
+						<h2 style="color:#fff;text-shadow:2px 2px 4px #000000;"><i class=" fa fa-download"></i> Form write me:</h2>
+						<iframe src="https://formfacade.com/headless/111026483964178072025/home/form/1FAIpQLSdaEwPNkjfxIs355DzC0fKGsF-cBevux9Ls1DgLCr_rsgJMlQ" scrolling="no" frameBorder="0" width="100%" style="height:400px; /*change height as required*/ overflow-y:hidden;"></iframe>
+					</section>
 
-							<!--div class="invoice-details"-->
+					<!--div class="invoice-details"-->
 
-							<!--h4 class="title-small mb-md-1">Contact us</h4>
+					<!--h4 class="title-small mb-md-1">Contact us</h4>
             <p class="sub-line mb-md-3">
                 If you've got general questions about our service,
                 have run into problems or just want to share feedback
@@ -511,15 +502,11 @@
 
 
 
-							<!--textarea class="invoice-textarea" required="required" id="message" placeholder="message"  rows="10"></textarea-->
+					<!--textarea class="invoice-textarea" required="required" id="message" placeholder="message"  rows="10"></textarea-->
 
-							<!--form method="post" action="/account/contact"-->
-							<br><br><br>
-							<!--form method="get" class="invoice-details w3-center"-->
-							<div class="container" id="ff-compose"></div>
-							<script async defer src="https://formfacade.com/include/111026483964178072025/form/1FAIpQLSdaEwPNkjfxIs355DzC0fKGsF-cBevux9Ls1DgLCr_rsgJMlQ/bootstrap.js?div=ff-compose"></script>
-						</div>
-					</section>
+					<!--form method="post" action="/account/contact"-->
+
+					<!--form method="get" class="invoice-details w3-center"-->
 
 					<!--label for="name"> Name</label>
 
@@ -707,7 +694,6 @@
 						<a data-fancybox="gallery" href="./Image/skusenosti%20%E2%80%93%20k%C3%B3pia.jpg"><img class="w3-circle w3-content" src="./Image/skusenosti%20%E2%80%93%20k%C3%B3pia.jpg" height="150" width="15%"></a>
 						<a data-fancybox="gallery" href="./Image/be8ad217f286a5754c09fddd71b4fd7c.jpg"><img class="rounded" src="./Image/be8ad217f286a5754c09fddd71b4fd7c.jpg" height="150" width="15%"></a>
 						<a data-fancybox="gallery" href="./Image/78ce04b2b0a46fe8cce6fe82edcca044.jpg"><img class="w3-circle w3-content" src="./Image/78ce04b2b0a46fe8cce6fe82edcca044.jpg" height="150" width="15%"></a><br><br>
-						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2631.6219359013385!2d21.282532850402756!3d48.731815279173595!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473ede29d93fb3bf%3A0xaa964d920a9e7e66!2sPostupimsk%C3%A1+755%2F29%2C+040+22+Ko%C5%A1ice!5e0!3m2!1sen!2ssk!4v1545327953895" width="100%" height="240" frameborder="0" style="border:0" allowfullscreen></iframe>
 						<!--a data-fancybox="gallery" href="./Image/nature-3151869_1920.jpg"><img class="rounded w3-content" src="./Image/nature-3151869_1920.jpg" style="width:100%;height:100px;"></a-->
 						<!--a data-fancybox="gallery" href="./Image/x17-detail-050.jpg"><img class="rounded" src="./Image/x17-detail-050.jpg"height="200"width="13%"></a>
 <a data-fancybox="gallery" href="./Image/IMG_1320-EFFECTS%20%E2%80%93%20k%C3%B3pia.jpg"><img class="rounded" src="./Image/IMG_1320-EFFECTS%20%E2%80%93%20k%C3%B3pia.jpg"height="200"width="14.6%"></a>
@@ -760,19 +746,19 @@
 							<!-- MyCV section -->
 
 					<sec id="MyCV">
-						<hr class="w3-row" style="width:px">
 						<div id="MyCV" class="w3-content w3-text-grey">
+							<!--hr class="w3-row" style="width:px"-->
 
-							<h2 class=" w3-padding-60 w3-text-light-blue w3-hover-white w3-text-grey "><i class="fa fa-calendar"></i> Geniálne CV </h2>
+							<h2 class=" w3-padding-10 w3-text-light-blue w3-hover-white w3-text-grey "><i class="fa fa-calendar"></i> view.genial.ly CV </h2>
 							<!--iframe src="https://youtube.com/embed/XJ9Vylyk5Uw? autoplay=0" style="border:none;" scrolling="no" Name="Night Lounge - Lounge Musik, Instrumentale Musik, Easy Listening & Chill Out - LATE NIGHT MOODS" width="100%" height="260" frameborder="0"></iframe-->
 
-							<div style="position: relative; padding-bottom:87.25% ; height: 200%; width: 100%">
-								<iframe style="position:absolute; top:0; left: 0; width: 100%; height: 100%;" src="https://view.genial.ly/5c9290316f346c72263fa70a/personal-branding-vk" type="text/html" allowscriptaccess="always" allowfullscreen="true" scrolling="no" allownetworking="all" width="1200px" height="" frameborder="0">
-									<!--br><a href="#"class="https://view.genial.ly/5c963df2e1906b76bf619328/personal-branding-vladimir-ksenic"</a-->
+							<div style="position: sticky;padding-bottom:67.25% ;">
+								<iframe style="position:absolute; top:0; left: 0; width: 100%; height: 100%;" src="https://view.genial.ly/5c9290316f346c72263fa70a/personal-branding-vk" type="text/html" allowscriptaccess="always" allowfullscreen="true" scrolling="no" allownetworking="all" width="100%" height="240" frameborder="0" style="border:0" allowfullscreen frameborder="0">
 								</iframe>
+								<!--br><a href="#"class="https://view.genial.ly/5c963df2e1906b76bf619328/personal-branding-vladimir-ksenic"</a-->
 							</div>
 						</div>
-					</sec>
+					</sec><br><br><br>
 
 
 
@@ -783,7 +769,7 @@
 							<h2 class="color:#fff;text-shadow:2px 2px 4px #000000;"><i class="fa fa-asterisk"></i> Testimonials </h2>
 							<hr class="w3-padding-60" style="width:px">
 							<br><br>
-							<img class="w3-circle w3-float-left" src="./Image/john_doe.jpg" style="width:60px" alt="J. Doe">
+							<img class="w3-circle w3-float-left" src="./Image/LWSlogo.jpg" style="width:60px" alt="J. Doe">
 							<strong><span class="w3-content  w3-margin-right">John Doe.ASP Corporation.</span><br>
 
 								<em>”This master has been taking care of our company for years. It takes care of the security of our site and in addition that our site works flawlessly. <br>Thank you :)“</em>
@@ -804,7 +790,7 @@
 							<h2 class="w3-padding-14 w3-text-light-blue w3-hover-white w3-text-grey"><i class=" glyphicon glyphicon-music"></i> Music </h2>
 							<hr class="w3-padding-60" style="width:px">
 							<br><br><br>
-							<iframe src="https://youtube.com/embed/ANHGdJCHB_c?autoplay=0" style="width: 50%; height: 50px;" frameborder="0" style="border:0" allowfullscreen align="" scrolling="no" Name=""></iframe>
+							<iframe src="https://youtube.com/embed/3JRDDLhWsvY?autoplay=0" style="width: 50%; height: 50px;" frameborder="0" style="border:0" allowfullscreen align="" scrolling="no" Name=""></iframe>
 							<!--iframe allow="autoplay *; encrypted-media *;" frameborder="0" height="150" style="width:100%;max-width:660px;overflow:hidden;background:transparent;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/sk/album/fountain/1506848627?i=1506848630&l=sk"></iframe>
 							<iframe allow="autoplay *; encrypted-media *;" frameborder="0" height="150" style="width:100%;max-width:660px;overflow:hidden;background:transparent;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/sk/album/east/1503497792?i=1503498218&l=sk"></iframe-->
 						</div>
@@ -825,16 +811,17 @@
 
 
 
+							<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2631.6219359013385!2d21.282532850402756!3d48.731815279173595!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473ede29d93fb3bf%3A0xaa964d920a9e7e66!2sPostupimsk%C3%A1+755%2F29%2C+040+22+Ko%C5%A1ice!5e0!3m2!1sen!2ssk!4v1545327953895" width="100%" height="240" frameborder="0" style="border:0" allowfullscreen></iframe>
 
 							<i class="fa fa-map-marker fa-fw w3-xlarge w3-margin-left w3-text-red" title="Country"></i>Slovakia
 
-							<i class="fa fa-phone fa-fw w3-xlarge w3-margin-left w3-text-orange" title="Zavolajte!"></i>+421.....
+							<i class="fa fa-phone fa-fw w3-xlarge w3-margin-left w3-text-orange" title="Zavolajte!"></i>+421907151293
 							<a class="fa fa-envelope fa-fw w3-xlarge w3-margin-left w3-text-green" href="mailto:ksenicv@gmail.com" data-toggle="tooltip" title="Pošli mi email!" target="_blank"></a>Email
 
 							<br><br>
 							<!--a href="https://github.com/settings/profile?rel=" target="_blank" class="w3-hover-white"><i class="fa fa-github w3-hover-opacity"-->Find me on social media!>>><a class="fa fa-facebook-official w3-text-grey" href="https://www.facebook.com/vladimir.ksenic" data-toggle="tooltip" title="facebook" target="_blank"> facebook</a>
 							<a class="fa fa-pinterest w3-text-grey" href="https://sk.pinterest.com/ksenicv/" data-toggle="tooltip" title="pinterest"> pinterest</a>
-							<a class="fa fa-linkedin w3-text-grey" href="https://www.linkedin.com/in/vladim%C3%ADr-kseni%C4%8D-a084a2161/" data-toggle="tooltip" title="linkedin"> linkedin</a>
+							<a class="fa fa-linkedin w3-text-grey" href="https://www.linkedin.com/" data-toggle="tooltip" title="linkedin"> linkedin</a>
 							<!--a class="fa fa-twitter w3-text-grey" href="https://twitter.com/ladow11" data-toggle="tooltip" title="twitter"> twitter
 							</a>
 							<a class="fa fa-youtube  w3-text-grey" href="https://www.youtube.com/channel/UCX3EKD2gPCW81IiBCWDeh-Q?view_as=subscriber" data-toggle="tooltip" title="youtube"> youtube
@@ -843,10 +830,10 @@
 							</a-->
 							<a class="fa fa-mixcloud w3-text-grey" href="https://www.mixcloud.com/vladim%C3%ADr-kseni%C4%8D/favorites/" data-toggle="tooltip" title="mixcloud">mixcloud</a>
 
-							<a class="fa fa-github w3-text-grey" href="https://github.com/settings/profile?rel=" data-toggle="tooltip" title="github"> github</a><br>
+							<a class="fa fa-github w3-text-grey" href="https://github.com/Jolana1" data-toggle="tooltip" title="github"> github</a><br>
 							<br> Powered by © V.Ksenic<a href="https://jolana1.github.io/WebServis/#" data-toggle="tooltip" title="LWS webcompany" target="_blank"><img src="./Image/LWSlogo.jpg" style="width:98px;height:30px; "></a>©All rights reserved 2019.<br>
 
-							<a href="#" class="fa fa-chevron-up btn btn-up  w3-large w3-hover-blue"></a>
+							<a href="#" class="fa fa-chevron-up btn btn-up  w3-small w3-hover-blue"></a>
 
 
 
