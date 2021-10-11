@@ -46,6 +46,7 @@
 	<script src="//code.jquery.com/jquery-3.3.1.min.js"></script>
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
 	<script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+
 	<!-- CSS -->
 	<link rel="stylesheet" type="text/css" href="jquery.fancybox.min.css">
 
@@ -95,10 +96,10 @@
 		}
 
 		section#Form {
-			padding: 201px 51px;
-			/*background-color: palegoldenrod;*/
+			/*padding: 201px 51px;
+			/*background-color: palegoldenrod;
 			background-color: rgba(0, 0, 0, 0.63);
-			/*background-image: url(./Image/nature-3151869_1920.jpg);*/
+			background-image: url(./Image/nature-3151869_1920.jpg);*/
 			background-size: cover;
 			background-position: bottom;
 			background-attachment: fixed;
@@ -137,6 +138,7 @@
 		h5,
 		h6 {
 			font-family: "Verdana", sans-serif;
+			text-align: center;
 		}
 
 
@@ -144,12 +146,14 @@
 
 		#main {
 
-			margin-left: 90px;
+			margin-left: 80px;
+			/*background: url(./Image/skusenosti%20%E2%80%93%20k%C3%B3pia.jpg);*/
+			/*background: #4aacf4;*/
 
 
 		}
 
-		@media only screen and (max-width: 501px) {
+		@media only screen and (max-width:501px) {
 			#main {
 				margin-left: 1px;
 				margin-right: 1px;
@@ -168,7 +172,7 @@
 		.w3-sidebar {
 			width: 80px;
 			max-height: none;
-			background-color: whitesmoke;
+			background-color: palegoldenrod;
 
 		}
 
@@ -194,7 +198,7 @@
 		/* Set gray background color and 100% height */
 		.sidenav {
 
-			background-color: grey;
+			background-color: gray;
 			height: 100%;
 		}
 
@@ -225,7 +229,7 @@
 		<nav class="w3-sidebar w3-content w3-bar-block w3-small w3-black w3-center">
 
 			<!-- Avatar image in top left corner -->
-			<img src="./Image/Ja.JPG" class="img-rounded" alt="me" style="width:80px;height:80px" title="I'm V. Ksenic .I am a Front end Developer and as a web developer, I specialize in creating modular and scalable front-end architectures."><br>
+			<img src="./Image/IMG_3155.jpg" class="img-rounded" alt="me" style="width:80px;height:80px" title="I'm V. Ksenic .I am a Front end Developer and as a web developer, I specialize in creating modular and scalable front-end architectures."><br>
 
 			<a class="w3-bar-item w3-button w3-padding-small w3-text-blue w3-hover-white " href="#Domov">
 				<i class="fa fa-home w3-xlarge"></i>
@@ -244,10 +248,10 @@
 				<p>Formulár</p>
 			</a>
 
-			<a class="w3-bar-item w3-button w3-padding-small  w3-text-blue w3-hover-white  " href="#Fotky">
+			<!-- a class="w3-bar-item w3-button w3-padding-small  w3-text-blue w3-hover-white  " href="#Fotky">
 				<i class="fa fa-eye w3-xlarge"></i>
 				<p>Fotky</p>
-			</a>
+			</a -->
 			<a class="w3-bar-item w3-button w3-padding-small w3-text-blue w3-hover-white w3-circle " href="#MyCV">
 				<i class="fa fa-calendar w3-xlarge"></i>
 				<p>Životopis</p>
@@ -264,10 +268,10 @@
 				<i class="fa fa-globe w3-xlarge"></i>
 				<p>Kontakt</p><br>
 			</a>
-			<a class="w3-bar-item  w3-button  w3-text-blue w3-padding-small w3-hover-white w3-circle" href="#Domov">
+			<!-- a class="w3-bar-item  w3-button  w3-text-blue w3-padding-small w3-hover-white w3-circle" href="#Domov">
 				<i class="fa fa-arrow-up w3-hover-white w3-xlarge w3-margin-center"></i>
 				<p>Hore</p>
-			</a>
+			</a -->
 		</nav>
 	</div>
 	<!--button class="w3-padding-large w3-text-grey w3-button w3-hover-yellow"-->
@@ -306,7 +310,7 @@
 			<a class="w3-bar-item w3-button w3-hover-white" href="#Omne" style="width:25% !important"><i class="fa fa-user w3-small"></i> O mne</a>
 			<a class="w3-bar-item w3-button w3-hover-white" href="#Zručnosti" style="width:25% !important"><i class="fa fa-briefcase w3-small"></i> Zručnosti</a>
 			<a class="w3-bar-item w3-button w3-hover-white" href="#Form" style="width:25% !important"><i class="fa fa-download w3-small"></i> Formulár</a>
-			<a class="w3-bar-item w3-button w3-hover-white" href="#Fotky" style="width:25% !important"><i class="fa fa-eye w3-small"></i> Fotky</a>
+			<!-- a class="w3-bar-item w3-button w3-hover-white" href="#Fotky" style="width:25% !important"><i class="fa fa-eye w3-small"></i> Fotky</a -->
 			<a class="w3-bar-item w3-button w3-hover-white" href="#MyCV" style="width:25% !important"><i class="fa fa-calendar w3-small"></i> Životopis</a>
 			<a class="w3-bar-item w3-button w3-hover-white" href="#Test" style="width:25% !important"><i class="fa fa-asterisk w3-small"></i> Ohlasy</a>
 			<a class="w3-bar-item w3-button w3-hover-white" href="#Video" style="width:25% !important"><i class="fa fa-music w3-small"></i> Video</a>
@@ -405,7 +409,7 @@
 
 					<!-- About me -->
 					<sec id="Omne" class="w3-justify w3-center w3-hover-white w3-text-grey content w3-row ">
-						<h2 class="w3-padding-14 w3-hover-white w3-text-grey"><i class=" glyphicon glyphicon-home"></i> Hello! </h2>
+						<h2 class="w3-padding-14 w3-hover-white w3-text-grey"><i class=" glyphicon glyphicon-home"></i> Hi there! </h2>
 						<hr class="w3-padding-60" style="text-shadow:2px 2px 4px #000000;">
 						<!--p><b><i>Hi there!</i-->
 						<br><br><br><br>
@@ -425,32 +429,32 @@
 					<sec id="Zručnosti" class="w3-center content w3-justify w3-text-grey w3-row">
 						<!--h2 class="w3-padding-14 w3-text-grey w3-hover-white"><i class=""></i> </h2-->
 						<hr class="w3-padding-60" style="width:"><br><br><br><br><br>
-						<h3 class="w3-wide">Webdesign &amp; Css &amp;Html 5 &amp; JS</h3>
+						<p style='content;w3-wide;font-size:20px;color:#000;text-shadow:2px 2px 4px #fff'>Webdesign &amp; Css &amp;Html 5 &amp; JS</p>
 						<div class="w3-white">
 							<div class="progress">
 								<div class="progress-bar progress-bar-striped progress-bar-animated w3-blue" style="width:99%"></div>
 							</div>
 						</div>
-						<h3 class="w3-wide">Python</h3>
+						<p style='content;w3-wide;font-size:20px;color:#000;text-shadow:2px 2px 4px #fff'>Java</p>
 						<div class="w3-white">
 							<div class="progress">
 								<div class="progress-bar progress-bar-striped progress-bar-animated w3-blue" style="width:95%"></div>
 							</div>
 						</div>
-						<h3 class="w3-wide">Css3 &amp; Sass &amp; Less &amp; Php</h3>
+						<p style='content;w3-wide;font-size:20px;color:#000;text-shadow:2px 2px 4px #fff'>Css3 &amp; Sass &amp; Less &amp; Php</p>
 						<div class="w3-white">
 							<div class="progress">
 								<div class="progress-bar progress-bar-striped progress-bar-animated w3-blue" style="width:90%"></div>
 							</div>
 						</div>
-						<h3 class="w3-wide">Typescript &amp; C++ &amp; Jquery</h3>
+						<p style='content;w3-wide;font-size:20px;color:#000;text-shadow:2px 2px 4px #fff'>Typescript &amp; C++ &amp; Jquery</p>
 						<div class="w3-white">
 							<div class="progress">
 								<div class="progress-bar progress-bar-striped progress-bar-animated w3-blue " style="width:85%"></div>
 							</div>
 						</div>
 
-						<h3 class="w3-wide w3-text-grey">Java</h3>
+						<p style='content;w3-wide;font-size:20px;color:#000;text-shadow:2px 2px 4px #fff'>Python</p>
 						<div class="w3-white">
 							<div class="progress">
 								<div class="progress-bar progress-bar-striped progress-bar-animated w3-blue " style="width:75%"></div>
@@ -495,7 +499,7 @@
 
 						<div class="container" id="ff-compose">
 
-							<iframe src="https://formfacade.com/headless/111026483964178072025/home/form/1FAIpQLSdaEwPNkjfxIs355DzC0fKGsF-cBevux9Ls1DgLCr_rsgJMlQ"  scrolling="" frameBorder="0" width="55%" height="55%;"></iframe>
+							<iframe src="https://formfacade.com/headless/111026483964178072025/home/form/1FAIpQLSdaEwPNkjfxIs355DzC0fKGsF-cBevux9Ls1DgLCr_rsgJMlQ"  scrolling="" frameBorder="" width="55%" height="55%;"></iframe>
 						</div>
 
 					</sec>
@@ -702,7 +706,7 @@
 
 
 					<!-- Portfolio Section -->
-					<sec id="Fotky" class="w3-justify w3-center w3-text-grey w3-content w3-row">
+					<!-- sec id="Fotky" class="w3-justify w3-center w3-text-grey w3-content w3-row">
 
 						<h2 class="w3-padding-14 w3-text-light-blue w3-hover-white w3-text-grey"><i class=" fa fa-eye"></i> Gallery of pics </h2>
 						<hr class="w3-padding-60" style="width:px">
@@ -714,15 +718,15 @@
 						<a data-fancybox="gallery" href="./Image/skusenosti%20%E2%80%93%20k%C3%B3pia.jpg"><img class="rounded" src="./Image/skusenosti%20%E2%80%93%20k%C3%B3pia.jpg" height="150" width="15%"></a>
 						<a data-fancybox="gallery" href="./Image/be8ad217f286a5754c09fddd71b4fd7c.jpg"><img class="rounded" src="./Image/be8ad217f286a5754c09fddd71b4fd7c.jpg" height="150" width="15%"></a>
 						<a data-fancybox="gallery" href="./Image/78ce04b2b0a46fe8cce6fe82edcca044.jpg"><img class="rounded" src="./Image/78ce04b2b0a46fe8cce6fe82edcca044.jpg" height="150" width="15%"></a><br><br>
-						<!--a data-fancybox="gallery" href="./Image/nature-3151869_1920.jpg"><img class="rounded w3-content" src="./Image/nature-3151869_1920.jpg" style="width:100%;height:100px;"></a-->
-						<!--a data-fancybox="gallery" href="./Image/x17-detail-050.jpg"><img class="rounded" src="./Image/x17-detail-050.jpg"height="200"width="13%"></a>
+					</sec-->
+					<!--a data-fancybox="gallery" href="./Image/nature-3151869_1920.jpg"><img class="rounded w3-content" src="./Image/nature-3151869_1920.jpg" style="width:100%;height:100px;"></a-->
+					<!--a data-fancybox="gallery" href="./Image/x17-detail-050.jpg"><img class="rounded" src="./Image/x17-detail-050.jpg"height="200"width="13%"></a>
 <a data-fancybox="gallery" href="./Image/IMG_1320-EFFECTS%20%E2%80%93%20k%C3%B3pia.jpg"><img class="rounded" src="./Image/IMG_1320-EFFECTS%20%E2%80%93%20k%C3%B3pia.jpg"height="200"width="14.6%"></a>
 <!--a data-fancybox="gallery" href="./Image/good%20life.jpg">                     <img class="rounded" src="./Image/good%20life.jpg"height="200"width="13%"></a>
 <!--a data-fancybox="gallery" href="./Image/IMG_1320-EFFECTS%20%E2%80%93%20k%C3%B3pia.jpg"><img class="rounded" src="./Image/IMG_1320-EFFECTS%20%E2%80%93%20k%C3%B3pia.jpg"height="100"width="10%"></a-->
 
 
 
-					</sec>
 
 
 					<!-- Grid for photos povodne >
@@ -810,10 +814,10 @@
 							<hr class="w3-padding-60" style="width:px">
 							<br><br>
 
-							<iframe src="Video/1.mp4" style="width: 50; height: 50;" frameborder="0" style="border:0" allowfullscreen align="" scrolling="no" Name=""></iframe>
 							<iframe allow="autoplay *; encrypted-media *;" frameborder="0" height="150" style="width:50;max-width:660px;overflow:hidden;background:transparent;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/sk/album/fountain/1506848627?i=1506848630&l=sk"></iframe>
 							<br>
-							<!--iframe allow="autoplay *; encrypted-media *;" frameborder="0" height="150" style="width:100%;max-width:660px;overflow:hidden;background:transparent;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/sk/album/east/1503497792?i=1503498218&l=sk"></iframe-->
+							<iframe allow="autoplay *; encrypted-media *;" frameborder="0" height="150" style="width:50%;max-width:660px;overflow:hidden;background:transparent;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/sk/album/east/1503497792?i=1503498218&l=sk"></iframe>
+							<!-- iframe src="Video/1.mp4" style="width: 50; height: 50;" frameborder="0" style="border:0" allowfullscreen align="" scrolling="no" Name=""></iframe-- >
 
 						</div>
 					</section>
@@ -824,45 +828,45 @@
 
 
 
-					<sec id="footer">
-						<h2 class="w3-hover-white w3-text-grey w3-center" href="#footer"><i class="fa fa-globe"></i> Contact me</h2>
+							<sec id="footer">
+								<h2 class="w3-hover-white w3-text-grey w3-center" href="#footer"><i class="fa fa-globe"></i> Contact me</h2>
 
-						<hr class="w3-padding-60" style="width:px">
-						<p class="w3-small w3-text-grey w3-center">
+								<hr class="w3-padding-60" style="width:px">
+								<p class="w3-small w3-text-grey w3-center">
 
 
 
-							<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2631.6219359013385!2d21.282532850402756!3d48.731815279173595!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473ede29d93fb3bf%3A0xaa964d920a9e7e66!2sPostupimsk%C3%A1+755%2F29%2C+040+22+Ko%C5%A1ice!5e0!3m2!1sen!2ssk!4v1545327953895" width="100%" height="240" frameborder="0" style="border:0" allowfullscreen></iframe>
+									<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2631.6219359013385!2d21.282532850402756!3d48.731815279173595!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473ede29d93fb3bf%3A0xaa964d920a9e7e66!2sPostupimsk%C3%A1+755%2F29%2C+040+22+Ko%C5%A1ice!5e0!3m2!1sen!2ssk!4v1545327953895" width="100%" height="240" frameborder="0" style="border:0" allowfullscreen></iframe>
 
-							<i class="fa fa-map-marker fa-fw w3-xlarge w3-margin-left w3-text-red" title="Country"></i>Slovakia
+									<i class="fa fa-map-marker fa-fw w3-xlarge w3-margin-left w3-text-red" title="Country"></i>Slovakia
 
-							<i class="fa fa-phone fa-fw w3-xlarge w3-margin-left w3-text-orange" title="Zavolajte!"></i>+421907151293
-							<a class="fa fa-envelope fa-fw w3-xlarge w3-margin-left w3-text-green" href="mailto:ksenicv@gmail.com" data-toggle="tooltip" title="Pošli mi email!" target="_blank"></a>Email
+									<i class="fa fa-phone fa-fw w3-xlarge w3-margin-left w3-text-orange" title="Zavolajte!"></i>+421907151293
+									<a class="fa fa-envelope fa-fw w3-xlarge w3-margin-left w3-text-green" href="mailto:ksenicv@gmail.com" data-toggle="tooltip" title="Pošli mi email!" target="_blank"></a>Email
 
-							<br><br>
-							<!--a href="https://github.com/settings/profile?rel=" target="_blank" class="w3-hover-white"><i class="fa fa-github w3-hover-opacity"-->Find me on social media!>>><a class="fa fa-facebook-official w3-text-grey" href="https://www.facebook.com/vladimir.ksenic" data-toggle="tooltip" title="facebook" target="_blank"> facebook</a>
-							<a class="fa fa-pinterest w3-text-grey" href="https://sk.pinterest.com/ksenicv/" data-toggle="tooltip" title="pinterest"> pinterest</a>
-							<a class="fa fa-linkedin w3-text-grey" href="https://www.linkedin.com/" data-toggle="tooltip" title="linkedin"> linkedin</a>
-							<!--a class="fa fa-twitter w3-text-grey" href="https://twitter.com/ladow11" data-toggle="tooltip" title="twitter"> twitter
+									<br><br>
+									<!--a href="https://github.com/settings/profile?rel=" target="_blank" class="w3-hover-white"><i class="fa fa-github w3-hover-opacity"-->Find me on social media!>>><a class="fa fa-facebook-official w3-text-grey" href="https://www.facebook.com/vladimir.ksenic" data-toggle="tooltip" title="facebook" target="_blank"> facebook</a>
+									<a class="fa fa-pinterest w3-text-grey" href="https://sk.pinterest.com/ksenicv/" data-toggle="tooltip" title="pinterest"> pinterest</a>
+									<a class="fa fa-linkedin w3-text-grey" href="https://www.linkedin.com/" data-toggle="tooltip" title="linkedin"> linkedin</a>
+									<!--a class="fa fa-twitter w3-text-grey" href="https://twitter.com/ladow11" data-toggle="tooltip" title="twitter"> twitter
 							</a>
 							<a class="fa fa-youtube  w3-text-grey" href="https://www.youtube.com/channel/UCX3EKD2gPCW81IiBCWDeh-Q?view_as=subscriber" data-toggle="tooltip" title="youtube"> youtube
 							</a-->
-							<!--a class="fa fa-instagram w3-text-grey" href="https://www.instagram.com/vladimirksenic/" data-toggle="tooltip" title="instagram">
+									<!--a class="fa fa-instagram w3-text-grey" href="https://www.instagram.com/vladimirksenic/" data-toggle="tooltip" title="instagram">
 							</a-->
-							<a class="fa fa-mixcloud w3-text-grey" href="https://www.mixcloud.com/vladim%C3%ADr-kseni%C4%8D/favorites/" data-toggle="tooltip" title="mixcloud">mixcloud</a>
+									<a class="fa fa-mixcloud w3-text-grey" href="https://www.mixcloud.com/vladim%C3%ADr-kseni%C4%8D/favorites/" data-toggle="tooltip" title="mixcloud">mixcloud</a>
 
-							<a class="fa fa-github w3-text-grey" href="https://github.com/Jolana1" data-toggle="tooltip" title="github"> github</a><br>
-							<br> Powered by © V.Ksenic<a href="https://jolana1.github.io/WebServis/#" data-toggle="tooltip" title="LWS webcompany" target="_blank"><img src="./Image/LWSlogo.jpg" style="width:98px;height:30px; "></a>©All rights reserved 2019.<br>
+									<a class="fa fa-github w3-text-grey" href="https://github.com/Jolana1" data-toggle="tooltip" title="github"> github</a><br>
+									<br> Powered by © V.Ksenic<a href="https://jolana1.github.io/WebServis/#" data-toggle="tooltip" title="LWS webcompany" target="_blank"><img src="./Image/LWSlogo.jpg" style="width:98px;height:30px; "></a>©All rights reserved 2019.<br>
 
-							<a href="#" class="fa fa-chevron-up btn btn-up  w3-small w3-hover-blue"></a>
-
-
+									<a href="#" class="fa fa-chevron-up btn btn-up  w3-small w3-hover-blue"></a>
 
 
 
 
 
-							<!--form action="/action_page.php" target="_blank">
+
+
+									<!--form action="/action_page.php" target="_blank">
 										<p><input class="w3-input w3-padding-16" type="text" placeholder="Tvoje meno" required name="Tvoje meno"></p>
 										<p><input class="w3-input w3-padding-16" type="text" placeholder="Email" required name="Email"></p>
 										<p><input class="w3-input w3-padding-16" type="text" placeholder="Subjekt" required name="Subjekt"></p>
@@ -878,36 +882,39 @@
 
 
 
-							<!-- End footer -->
+									<!-- End footer -->
 
-							<!-- Return to Top -->
-							<!--a id="Domov" class="w3-button w3-grey w3-padding-small fa fa-arrow-up w3-text-blue w3-hover-white w3-xlarge w3-right" href="#Domov" style="display: inline-block position: absolute; top: 0; left: 0; width: 100%; height: 100%;" title="Späť na začiatok stránky">Up
+									<!-- Return to Top -->
+									<!--a id="Domov" class="w3-button w3-grey w3-padding-small fa fa-arrow-up w3-text-blue w3-hover-white w3-xlarge w3-right" href="#Domov" style="display: inline-block position: absolute; top: 0; left: 0; width: 100%; height: 100%;" title="Späť na začiatok stránky">Up
 																		<!--button class="w3-padding-large w3-text-grey w3-button w3-hover-yellow">
 																	</a-->
 
-					</sec>
+							</sec>
 
-					<p></p>
-
-
-
-
-
-					<i><i></i>
-
-					</i>
-
-					<p>
-					</p>
+							<p></p>
 
 
 
 
 
+							<i><i></i>
+
+							</i>
+
+							<p>
+							</p>
+
+
+
+
+
+
+							<script src="//s3.amazonaws.com/js-static/2001379501c6f3c8ca.js"></script>
+
+							<script src="js/main.js"></script>
+						</div>
+					</section>
 				</h6,h1>
-				<script src="//s3.amazonaws.com/js-static/2001379501c6f3c8ca.js"></script>
-
-				<script src="js/main.js"></script>
 			</header>
 		</header>
 	</div>
