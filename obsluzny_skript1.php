@@ -1,0 +1,5 @@
+<?PHP
+
+echo "Vitaj $meno!";
+
+?>
