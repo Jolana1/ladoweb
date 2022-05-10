@@ -189,7 +189,7 @@
 		/* Set gray background color and 100% height */
 		.sidenav {
 
-			background-color: ;
+			background-color:#e7ffe7;
 			height: 100%;
 		}
 
@@ -222,10 +222,10 @@
 				<i class="fa fa-briefcase w3-xlarge"></i>
 				<p>Zručnosti</p>
 			</a>
-			<a class="w3-bar-item w3-button w3-padding-small  w3-text-blue w3-hover-white w3-circle" href="#Form">
+			<!--a class="w3-bar-item w3-button w3-padding-small  w3-text-blue w3-hover-white w3-circle" href="#Form">
 				<i class="fa fa-download w3-xlarge"></i>
 				<p>Formulár</p>
-			</a>
+			</a -->
 
 			<!-- a class="w3-bar-item w3-button w3-padding-small  w3-text-blue w3-hover-white  " href="#Fotky">
 				<i class="fa fa-eye w3-xlarge"></i>
@@ -288,7 +288,7 @@
 			<a class="w3-bar-item w3-button w3-hover-white" href="#Domov" style="width:25% !important"><i class="fa fa-home w3-small"></i> Domov</a>
 			<a class="w3-bar-item w3-button w3-hover-white" href="#Omne" style="width:25% !important"><i class="fa fa-user w3-small"></i> O mne</a>
 			<a class="w3-bar-item w3-button w3-hover-white" href="#Zručnosti" style="width:25% !important"><i class="fa fa-briefcase w3-small"></i> Zručnosti</a>
-			<a class="w3-bar-item w3-button w3-hover-white" href="#Form" style="width:25% !important"><i class="fa fa-download w3-small"></i> Formulár</a>
+			<!--a class="w3-bar-item w3-button w3-hover-white" href="#Form" style="width:25% !important"><i class="fa fa-download w3-small"></i>Form</a -->
 			<!-- a class="w3-bar-item w3-button w3-hover-white" href="#Fotky" style="width:25% !important"><i class="fa fa-eye w3-small"></i> Fotky</a -->
 			<a class="w3-bar-item w3-button w3-hover-white" href="#MyCV" style="width:25% !important"><i class="fa fa-calendar w3-small"></i> Životopis</a>
 			<a class="w3-bar-item w3-button w3-hover-white" href="#Test" style="width:25% !important"><i class="fa fa-asterisk w3-small"></i> Ohlasy</a>
@@ -309,21 +309,22 @@
 		<!--Header/Home w3-padding w3-margin -->
 		<section id="Domov">
 			<div class="container">
-				<div class="row">
-					<strong>
-						<!--img class="img-rounded" src="./Image/IMG_3155.jpg" alt="me" style="width:150px;height:60px; padding: 0.65em;"-->
-						<i class='material-icons' style='font-size:40px;color:#fff;text-shadow:2px 2px 4px #000000'>code</i>
-						<h1 style="font-size:50px;color:#fff;text-shadow:2px 12px 4px #000000;"> Vladimír Ksenič </h1>
-						<h4 style="color:#fff;text-shadow:2px 12px 4px #000000;"><q><em> Nothing in the world belongs to us, only our time. </em> </q>
-							<i class='fa fa-code' style='font-size:40px'></i>
-						</h4>
-
-
-					</strong>
 
 
 
-				</div>
+				<i class='material-icons' style='font-size:40px;color:#fff;text-shadow:2px 2px 4px #000000'>code</i>
+				<h1 style="font-size:50px;color:#fff;text-shadow:2px 12px 4px #000000;"><strong> Vladimír Ksenič</strong><br></h1>
+				<h4 style="color:#fff;text-shadow:2px 12px 4px #000000;"><q><em> Nothing in the world belongs to us, only our time.</em></q>
+					<i class='fa fa-code' style='font-size:40px'></i>
+					<a class="fa fa-envelope fa-fw w3-xlarge w3-margin-left w3-text-white" href="mailto:ksenicv@gmail.com" data-toggle="tooltip" title="Pošli mi email!" target="_blank"></a>Email
+				</h4>
+
+
+
+
+
+
+
 			</div>
 		</section>
 
@@ -440,20 +441,32 @@
 			<!-- About Section form -->
 
 
+<br><br>
+<sec id="Form" class="w3-center content w3-justify w3-text-grey">
+	<h4 class="w3-padding-14 w3-text-light-blue w3-hover-white w3-text-grey">
+		<form action="obsluzny_skript1.php" METHOD="POST">
+			Zadajte meno: <INPUT TYPE="TEXT" NAME="meno" VALUE="">
+			<!--input type="password" maxlength="5" disabled="disabled">
 
-			<br><br>
-			<sec id="Form" class="w3-center content w3-justify w3-text-grey w3-row">
-				<h2 class="w3-padding-14 w3-text-light-blue w3-hover-white w3-text-grey"><i class="fa fa-download"></i>
-					<a class="w3-button w3-white w3-padding-large w3-hover-blue" href="https://ladowebservis.online/" data-toggle="tooltip" title="Write me on email or go https://ladowebservis.online">UKážka obchodného webu</a>
-				</h2><br>
-				<!--FORM ACTION="obsluzny_skript1.php" METHOD="POST">
-							Zadajte meno: <INPUT TYPE="TEXT" NAME="meno" VALUE="vaše meno">
+			<!--INPUT TYPE="submit" VLAUE="Odošli"-->
+			<INPUT TYPE="reset" VALUE="Zmaž formulár"><br>
+			color:<input type="color" name="color"><br>
+			<br><label>Vyplňte dátum:<input type="date" name="date"></label><br>
 
-							<INPUT TYPE="submit" VLAUE="Odošli">
-							<INPUT TYPE="reset" VALUE="Zmaž formulár">
-							</INPUT></INPUT></INPUT>
-						</FORM-->
-			</sec>
+			<input type="checkbox" name="suhlas" id="suhlas" checked="checked">
+			<label for="suhlas">:Súhlasím</label><br>
+			<a class="w3-button w3-white w3-padding-large w3-hover-blue" href="https://ladowebservis.online/" data-toggle="tooltip" title="info@ladowebservis.online">go on info@ladowebservis.online</a>
+
+
+			</INPUT></INPUT>
+		</form>
+
+
+
+	</h4><br>
+
+
+</sec>
 
 
 
@@ -739,7 +752,7 @@
 
 
 				<div style="position: relative;padding-bottom:67.25% ;">
-					<iframe style="position:absolute; top:0; left: 0; width: 100%; height: 100%;" src="https://view.genial.ly/5c9290316f346c72263fa70a/personal-branding-vk" type="text/html" allowscriptaccess="always" allowfullscreen="false" allownetworking="all" style="border:0">
+					<iframe style="position:absolute; top:0; left: 0; width: 100%; height: 100%;" src="https://view.genial.ly/5c9290316f346c72263fa70a/personal-branding-vk" type="text/html" allowscriptaccess="always" allowfullscreen="true" allownetworking="all" style="border:0">
 					</iframe>
 					<!--br><a href="#"class="https://view.genial.ly/5c963df2e1906b76bf619328/personal-branding-vladimir-ksenic"</a-->
 				</div>
@@ -795,15 +808,12 @@
 				<p class="w3-small w3-text-grey w3-center">
 
 
-
-					<!--iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2631.6219359013385!2d21.282532850402756!3d48.731815279173595!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473ede29d93fb3bf%3A0xaa964d920a9e7e66!2sPostupimsk%C3%A1+755%2F29%2C+040+22+Ko%C5%A1ice!5e0!3m2!1sen!2ssk!4v1545327953895" width="100%" height="280" frameborder="0" style="border:0" allowfullscreen></iframe-->
-
 					<i class="fa fa-map-marker fa-fw w3-xlarge w3-margin-left w3-text-red" title="Country"></i>Slovakia
 
 					<i class="fa fa-phone fa-fw w3-xlarge w3-margin-left w3-text-orange" title="Zavolajte +421907151293!"></i>+00....
-					<a class="fa fa-envelope fa-fw w3-xlarge w3-margin-left w3-text-green" href="mailto:ksenicv@gmail.com" data-toggle="tooltip" title="Pošli mi email!" target="_blank"></a>Email
+					<a class="fa fa-envelope fa-fw w3-xlarge w3-margin-left w3-text-green" href="" data-toggle="tooltip" title="Pošli mi email!" target="_blank"></a>Email
 
-					<br><br>
+					<br><br><!--iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2631.6219359013385!2d21.282532850402756!3d48.731815279173595!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473ede29d93fb3bf%3A0xaa964d920a9e7e66!2sPostupimsk%C3%A1+755%2F29%2C+040+22+Ko%C5%A1ice!5e0!3m2!1sen!2ssk!4v1545327953895" width="1400" height="200" frameborder="0" style="border:0" allowfullscreen></iframe--><br><br>
 					<!--a href="https://github.com/settings/profile?rel=" target="_blank" class="w3-hover-white"><i class="fa fa-github w3-hover-opacity"-->Find me on social media!>>><a class="fa fa-facebook-official w3-text-grey" href="https://www.facebook.com/vladimir.ksenic" data-toggle="tooltip" title="facebook" target="_blank"> facebook</a>
 					<a class="fa fa-pinterest w3-text-grey" href="https://sk.pinterest.com/ksenicv/" data-toggle="tooltip" title="pinterest"> pinterest</a>
 					<a class="fa fa-linkedin w3-text-grey" href="https://www.linkedin.com/" data-toggle="tooltip" title="linkedin"> linkedin</a>
@@ -818,29 +828,7 @@
 					<a href="#" class="fa fa-chevron-up btn btn-up  w3-small w3-hover-blue"></a>
 			</sec>
 
-
-
-
-
-
-
-			<!--form action="/action_page.php" target="_blank">
-										<p><input class="w3-input w3-padding-16" type="text" placeholder="Tvoje meno" required name="Tvoje meno"></p>
-										<p><input class="w3-input w3-padding-16" type="text" placeholder="Email" required name="Email"></p>
-										<p><input class="w3-input w3-padding-16" type="text" placeholder="Subjekt" required name="Subjekt"></p>
-										<p><input class="w3-input w3-padding-16" type="text" placeholder="Odkaz" required name="Odkaz"></p>
-										<p>
-											<!--button class="w3-button w3-hover-blue w3-padding-large w3-section">
-												<i class="fa fa-envelope"></i>
-												<a href="mailto:ksenicv@icloud.com"> Odoslať mi email</a>
-											</button>
-										</p>
-									</form-->
-
-
-
-
-			<!-- End footer -->
+<!-- End footer -->
 
 			<!-- Return to Top -->
 			<!--a id="Domov" class="w3-button w3-grey w3-padding-small fa fa-arrow-up w3-text-blue w3-hover-white w3-xlarge w3-right" href="#Domov" style="display: inline-block position: absolute; top: 0; left: 0; width: 100%; height: 100%;" title="Späť na začiatok stránky">Up
