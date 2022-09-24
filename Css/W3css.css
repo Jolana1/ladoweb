@@ -1,4 +1,4 @@
-/* W3.CSS 3.00 dec 2019 by Jan Egil and V.Ksenic */
+/* W3.CSS 3.00 dec 2019 by Jan Egil and Vladimir Ksenic*/
 
 /* @media screen and (max-width: 600px)
 .menu {
@@ -28,7 +28,8 @@
             /*color: white;*/
 11
             /* bílý text */
-html{-webkit-box-sizing:border-box;box-sizing:border-box}*,*:before,*:after{-webkit-box-sizing:inherit;box-sizing:inherit}
+html{-webkit-box-sizing:border-box;
+}*,*:before,*:after{-webkit-box-sizing:inherit;box-sizing:inherit}
 element {
 }
 
@@ -38,7 +39,7 @@ element {
   bottom: 60px;
   background: black;
   background: rgba(0, 0, 0, 0.7);
-  width: 40px;
+  width: 30px;
   height: 23px;
   margin-top: -40px;
   text-decoration: none;
