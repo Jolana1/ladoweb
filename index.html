@@ -4,7 +4,7 @@
 
 <head>
 
-	<title>©Mycv</title>
+	<title>©MyCV</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -13,10 +13,10 @@
 
 	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="/Css/W3css.css">
-	<link rel="stylesheet" href="./Css/cvcss.css">
+	<link rel="stylesheet" href="./Css/cvcss.css?v1">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	<link rel="stylesheet" type="text/css" href="jquery.fancybox.min.css">
+	<!--link rel="stylesheet" type="text/css" href="jquery.fancybox.min.css"-->
 	<!--link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"-->
 
 	<!--script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script-->
@@ -25,17 +25,18 @@
 	<!-- script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script-->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-	<script src="//code.jquery.com/jquery-3.3.1.min.js"></script>
+	<!--script src="//code.jquery.com/jquery-3.3.1.min.js"></script-->
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
-	<script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+	<!--script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script-->
+
 	<!-- JS 1. Add latest jQuery and fancybox files-->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-	<script src="jquery.fancybox.min.js"></script>
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+	<!--script src="jquery.fancybox.min.js"></script-->
 
-	<script src="//s3.amazonaws.com/js-static/2001379501c6f3c8ca.js"></script>
+	<!--script src="//s3.amazonaws.com/js-static/2001379501c6f3c8ca.js"></script-->
 
-	<!--script src="js/main.js"></script-->
+	<!--script src="./myjs.js"></script-->
 
 
 	<!-- Google tag (gtag.js) -->
@@ -128,19 +129,23 @@
 		/* Set the width of the sidebar to 80px */
 		.w3-sidebar {
 			width: 80px;
-			background-color: black;
+		    background-color: black;
 			max-height: none;
 		}
 
 
 		#main {
-			margin-left: 120px
+			background-color: black;
+			/*margin-left: 120px*/
+		}
+		/* Set black backgroundcolor whitext and some padding*/
+		#footer {
+			background-color: black;
+
+			height: 100%;
 		}
 
-		/*@media only screen and (max-width: 700px) {
-			#main {
-				margin-left: 0
-			}*/
+
 
 		@media only screen and (max-width:768px) {
 			#main {
@@ -164,6 +169,7 @@
 
 		Add a left margin to the "page content"that matches the width of the sidebar (80px) #main {
 			margin-left: 80px;
+
 		}
 
 		SideBar (Sidebar - hidden on small screens)
@@ -185,17 +191,13 @@
 		/* Set gray background color and 100% height */
 		.sidenav {
 
-			background-color: navajowhite;
-			height: 100%;
+			color: gray;
+			text-align: center;
+			padding: 155px;
+			/*height: 100%;*/
 		}
 
 
-		/* Set black backgroundcolor whitext and some padding
-		footer {
-			background-color: black;
-			text-align: center;
-			padding: 155px;
-		}*/
 	</style>
 
 	<!-- Your HTML content goes here -->
@@ -236,7 +238,7 @@
 				<i class="fa fa-download w3-xlarge"></i>
 				<p>Formulár</p>
 			</a>
-			<a class="w3-bar-item w3-button w3-padding-small  w3-text-blue w3-hover-white " href="#footer">
+			<a class="w3-bar-item w3-button w3-padding-small  w3-text-blue w3-hover-white" href="#footer">
 				<i class="fa fa-globe w3-xlarge"></i>
 				<p>Kontakt</p><br>
 			</a>
@@ -262,10 +264,10 @@
 			<a class="w3-bar-item w3-button" href="#Zručnosti" style="width:25% !important background-color:#fff;text-shadow:2px 2px 4px #000000"><i class="fa fa-briefcase w3-small"></i> Zručnosti</a>
 			<a class="w3-bar-item w3-button" href="#MyCV" style="width:25% !important background-color:#fff;text-shadow:2px 2px 4px #000000"><i class="fa fa-calendar w3-small"></i> Životopis</a>
 			<a class="w3-bar-item w3-button" href="#Test" style="width:25% !important background-color:#fff;text-shadow:2px 2px 4px #000000"><i class="fa fa-asterisk w3-small"></i> Ohlasy</a>
-			<a class="w3-bar-item w3-button" href="#Video" style="width:25% !important background-color:#fff;text-shadow:2px 2px 4px #000000"><i class="fa fa-music w3-small"></i> Video</a>
+			<!--a class="w3-bar-item w3-button" href="#Video" style="width:25% !important background-color:#fff;text-shadow:2px 2px 4px #000000"><i class="fa fa-music w3-small"></i> Video</a-->
 			<a class="w3-bar-item w3-button" href="#form" style="width:25% !important background-color:#fff;text-shadow:2px 2px 4px #000000"><i class="fa fa-download w3-small"></i>Form</a>
 			<a class="w3-bar-item w3-button" href="#footer" style="width:25% !important background-color:#fff;text-shadow:2px 2px 4px #000000"><i class="fa fa-download w3-small"></i> Kontakt</a>
-			<a class="w3-bar-item w3-button" href="#Domov" style="width:25% !important background-color:#fff;text-shadow:2px 2px 4px #000000"><i class="fa fa-arrow-left w3-small"></i> Návrat</a>
+			<a class="w3-bar-item w3-button" href="#main" style="width:25% !important background-color:#fff;text-shadow:2px 2px 4px #000000"><i class="fa fa-arrow-left w3-small"></i> Návrat</a>
 			<!--a class="w3-bar-item w3-button w3-hover-white" href="#Fotky" style="width:25% !important"><i class="fa fa-eye w3-small"></i> Fotky</a-->
 			</div>
 	</div>
@@ -725,7 +727,7 @@
 	<!--Ohlasy-->
 
 	<section id="Test">
-		<div class="container page-body w3-text-grey w3-content w3-center w3-color:#000">
+		<div class="container page-body w3-text-grey w3-content w3-center">
 			<h2 class="w3-padding-14 w3-text-grey"><i class="fa fa-asterisk"> Testimonials </i></h2>
 			<hr><br><br>
 			<img class="w3-center w3-circle" src="./Image/john_doe.jpg" style="width:60px" alt="J. Doe">
@@ -734,8 +736,7 @@
 			<p style='font-size:13px;color:#fff;text-shadow:2px 2px 4px #000'><b>John Doe-ASP Corp.</b>
 				<br /><em>”This master has been taking care of our company for years.<br>
 					It takes care of the security of our site and in addition that our site works flawlessly.<br>
-					Thank you :)“</em>
-			</p>
+			Thank you :)“</em>
 			<!--hr class="w3-padding-60" style="width:px"-->
 			<br><br>
 			<img class="w3-center w3-circle" src="./Image/profile-pic.jpg" style="width:60px" alt="J. Suong">
@@ -747,7 +748,7 @@
 					<br>Now only in good, we almost do not want to supply the market with our products.<br>
 					Thank you again.“
 				</em>
-			</p>
+
 		</div>
 	</section>
 
@@ -760,7 +761,7 @@
 			<hr class="" style="">
 
 			<br><br>
-			<iframe class="w3-responsive w3-content w3-center" allow="autoplay *; encrypted-media *;" style="max-width:660px;overflow:hidden;background:transparent;" width="300" height="200" frameborder="0" style="border:0" allowfullscreen src="https://youtube.com/embed/XJ9Vylyk5Uw?" Name="Night Lounge - Lounge Musik, Instrumentale Musik, Easy Listening & Chill Out - LATE NIGHT MOODS"></iframe>
+			<!--iframe class="w3-responsive w3-content w3-center" allow="autoplay *; encrypted-media *;" style="max-width:660px;overflow:hidden;background:transparent;" width="300" height="200" frameborder="0" style="border:0" allowfullscreen src="https://youtube.com/embed/XJ9Vylyk5Uw?" Name="Night Lounge - Lounge Musik, Instrumentale Musik, Easy Listening & Chill Out - LATE NIGHT MOODS"></iframe-->
 		</div>
 	</section>
 	<hr><br><br>
@@ -773,31 +774,31 @@
 
 
 
-			<form action="">
+			<form>
 				<p><input class="w3-input w3-padding-16" type="text" placeholder="Vaše meno" required name="Name"></p>
 				<p><input class="w3-input w3-padding-16" type="text" placeholder="Email" required name="Email"></p>
-				<p><input class="w3-input w3-padding-16" type="text" placeholder="Subjekt" required name="Subject"></p>
+				<!--p><input class="w3-input w3-padding-16" type="text" placeholder="Subjekt" required name="Subject"></p-->
 				<p><input class="w3-input w3-padding-16" type="text" placeholder="Odkaz" required name="Message"></p>
-				<p><button class="w3-button w3-hover-black w3-padding-large w3-section"><a href="mailto:info@ladowebservis.sk" target="_blank"><i class="fa fa-paper-plane">Odošli na info@ladowebservis.sk</i></a></button>
+				<p><button class="w3-button w3-hover-black w3-padding-large w3-section"><a href="mailto:info@ladowebservis.sk" target="_blank"><i class="fa fa-envelope">Odošli na info@ladowebservis.sk</i></a></button>
 				</p>
 			</form>
 		</div>
 	</section>
 	<!-- Footer Section -->
 			<section id="footer">
-				<div class="container page-body w3-text-grey w3-content w3-center w3-color:#000">
+				<div class="container page-body w3-text-grey w3-content w3-center">
 
 					<h2 class="w3-padding-14 w3-hover-white w3-text-grey"><i class="fa fa-globe"></i> Contact me </h2>
 					<p class="w3-small w3-text-grey w3-center">
 						<hr class="" style="">
 
 
-						<i class="fa fa-map-marker fa-fw w3-xlarge w3-margin-left w3-text-red" title="Country"></i>Slovakia
+						<i class="fa fa-map-marker fa-fw w3-large w3-margin-left w3-text-red" title="Country"></i>Slovakia
 
-						<i class="fa fa-phone fa-fw w3-xlarge w3-margin-left w3-text-orange" title="Zavolajte +421907151293!"></i>+0421....
-						<a class="fa fa-envelope fa-fw w3-xlarge w3-margin-left w3-text-green" href="" data-toggle="tooltip" title="Pošli mi email!" target="_blank"></a>Email
+						<i class="fa fa-phone fa-fw w3-large w3-margin-left w3-text-orange" title="Zavolajte +421907151293!"></i>+0421....
+						<a class="fa fa-paper-plane fa-fw w3-large w3-margin-left w3-text-green" href="mailto:info@ladowebservis.sk" data-toggle="tooltip" title="Pošli mi email!" target="_blank"></a>Email
 
-						<br><br>
+						<br>
 
 
 						<!--iframe class="w3-responsive w3-content w3-center" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2631.6219359013385!2d21.282532850402756!3d48.731815279173595!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473ede29d93fb3bf%3A0xaa964d920a9e7e66!2sPostupimsk%C3%A1+755%2F29%2C+040+22+Ko%C5%A1ice!5e0!3m2!1sen!2ssk!4v1545327953895" width="300" height="200" frameborder="0" style="border:0" allowfullscreen></iframe--><br><br>
@@ -811,7 +812,7 @@
 						<!--a class="fa fa-instagram w3-text-grey" href="https://www.instagram.com/vladimirksenic/" data-toggle="tooltip" title="instagram">instagram</a-->
 						<a class="fa fa-mixcloud w3-text-grey" href="https://www.mixcloud.com/vladim%C3%ADr-kseni%C4%8D/favorites/" data-toggle="tooltip" title="mixcloud">mixcloud</a>
 						<br> Powered by © V.Ksenic<a href="https://jolana1.github.io/WebServis/" data-toggle="tooltip" title="Chcete navštíviť aj môj obchodný web?https://jolana1.github.io/WebServis/" target="_blank">
-							<img src="./Image/LWSlogo.jpg" alt="LWS" style="width:98px;height:30px;"></a><br>
+							<img src="./Image/LWSlogo.jpg" alt="LWS" style="width:98px;height:30px;"></a><br><br>
 						©All rights reserved 2023.<br>
 						<!-- End footer -->
 
