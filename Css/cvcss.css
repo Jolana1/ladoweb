@@ -265,6 +265,7 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
         height: 100%;
         background-color: white;
         opacity: 0;
+        -webkit-transition: all .3s ease;
         transition: all .3s ease;
         z-index: -1;
     }
